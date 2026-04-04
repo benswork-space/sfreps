@@ -1,0 +1,160 @@
+{
+  "id": "district-11",
+  "district": 11,
+  "name": "Chyanne Chen",
+  "photo_url": "/photos/district-11.jpg",
+  "party": null,
+  "serving_since": "2025-01-08",
+  "term_ends": "2029-01-08",
+  "years_in_office": 1.2,
+  "bio_url": "https://sfbos.org/supervisor-chyanne-chen",
+  "funding": {
+    "total_raised": 771403.37,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 581370.67,
+        "percentage": 75.4
+      },
+      {
+        "industry": "Legal",
+        "amount": 131443.55,
+        "percentage": 17.0
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 17409.15,
+        "percentage": 2.3
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 11380.0,
+        "percentage": 1.5
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 6750.0,
+        "percentage": 0.9
+      },
+      {
+        "industry": "Education",
+        "amount": 6600.0,
+        "percentage": 0.9
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 6200.0,
+        "percentage": 0.8
+      },
+      {
+        "industry": "Tech",
+        "amount": 4925.0,
+        "percentage": 0.6
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 4275.0,
+        "percentage": 0.6
+      },
+      {
+        "industry": "Environmental",
+        "amount": 1050.0,
+        "percentage": 0.1
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "City & County of San Francisco",
+        "amount": 255000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Claudine Hoyen Cheng",
+        "amount": 121251.23,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "FAMILIES FOR A VIBRANT SF, SPONSORED BY EFFECTIVE GOVERNMENT",
+        "amount": 49246.83,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Labor & Working Families Slate",
+        "amount": 11967.49,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Maurice Chenier",
+        "amount": 9382.32,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "SF Social Justice Democrats",
+        "amount": 4437.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Donald Commins",
+        "amount": 4000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Siu Mah",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Rosa Chen",
+        "amount": 1350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MICHAEL CHEN",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": [
+      {
+        "name": "Queena Chen for San Francisco Democratic County Central Committee 2020",
+        "amount": 1899.78,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "amount": 1416.66,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      }
+    ]
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-11",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

@@ -1,0 +1,312 @@
+[
+  {
+    "id": "2024-11-prop-a",
+    "election": "2024-11",
+    "name": "Proposition A",
+    "title": "Affordable Housing Bonds",
+    "category": "housing",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-b",
+    "election": "2024-11",
+    "name": "Proposition B",
+    "title": "Community Health & Safety Bonds",
+    "category": "healthcare",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-c",
+    "election": "2024-11",
+    "name": "Proposition C",
+    "title": "Inspector General",
+    "category": "government_reform",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-d",
+    "election": "2024-11",
+    "name": "Proposition D",
+    "title": "Reduce Commissions, Expand Mayoral Power",
+    "category": "government_reform",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-e",
+    "election": "2024-11",
+    "name": "Proposition E",
+    "title": "Commission Reform Task Force",
+    "category": "government_reform",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-f",
+    "election": "2024-11",
+    "name": "Proposition F",
+    "title": "Police Staffing & Deferred Retirement",
+    "category": "public_safety",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-g",
+    "election": "2024-11",
+    "name": "Proposition G",
+    "title": "Affordable Housing Rental Subsidies",
+    "category": "housing",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-h",
+    "election": "2024-11",
+    "name": "Proposition H",
+    "title": "Firefighter Retirement Age",
+    "category": "first_responders",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-i",
+    "election": "2024-11",
+    "name": "Proposition I",
+    "title": "Nurses & 911 Dispatcher Pensions",
+    "category": "first_responders",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-j",
+    "election": "2024-11",
+    "name": "Proposition J",
+    "title": "Children & Youth Fund Oversight",
+    "category": "education",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-k",
+    "election": "2024-11",
+    "name": "Proposition K",
+    "title": "Close Upper Great Highway to Cars",
+    "category": "parks",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-l",
+    "election": "2024-11",
+    "name": "Proposition L",
+    "title": "Rideshare & AV Tax for Muni",
+    "category": "transportation",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-m",
+    "election": "2024-11",
+    "name": "Proposition M",
+    "title": "Business Tax Reform",
+    "category": "business_taxes",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-n",
+    "election": "2024-11",
+    "name": "Proposition N",
+    "title": "First Responder Student Loan Aid",
+    "category": "first_responders",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-11-prop-o",
+    "election": "2024-11",
+    "name": "Proposition O",
+    "title": "Reproductive Healthcare Access",
+    "category": "healthcare",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-a",
+    "election": "2024-03",
+    "name": "Proposition A",
+    "title": "Infrastructure Bonds",
+    "category": "transportation",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-b",
+    "election": "2024-03",
+    "name": "Proposition B",
+    "title": "Police Minimum Staffing",
+    "category": "public_safety",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-c",
+    "election": "2024-03",
+    "name": "Proposition C",
+    "title": "Real Estate Transfer Tax Exemption",
+    "category": "housing",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-d",
+    "election": "2024-03",
+    "name": "Proposition D",
+    "title": "Ethics Law Changes",
+    "category": "government_reform",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-e",
+    "election": "2024-03",
+    "name": "Proposition E",
+    "title": "Expanded Police Powers",
+    "category": "public_safety",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-f",
+    "election": "2024-03",
+    "name": "Proposition F",
+    "title": "Drug Screening for Welfare",
+    "category": "drug_policy",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2024-03-prop-g",
+    "election": "2024-03",
+    "name": "Proposition G",
+    "title": "Algebra by 8th Grade",
+    "category": "education",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-a",
+    "election": "2022-11",
+    "name": "Proposition A",
+    "title": "Retiree Benefits Funding",
+    "category": "first_responders",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-d",
+    "election": "2022-11",
+    "name": "Proposition D",
+    "title": "Affordable Housing Streamlining",
+    "category": "housing",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-e",
+    "election": "2022-11",
+    "name": "Proposition E",
+    "title": "Housing Project Approval",
+    "category": "housing",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-f",
+    "election": "2022-11",
+    "name": "Proposition F",
+    "title": "Library Preservation Fund",
+    "category": "libraries",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-i",
+    "election": "2022-11",
+    "name": "Proposition I",
+    "title": "Cars on JFK Drive",
+    "category": "parks",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-j",
+    "election": "2022-11",
+    "name": "Proposition J",
+    "title": "JFK Drive Car-Free",
+    "category": "parks",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-l",
+    "election": "2022-11",
+    "name": "Proposition L",
+    "title": "Sales Tax for Transportation",
+    "category": "transportation",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-m",
+    "election": "2022-11",
+    "name": "Proposition M",
+    "title": "Vacancy Tax",
+    "category": "business_taxes",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  },
+  {
+    "id": "2022-11-prop-n",
+    "election": "2022-11",
+    "name": "Proposition N",
+    "title": "Golden Gate Park Parking",
+    "category": "parks",
+    "passed": true,
+    "citywide_support_pct": 0,
+    "district_results": {}
+  }
+]

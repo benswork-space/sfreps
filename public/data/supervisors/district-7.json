@@ -1,0 +1,154 @@
+{
+  "id": "district-7",
+  "district": 7,
+  "name": "Myrna Melgar",
+  "photo_url": "/photos/district-7.jpg",
+  "party": null,
+  "serving_since": "2021-01-08",
+  "term_ends": "2027-01-08",
+  "years_in_office": 5.2,
+  "bio_url": "https://sfbos.org/supervisor-myrna-melgar",
+  "funding": {
+    "total_raised": 845768.4,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 769940.14,
+        "percentage": 91.0
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 17105.26,
+        "percentage": 2.0
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 14349.0,
+        "percentage": 1.7
+      },
+      {
+        "industry": "Education",
+        "amount": 13925.0,
+        "percentage": 1.6
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 7900.0,
+        "percentage": 0.9
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 7202.0,
+        "percentage": 0.9
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 6672.0,
+        "percentage": 0.8
+      },
+      {
+        "industry": "Tech",
+        "amount": 4375.0,
+        "percentage": 0.5
+      },
+      {
+        "industry": "Environmental",
+        "amount": 2250.0,
+        "percentage": 0.3
+      },
+      {
+        "industry": "Legal",
+        "amount": 2050.0,
+        "percentage": 0.2
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "City & County of San Francisco",
+        "amount": 255000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "City and County of San Francisco",
+        "amount": 252000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Myrna Melgar",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Myrna Melgar (Iton)",
+        "amount": 3467.05,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Tenants and Families For Affordable Housing, Sponsored By Community And Labor Organizations",
+        "amount": 3355.26,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "BMWL Campaigns",
+        "amount": 2600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Anthony Iton",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Sean Donahue",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Katherine Hodge",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "John Konstin",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": [
+      {
+        "name": "Northern California Carpenters Regional Council POWER PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      }
+    ]
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-7",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

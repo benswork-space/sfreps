@@ -1,0 +1,12 @@
+{
+  "district": 3,
+  "ballot_results": [],
+  "neighborhoods": [
+    "North Beach",
+    "Chinatown",
+    "Financial District",
+    "Nob Hill",
+    "Telegraph Hill",
+    "Union Square"
+  ]
+}

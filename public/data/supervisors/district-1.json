@@ -1,0 +1,172 @@
+{
+  "id": "district-1",
+  "district": 1,
+  "name": "Connie Chan",
+  "photo_url": "/photos/district-1.jpg",
+  "party": null,
+  "serving_since": "2021-01-08",
+  "term_ends": "2027-01-08",
+  "years_in_office": 5.2,
+  "bio_url": "https://sfbos.org/supervisor-connie-chan",
+  "funding": {
+    "total_raised": 5092008.19,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 4657881.31,
+        "percentage": 91.5
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 126598.94,
+        "percentage": 2.5
+      },
+      {
+        "industry": "Legal",
+        "amount": 67109.65,
+        "percentage": 1.3
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 64675.19,
+        "percentage": 1.3
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 63718.0,
+        "percentage": 1.3
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 55799.1,
+        "percentage": 1.1
+      },
+      {
+        "industry": "Education",
+        "amount": 21255.0,
+        "percentage": 0.4
+      },
+      {
+        "industry": "Tech",
+        "amount": 20050.0,
+        "percentage": 0.4
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 10151.0,
+        "percentage": 0.2
+      },
+      {
+        "industry": "Environmental",
+        "amount": 4770.0,
+        "percentage": 0.1
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "Progress San Francisco",
+        "amount": 1843500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Controller",
+        "amount": 507072.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "City and County of San Francisco",
+        "amount": 255000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Safe & Affordable San Francisco",
+        "amount": 200000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CLEAR CHANNEL OUTDOOR",
+        "amount": 88400.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Min Chang",
+        "amount": 63906.5,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Chris Larsen",
+        "amount": 50000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Families For A Vibrant Sf, Sponsored By Effective Government",
+        "amount": 35674.97,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANGELA ALIOTO AND AFFILIATED ENTITIES",
+        "amount": 31859.65,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "IFPTE Local 21",
+        "amount": 25750.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": [
+      {
+        "name": "COMMITTEE ON JOBS GOVERNMENT REFORM FUND",
+        "amount": 328061.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Police Officers Association PAC",
+        "amount": 150000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GOLDEN GATE RESTAURANT ASSOSCIATION PAC",
+        "amount": 43109.39,
+        "type": "committee",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "San Francisco Apartment Association PAC",
+        "amount": 39750.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      }
+    ]
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-1",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

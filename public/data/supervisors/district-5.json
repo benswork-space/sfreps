@@ -1,0 +1,154 @@
+{
+  "id": "district-5",
+  "district": 5,
+  "name": "Bilal Mahmood",
+  "photo_url": "/photos/district-5.jpg",
+  "party": null,
+  "serving_since": "2025-01-08",
+  "term_ends": "2029-01-08",
+  "years_in_office": 1.2,
+  "bio_url": "https://sfbos.org/supervisor-bilal-mahmood",
+  "funding": {
+    "total_raised": 800441.51,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 712342.71,
+        "percentage": 89.0
+      },
+      {
+        "industry": "Tech",
+        "amount": 31330.0,
+        "percentage": 3.9
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 15282.0,
+        "percentage": 1.9
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 13466.8,
+        "percentage": 1.7
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 9495.0,
+        "percentage": 1.2
+      },
+      {
+        "industry": "Education",
+        "amount": 8025.0,
+        "percentage": 1.0
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 5100.0,
+        "percentage": 0.6
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 3900.0,
+        "percentage": 0.5
+      },
+      {
+        "industry": "Environmental",
+        "amount": 1250.0,
+        "percentage": 0.2
+      },
+      {
+        "industry": "Legal",
+        "amount": 250.0,
+        "percentage": 0.0
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "CITY AND COUNTY OF SAN FRANCISCO",
+        "amount": 255000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JEREMY LIEW",
+        "amount": 21000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "PAUL BUCHHEIT",
+        "amount": 20500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHRIS LARSEN",
+        "amount": 20500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JESSICA LIVINGSTON",
+        "amount": 20000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "FAMILIES FOR A VIBRANT SF, SPONSORED BY EFFECTIVE GOVERNMENT",
+        "amount": 19507.78,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JEROME GUILLEN",
+        "amount": 10500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SAIKAT CHAKRABARTI",
+        "amount": 10500.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "CAROLYN CHATHAM",
+        "amount": 10500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "EMMETT SHEAR",
+        "amount": 10000.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": [
+      {
+        "name": "GFC COURAGE COMMITTEE - SAN FRANCISCO CHAPTER",
+        "amount": 5500.0,
+        "type": "committee",
+        "industry": "Other"
+      }
+    ]
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-5",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

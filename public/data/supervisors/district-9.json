@@ -1,0 +1,147 @@
+{
+  "id": "district-9",
+  "district": 9,
+  "name": "Jackie Fielder",
+  "photo_url": "/photos/district-9.jpg",
+  "party": null,
+  "serving_since": "2025-01-08",
+  "term_ends": "2029-01-08",
+  "years_in_office": 1.2,
+  "bio_url": "https://sfbos.org/supervisor-jackie-fielder",
+  "funding": {
+    "total_raised": 458397.22,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 407825.77,
+        "percentage": 89.0
+      },
+      {
+        "industry": "Education",
+        "amount": 10930.0,
+        "percentage": 2.4
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 10555.0,
+        "percentage": 2.3
+      },
+      {
+        "industry": "Tech",
+        "amount": 9750.0,
+        "percentage": 2.1
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 5620.0,
+        "percentage": 1.2
+      },
+      {
+        "industry": "Legal",
+        "amount": 3450.0,
+        "percentage": 0.8
+      },
+      {
+        "industry": "Environmental",
+        "amount": 3391.45,
+        "percentage": 0.7
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 2800.0,
+        "percentage": 0.6
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 2050.0,
+        "percentage": 0.4
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 2025.0,
+        "percentage": 0.4
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "City & County of San Francisco",
+        "amount": 255000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Joseph Schmitz",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Geoffrey Bauman",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Martha Goldin",
+        "amount": 900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "David Paul",
+        "amount": 800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Robert Holgate",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dan Feldman",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Maureen Dugan",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Patricia Plude",
+        "amount": 700.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Theodore Waechter",
+        "amount": 650.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": []
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-9",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

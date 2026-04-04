@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Include static data files in the deployment bundle
+  outputFileTracingIncludes: {
+    "/**": ["./public/data/**"],
+  },
 };
 
 export default nextConfig;

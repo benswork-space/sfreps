@@ -1,0 +1,147 @@
+{
+  "id": "district-2",
+  "district": 2,
+  "name": "Stephen Sherrill",
+  "photo_url": "/photos/district-2.jpg",
+  "party": null,
+  "serving_since": "2025-01-08",
+  "term_ends": "2029-01-08",
+  "years_in_office": 1.2,
+  "bio_url": "https://sfbos.org/supervisor-stephen-sherrill",
+  "funding": {
+    "total_raised": 559641.7,
+    "cycle": "2024",
+    "top_industries": [
+      {
+        "industry": "Other",
+        "amount": 474041.7,
+        "percentage": 84.7
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 48450.0,
+        "percentage": 8.7
+      },
+      {
+        "industry": "Education",
+        "amount": 9100.0,
+        "percentage": 1.6
+      },
+      {
+        "industry": "Real Estate & Development",
+        "amount": 7900.0,
+        "percentage": 1.4
+      },
+      {
+        "industry": "Hospitality & Tourism",
+        "amount": 6600.0,
+        "percentage": 1.2
+      },
+      {
+        "industry": "Tech",
+        "amount": 6000.0,
+        "percentage": 1.1
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 3150.0,
+        "percentage": 0.6
+      },
+      {
+        "industry": "Labor & Unions",
+        "amount": 2000.0,
+        "percentage": 0.4
+      },
+      {
+        "industry": "Environmental",
+        "amount": 1400.0,
+        "percentage": 0.3
+      },
+      {
+        "industry": "Legal",
+        "amount": 1000.0,
+        "percentage": 0.2
+      }
+    ],
+    "top_donors": [
+      {
+        "name": "NICHOLAS JOSEFOWITZ",
+        "amount": 50500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ZACH JONES",
+        "amount": 40500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KATHERINE SHERRILL",
+        "amount": 6900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SCOTT LEACHMAN",
+        "amount": 5900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "WARD WOODS",
+        "amount": 5900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHRISTOPHER CONWAY",
+        "amount": 5900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DANNY CONWAY",
+        "amount": 5900.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "WILLIAM SHERRILL",
+        "amount": 5900.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "ROBERT J. FISHER",
+        "amount": 5400.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MARY SHERRILL",
+        "amount": 5400.0,
+        "type": "individual",
+        "industry": "Other"
+      }
+    ],
+    "top_committees": []
+  },
+  "donor_alignment": {
+    "overall_pct": 0,
+    "total_votes_scored": 0,
+    "examples": []
+  },
+  "district_alignment": {
+    "overall_pct": 0,
+    "issues_scored": 0,
+    "highlights": [],
+    "against_district_with_donors": []
+  },
+  "links": {
+    "official_page": "https://sfbos.org/supervisor-district-2",
+    "ethics_commission": "https://sfethics.org/disclosures/campaign-finance-disclosure",
+    "legistar": "https://sfgov.legistar.com/MainBody.aspx",
+    "campaign_finance": "https://sfethics.org/disclosures/campaign-finance-disclosure/campaign-finance-dashboards"
+  }
+}

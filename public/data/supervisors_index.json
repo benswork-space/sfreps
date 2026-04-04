@@ -1,0 +1,90 @@
+[
+  {
+    "id": "district-1",
+    "district": 1,
+    "name": "Connie Chan",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-2",
+    "district": 2,
+    "name": "Stephen Sherrill",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-3",
+    "district": 3,
+    "name": "Danny Sauter",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-4",
+    "district": 4,
+    "name": "Alan Wong",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-5",
+    "district": 5,
+    "name": "Bilal Mahmood",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-6",
+    "district": 6,
+    "name": "Matt Dorsey",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-7",
+    "district": 7,
+    "name": "Myrna Melgar",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-8",
+    "district": 8,
+    "name": "Rafael Mandelman",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-9",
+    "district": 9,
+    "name": "Jackie Fielder",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-10",
+    "district": 10,
+    "name": "Shamann Walton",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  },
+  {
+    "id": "district-11",
+    "district": 11,
+    "name": "Chyanne Chen",
+    "funding_total": 0,
+    "donor_alignment_pct": 0,
+    "district_alignment_pct": 0
+  }
+]
