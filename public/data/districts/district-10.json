@@ -1,6 +1,317 @@
 {
   "district": 10,
-  "ballot_results": [],
+  "ballot_results": [
+    {
+      "measure_id": "2024-11-prop-a",
+      "election": "2024-11",
+      "name": "Proposition A",
+      "title": "Affordable Housing Bonds",
+      "category": "housing",
+      "support_pct": 43.3,
+      "total_votes": 26029,
+      "description": "A $300 million bond measure to fund affordable housing construction and preservation, including acquisition of at-risk buildings and new housing for low-income residents."
+    },
+    {
+      "measure_id": "2024-11-prop-b",
+      "election": "2024-11",
+      "name": "Proposition B",
+      "title": "Community Health & Safety Bonds",
+      "category": "healthcare",
+      "support_pct": 50.0,
+      "total_votes": 36234,
+      "description": "A $390 million bond for community health and safety infrastructure, including hospital upgrades, fire stations, emergency shelters, and family housing facilities."
+    },
+    {
+      "measure_id": "2024-11-prop-c",
+      "election": "2024-11",
+      "name": "Proposition C",
+      "title": "Inspector General",
+      "category": "government_reform",
+      "support_pct": 62.4,
+      "total_votes": 28087,
+      "description": "Creates an independent Inspector General position to investigate fraud, waste, and abuse in city government, with subpoena power and reporting requirements."
+    },
+    {
+      "measure_id": "2024-11-prop-d",
+      "election": "2024-11",
+      "name": "Proposition D",
+      "title": "Reduce Commissions, Expand Mayoral Power",
+      "category": "government_reform",
+      "support_pct": 45.5,
+      "total_votes": 20854,
+      "description": "Would have reduced the number of city commissions by roughly half and given the Mayor greater power to appoint and remove commissioners."
+    },
+    {
+      "measure_id": "2024-11-prop-e",
+      "election": "2024-11",
+      "name": "Proposition E",
+      "title": "Commission Reform Task Force",
+      "category": "government_reform",
+      "support_pct": 69.5,
+      "total_votes": 32290,
+      "description": "Establishes a task force to evaluate the city's commission structure and recommend reforms, as an alternative to the more aggressive Prop D."
+    },
+    {
+      "measure_id": "2024-11-prop-f",
+      "election": "2024-11",
+      "name": "Proposition F",
+      "title": "Police Staffing & Deferred Retirement",
+      "category": "public_safety",
+      "support_pct": 44.6,
+      "total_votes": 33711,
+      "description": "Allows police officers eligible for retirement to defer it and continue working for up to 5 years while drawing partial pension benefits, aimed at retaining experienced officers."
+    },
+    {
+      "measure_id": "2024-11-prop-g",
+      "election": "2024-11",
+      "name": "Proposition G",
+      "title": "Affordable Housing Rental Subsidies",
+      "category": "housing",
+      "support_pct": 42.0,
+      "total_votes": 15483,
+      "description": "Creates the Affordable Housing Opportunity Fund to provide rental subsidies for extremely low-income households, funded at $8.25 million annually."
+    },
+    {
+      "measure_id": "2024-11-prop-h",
+      "election": "2024-11",
+      "name": "Proposition H",
+      "title": "Firefighter Retirement Age",
+      "category": "first_responders",
+      "support_pct": 72.1,
+      "total_votes": 16863,
+      "description": "Lowers the maximum retirement eligibility age for firefighters from 58 to 55, aligning with neighboring fire departments to improve recruitment."
+    },
+    {
+      "measure_id": "2024-11-prop-i",
+      "election": "2024-11",
+      "name": "Proposition I",
+      "title": "Nurses & 911 Dispatcher Pensions",
+      "category": "first_responders",
+      "support_pct": 70.6,
+      "total_votes": 21984,
+      "description": "Improves pension benefits for 911 dispatchers and nurses employed by the city to improve recruitment and retention for these critical roles."
+    },
+    {
+      "measure_id": "2024-11-prop-j",
+      "election": "2024-11",
+      "name": "Proposition J",
+      "title": "Children & Youth Fund Oversight",
+      "category": "education",
+      "support_pct": 49.1,
+      "total_votes": 16664,
+      "description": "Strengthens oversight of the Children and Youth Fund by creating accountability mechanisms for how the city spends money on youth programs."
+    },
+    {
+      "measure_id": "2024-11-prop-k",
+      "election": "2024-11",
+      "name": "Proposition K",
+      "title": "Close Upper Great Highway to Cars",
+      "category": "parks",
+      "support_pct": 69.4,
+      "total_votes": 35337,
+      "description": "Permanently closes the Upper Great Highway to private vehicles, converting it into a public oceanfront recreation space and park."
+    },
+    {
+      "measure_id": "2024-11-prop-l",
+      "election": "2024-11",
+      "name": "Proposition L",
+      "title": "Rideshare & AV Tax for Muni",
+      "category": "transportation",
+      "support_pct": 51.8,
+      "total_votes": 24146,
+      "description": "Imposes a 1% to 4.5% gross receipts tax on rideshare and autonomous vehicle companies operating in SF, generating ~$25M annually for Muni."
+    },
+    {
+      "measure_id": "2024-11-prop-m",
+      "election": "2024-11",
+      "name": "Proposition M",
+      "title": "Business Tax Reform",
+      "category": "business_taxes",
+      "support_pct": 42.2,
+      "total_votes": 36765,
+      "description": "Major business tax reform restructuring 14 tax categories into 7, shifting from payroll-based to revenue-based taxation and raising the small business exemption to $5M."
+    },
+    {
+      "measure_id": "2024-11-prop-n",
+      "election": "2024-11",
+      "name": "Proposition N",
+      "title": "First Responder Student Loan Aid",
+      "category": "first_responders",
+      "support_pct": 71.3,
+      "total_votes": 39115,
+      "description": "Provides student loan repayment assistance for first responders (police, firefighters, paramedics) to attract new recruits amid staffing shortages."
+    },
+    {
+      "measure_id": "2024-11-prop-o",
+      "election": "2024-11",
+      "name": "Proposition O",
+      "title": "Reproductive Healthcare Access",
+      "category": "healthcare",
+      "support_pct": 63.3,
+      "total_votes": 37803,
+      "description": "Strengthens access to reproductive healthcare including abortion, protects patient and provider privacy, and funds reproductive health services."
+    },
+    {
+      "measure_id": "2024-03-prop-a",
+      "election": "2024-03",
+      "name": "Proposition A",
+      "title": "Infrastructure Bonds",
+      "category": "transportation",
+      "support_pct": 60.9,
+      "total_votes": 26005,
+      "description": "Infrastructure bonds for city facilities including roads, public transit, and emergency response systems."
+    },
+    {
+      "measure_id": "2024-03-prop-b",
+      "election": "2024-03",
+      "name": "Proposition B",
+      "title": "Police Minimum Staffing",
+      "category": "public_safety",
+      "support_pct": 47.7,
+      "total_votes": 26014,
+      "description": "Would have increased the mandatory minimum police staffing level from 1,700 to 2,074 officers. Defeated with 67% opposition."
+    },
+    {
+      "measure_id": "2024-03-prop-c",
+      "election": "2024-03",
+      "name": "Proposition C",
+      "title": "Real Estate Transfer Tax Exemption",
+      "category": "housing",
+      "support_pct": 39.7,
+      "total_votes": 36356,
+      "description": "Exempts commercial-to-residential building conversions from the real estate transfer tax to incentivize creating housing from empty office buildings."
+    },
+    {
+      "measure_id": "2024-03-prop-d",
+      "election": "2024-03",
+      "name": "Proposition D",
+      "title": "Ethics Law Changes",
+      "category": "government_reform",
+      "support_pct": 62.0,
+      "total_votes": 22957,
+      "description": "Expanded ethics law restrictions on gifts to city officials and strengthened conflict-of-interest rules."
+    },
+    {
+      "measure_id": "2024-03-prop-e",
+      "election": "2024-03",
+      "name": "Proposition E",
+      "title": "Expanded Police Powers",
+      "category": "public_safety",
+      "support_pct": 56.9,
+      "total_votes": 23044,
+      "description": "Expanded police powers including use of drones, surveillance cameras, and reduced administrative task time for officers."
+    },
+    {
+      "measure_id": "2024-03-prop-f",
+      "election": "2024-03",
+      "name": "Proposition F",
+      "title": "Drug Screening for Welfare",
+      "category": "drug_policy",
+      "support_pct": 35.9,
+      "total_votes": 37668,
+      "description": "Requires drug screening as a condition of receiving county cash welfare assistance, with mandatory treatment referrals for those who test positive."
+    },
+    {
+      "measure_id": "2024-03-prop-g",
+      "election": "2024-03",
+      "name": "Proposition G",
+      "title": "Algebra by 8th Grade",
+      "category": "education",
+      "support_pct": 37.3,
+      "total_votes": 32502,
+      "description": "Non-binding policy statement urging SFUSD to offer algebra instruction to all students by eighth grade."
+    },
+    {
+      "measure_id": "2022-11-prop-a",
+      "election": "2022-11",
+      "name": "Proposition A",
+      "title": "Retiree Benefits Funding",
+      "category": "first_responders",
+      "support_pct": 66.6,
+      "total_votes": 35264,
+      "description": "Adjusts the funding formula for city retiree health and pension benefits to reflect updated actuarial projections."
+    },
+    {
+      "measure_id": "2022-11-prop-d",
+      "election": "2022-11",
+      "name": "Proposition D",
+      "title": "Affordable Housing Streamlining",
+      "category": "housing",
+      "support_pct": 66.7,
+      "total_votes": 35481,
+      "description": "Would have removed Board of Supervisors approval requirements for certain affordable housing projects to speed up construction. Competed with Prop E."
+    },
+    {
+      "measure_id": "2022-11-prop-e",
+      "election": "2022-11",
+      "name": "Proposition E",
+      "title": "Housing Project Approval",
+      "category": "housing",
+      "support_pct": 76.8,
+      "total_votes": 33848,
+      "description": "Required Board of Supervisors approval for housing projects in certain areas, as a counter-proposal to Prop D's streamlining approach."
+    },
+    {
+      "measure_id": "2022-11-prop-f",
+      "election": "2022-11",
+      "name": "Proposition F",
+      "title": "Library Preservation Fund",
+      "category": "libraries",
+      "support_pct": 52.6,
+      "total_votes": 28244,
+      "description": "Renews the Library Preservation Fund for 25 years, providing approximately 97% of the public library system's annual operating budget."
+    },
+    {
+      "measure_id": "2022-11-prop-i",
+      "election": "2022-11",
+      "name": "Proposition I",
+      "title": "Cars on JFK Drive",
+      "category": "parks",
+      "support_pct": 49.6,
+      "total_votes": 20045,
+      "description": "Would have restored private vehicle access to JFK Drive in Golden Gate Park on weekdays, reversing the pandemic-era car-free policy."
+    },
+    {
+      "measure_id": "2022-11-prop-j",
+      "election": "2022-11",
+      "name": "Proposition J",
+      "title": "JFK Drive Car-Free",
+      "category": "parks",
+      "support_pct": 52.7,
+      "total_votes": 39997,
+      "description": "Maintains JFK Drive in Golden Gate Park as permanently car-free for pedestrians, cyclists, and recreational use."
+    },
+    {
+      "measure_id": "2022-11-prop-l",
+      "election": "2022-11",
+      "name": "Proposition L",
+      "title": "Sales Tax for Transportation",
+      "category": "transportation",
+      "support_pct": 52.9,
+      "total_votes": 20058,
+      "description": "Extends a 0.5% city sales tax for 30 years with authorization for up to $1.91 billion in bonds dedicated to transportation improvements."
+    },
+    {
+      "measure_id": "2022-11-prop-m",
+      "election": "2022-11",
+      "name": "Proposition M",
+      "title": "Vacancy Tax",
+      "category": "business_taxes",
+      "support_pct": 42.3,
+      "total_votes": 25629,
+      "description": "Imposes a tax on owners of residential properties that have been vacant for more than 182 days per year, to discourage housing speculation."
+    },
+    {
+      "measure_id": "2022-11-prop-n",
+      "election": "2022-11",
+      "name": "Proposition N",
+      "title": "Golden Gate Park Parking",
+      "category": "parks",
+      "support_pct": 48.5,
+      "total_votes": 21527,
+      "description": "Authorizes construction of an underground parking garage in Golden Gate Park to replace surface parking displaced by the JFK Drive closure."
+    }
+  ],
   "neighborhoods": [
     "Bayview",
     "Hunters Point",

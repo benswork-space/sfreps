@@ -145,6 +145,7 @@ export interface BallotMeasureResult {
   election: string;
   name: string;
   title: string;
+  description?: string;
   category: PolicyCategory;
   support_pct: number;
   total_votes: number;

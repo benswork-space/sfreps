@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { VoteRecord } from "@/lib/types";
 import { POLICY_CATEGORIES } from "@/lib/types";
 import { formatDate, voteColor } from "@/lib/format";
+import ExpandableText from "./ExpandableText";
 
 const INITIAL_SHOW = 10;
 
@@ -39,7 +40,7 @@ export default function VotingSection({ votes }: Props) {
 
             <div className="flex-1 min-w-0">
               <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100 leading-snug">
-                {v.title}
+                <ExpandableText text={v.title} maxLength={120} />
               </p>
               <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-0.5">
                 {formatDate(v.date)}

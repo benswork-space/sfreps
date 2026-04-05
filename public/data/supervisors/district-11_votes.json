@@ -1,1 +1,1451 @@
-[]
+[
+  {
+    "id": "leg-250875",
+    "title": "Resolution approving the Human Services Agency\u2019s Annual Surveillance Report for call recording technology.",
+    "date": "9/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7637638&GUID=61CD89B5-4A0D-4478-9B16-C9403D08CB9B"
+  },
+  {
+    "id": "leg-250886",
+    "title": "Ordinance amending the Planning Code to allow additional uses as principally or conditionally permitted in Historic Buildings citywide, and make conforming amendments to provisions affected by the foregoing, including zoning control tables; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making findings of public necessity, convenience, and general welfare under Planning Code, Section 302.",
+    "date": "9/2/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7648510&GUID=036B150E-2DA8-4E3C-B2E3-F45B0552ED7A"
+  },
+  {
+    "id": "leg-250881",
+    "title": "Resolution determining that the person-to-person, premise-to-premise transfer of a Type-21 off-sale general beer, wine, and distilled spirits liquor license to Royal Mart LLC, doing business as Unimart, located 1201 Howard Street (District 6), will not serve the public convenience or necessity of the City and County of San Francisco; and requesting that the California Department of Alcoholic Beverage Control deny the issuance of the license, in accordance with California Business and Professions Code, Section 23958.4.",
+    "date": "8/22/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7639978&GUID=549E4C8D-8418-4B6C-AB86-F31D10B8EB8E"
+  },
+  {
+    "id": "leg-250824",
+    "title": "Ordinance ordering the vacation of portions of Hawes Street, Griffith Street, and Bancroft Avenue for the development of the San Francisco Fire Department Training Facility at 1236 Carroll Avenue; reserving public utility and access rights in favor of the City and easement rights for existing PG&E overhead electrical facilities; approving the interdepartmental transfer of the street vacation area from Public Works to the Fire Department; authorizing official acts in connection with this Ordinance; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "7/29/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7501547&GUID=7E7002C4-F82A-4652-9352-9D4EB968F261"
+  },
+  {
+    "id": "leg-250823",
+    "title": "Ordinance amending the Zoning Map of the Planning Code to change the zoning use district designation of Assessor\u2019s Parcel Block No. 4877, Lot Nos. 001, 002, 003, and 004, and Assessor\u2019s Parcel Block No. 4852, Lot Nos. 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 020, 021, and 022, the full width of Bancroft Avenue between Griffith Street and Hawes Street, and the full widths of Griffith Street and Hawes Street between Carroll Avenue and Armstrong Avenue, collectively known as 1236 Carroll Avenue, from Production, Distribution and Repair District-2 (PDR-2) to Public (P); changing the height and bulk district designation of the aforementioned parcels and Assessor\u2019s Parcel Block No. 4852, Lot No. 001 from 40-X to 90-X; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101; and making public necessity, convenience, and welfare findings under Planning Code, Section 302.",
+    "date": "7/29/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7501546&GUID=FAAFBFA1-05BC-4020-909E-6BA74AAA5FA7"
+  },
+  {
+    "id": "leg-250440",
+    "title": "Ordinance amending the Planning Code and the Administrative Code by superseding certain provisions of Ordinance No. 149-16 to increase the surcharges on certain Planning Department fees to compensate the City for appeals of Planning Department actions to the Board of Supervisors; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making public necessity, convenience, and welfare findings under Planning Code, Section 302.",
+    "date": "4/29/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7361027&GUID=1C9CEF06-548B-4243-871B-3D0D14FCCA36"
+  },
+  {
+    "id": "leg-250391",
+    "title": "Ordinance amending the Administrative Code to expand the boundaries of the Castro Lesbian, Gay, Bisexual, Transgender, and Queer (LGBTQ) Cultural District to include the Duboce Triangle neighborhood; and affirming the Planning Department\u2019s determination under the California Environmental Quality Act.",
+    "date": "4/15/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7319061&GUID=22B10107-F0CC-4060-8BBA-E81F1A836BEF"
+  },
+  {
+    "id": "leg-250385",
+    "title": "Ordinance amending the Planning Code to indicate districts where Reproductive Health Clinics are principally permitted and to make other conforming changes to the Planning Code and Zoning Control Tables, as required by Proposition O, passed by the voters in November 2024; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making findings of public necessity, convenience, and welfare pursuant to Planning Code, Section 302.",
+    "date": "4/15/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7319020&GUID=CCD620BC-CD9A-42C6-95BD-FE24447D0340"
+  },
+  {
+    "id": "leg-260229",
+    "title": "Resolution recognizing Corinne Kan on the occasion of her 100th birthday, and proclaiming February 19, 2026, as Corinne Kan Day in the City and County of San Francisco.",
+    "date": "3/4/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941783&GUID=1F2BDE70-F170-4C2F-8F9B-017DE4664FB3"
+  },
+  {
+    "id": "leg-260220",
+    "title": "Resolution authorizing the temporary closure of the public sidewalk on both sides of Howard Street between 3rd Street and 4th Street, from June 20 through June 26, 2026, subject to ISCOTT issuing a permit for the Config event sponsored by Figma.",
+    "date": "3/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941776&GUID=6D7B0A1B-3855-47ED-A970-3BD54260AD8D"
+  },
+  {
+    "id": "leg-260219",
+    "title": "Resolution recognizing the month of March 2026 as Iranian American Heritage Month in the City and County of San Francisco.",
+    "date": "3/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941775&GUID=5BD7E173-2522-489F-AC5C-C1D89C116316"
+  },
+  {
+    "id": "leg-260218",
+    "title": "Resolution recognizing the month of March 2026 as Women\u2019s History Month in the City and County of San Francisco.",
+    "date": "3/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941774&GUID=C65B3232-F97B-47DE-910A-7D90E8664169"
+  },
+  {
+    "id": "leg-260222",
+    "title": "Resolution supporting California State Assembly Bill No. 1734, introduced by Assembly Member Catherine Stefani, which will authorize the creation of a two-year pilot program that funds California\u2019s food insecurity research following federal cuts to the program by the Trump Administration and will expand survey screening to households earning up to 400% of the Federal Poverty Level, ensuring California can track how President Donald Trump\u2019s proposed cuts affect hunger across income levels.",
+    "date": "3/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941778&GUID=59CAC38F-EAA5-49D9-8E6C-1EF7B6575534"
+  },
+  {
+    "id": "leg-260221",
+    "title": "Resolution affirming San Francisco\u2019s commitment to civil liberties and ethical innovation, supporting the right of local companies to decline participation in mass surveillance and autonomous weaponry; and enduring commitment to civil liberties, privacy, human dignity, and democratic accountability in the age of artificial intelligence.",
+    "date": "3/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7941777&GUID=4C7EEA2D-C989-4CEF-B657-7703442752FD"
+  },
+  {
+    "id": "leg-260129",
+    "title": "Resolution recognizing the month of February 2026 as \"Teen Dating Violence Awareness and Prevention Month\" in the City and County of San Francisco.",
+    "date": "2/4/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870719&GUID=5E047E8B-16F0-4CA7-9AC9-616BC7C29D74"
+  },
+  {
+    "id": "leg-260120",
+    "title": "Resolution urging the City and County of San Francisco to commemorate February 24, 2026, as a Day of Solidarity with Ukraine, and to designate November 28, 2026, as Holodomor Memorial Day, in recognition of the historical, cultural, and civic significance of the Holodomor and the ongoing struggle for peace and freedom in Ukraine.",
+    "date": "2/4/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870714&GUID=6DE38B3F-7C3B-4363-B070-36EAA8470F41"
+  },
+  {
+    "id": "leg-260124",
+    "title": "Resolution recognizing February 12, 2026, as Ruth Asawa Day in honor of her work as an artist and advocate for arts education in the City and County of San Francisco.",
+    "date": "2/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870718&GUID=3C6A0AB3-D860-43C1-B8DC-3573AF11E816"
+  },
+  {
+    "id": "leg-260123",
+    "title": "Resolution declaring a commitment by the Board of Supervisors and the City and County of San Francisco to protect and preserve the long-term future for a center for Latino arts and culture in the Mission, at 2868 Mission Street.",
+    "date": "2/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870717&GUID=4495F6B8-303D-4165-B167-3DD0E7A6A4D2"
+  },
+  {
+    "id": "leg-260122",
+    "title": "Resolution declaring February 11, 2026, as 211 Day in the City and County of San Francisco to acknowledge the essential role 211 plays in supporting communities and connecting people to vital resources.",
+    "date": "2/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870716&GUID=72EBE2A8-5B59-4CFC-864B-E02FAC4D07C9"
+  },
+  {
+    "id": "leg-260121",
+    "title": "Resolution celebrating 2026 as the Year of the Horse and recognizing February 17, 2026, as the start of Lunar New Year 4724.",
+    "date": "2/3/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7870715&GUID=399BCC3E-A570-4F97-A756-B7AA1B6293CA"
+  },
+  {
+    "id": "leg-260080",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by Lan Pham, Quyen Jennifer Pham, Mai Pham, Ly Pham Rivera, Henry Pham, and Linda Pham against the City and County of San Francisco for $500,000; the lawsuit was filed on September 28, 2023, in San Francisco Superior Court, Case No. CGC-23-609384; entitled Lan Pham, et al. v. City and County of San Francisco, et al.; the lawsuit involves alleged elder abuse, patients\u2019 rights violations, medical negligence, and wrongful death.",
+    "date": "2/3/2026",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7858210&GUID=73DF6CC5-C865-4168-B284-4E9B0B35C1AA"
+  },
+  {
+    "id": "leg-260206",
+    "title": "Resolution extending by 270 days the prescribed time within which the Planning Commission may render its decision on an Ordinance (File No. 250816) amending the Planning Code to reduce restrictions on Formula Retail Uses by 1) modifying the definition of a Formula Retail Use; 2) eliminating the Conditional Use Authorization requirement for Formula Retail Accessory Uses, Formula Retail Temporary Uses, and certain changes of use for Formula Retail Uses; 3) eliminating the prohibition on changes of use for non-conforming Formula Retail Uses; 4) eliminating the requirement for an economic impact study for specified large Formula Retail Uses; 5) eliminating the restrictions regarding Formula Retail Use concentration in the Upper Market Street Neighborhood Commercial District; 6) allowing one or more Formula Retail Restaurants or Limited Restaurants inside a General Grocery store under a single Conditional Use authorization; and 7) principally permitting Formula Retail Uses in spaces larger than 10,000 square feet in the RC (Residential-Commercial) and RTO (Residential Transit Oriented) Districts; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making findings of public necessity, convenience, and welfare pursuant to Planning Code, Section 302.",
+    "date": "2/25/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933690&GUID=D66D869E-E6C5-4EFD-AA6F-DF55C6D651CB"
+  },
+  {
+    "id": "leg-260197",
+    "title": "Resolution recognizing the month of February 2026 as Children\u2019s Dental Health Month in the City and County of San Francisco.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933684&GUID=F66A471E-3BD4-4280-ADFB-082846D3C08D"
+  },
+  {
+    "id": "leg-260189",
+    "title": "Resolution initiating a landmark designation under Article 10 of the Planning Code for the Latin Rock House, located at 2880-25th Street, Assessor's Parcel Block No. 4266, Lot No. 020C.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933676&GUID=0FB6D823-1012-4FDF-8A2D-B130AA396D05"
+  },
+  {
+    "id": "leg-260187",
+    "title": "Resolution supporting California State Assembly Bill No. 2455, introduced by Assembly Member Matt Haney, to annually designate May 17 as Bruce Lee Day.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933675&GUID=4AD9C25A-6B94-42BD-ACF0-4E6FA5193308"
+  },
+  {
+    "id": "leg-260198",
+    "title": "Resolution supporting California State Assembly Bill Nos. 1818 and 1831, introduced by Assembly Members Liz Ortega and Patrick Ahrens, to advance fairness and accountability at the California State University by ensuring negotiated raises and step increases are honored, and by placing reasonable limits on certain non-represented management compensation practices.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933685&GUID=E5DACE45-0CD3-4733-A18B-A2880A094AA6"
+  },
+  {
+    "id": "leg-260196",
+    "title": "Resolution recognizing the 175th anniversary of Edgewood and proclaiming March 3, 2026 as Edgewood Day in the City and County of San Francisco in recognition of Edgewood\u2019s historic contributions to youth mental health, family support, and community well-being.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933683&GUID=D6F29DC8-BE31-4370-8934-4A215BAF200A"
+  },
+  {
+    "id": "leg-260195",
+    "title": "Resolution supporting California State Assembly Bill No. 1974, introduced by Assembly Member Catherine Stefani, which will authorize law enforcement agencies to create voluntary firearm storage programs; authorize law enforcement agencies to ensure the firearm has not been previously reported lost, stolen, or involved in a crime; and require law enforcement agencies to destroy a firearm that was not retrieved.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933682&GUID=FD3E7116-AFED-46A8-A2CB-72CD43450C2C"
+  },
+  {
+    "id": "leg-260193",
+    "title": "Resolution supporting California State Assembly Bill No. 1897, introduced by Assembly Member Matt Haney, which clarifies legal standards governing continued treatment for offenders with severe mental illness and strengthens evidence-based evaluation requirements.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933680&GUID=1C84D70C-3D45-425E-8036-432BB64C81FF"
+  },
+  {
+    "id": "leg-260192",
+    "title": "Resolution supporting California State Senate Bill No. 875, introduced by State Senator Scott Wiener, which will strengthen and protect the ability of local jurisdictions within the Pacific Gas and Electric service territory to form or expand their own public utilities.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933679&GUID=2E358E32-3939-466B-89EE-3D2AF5E0B70C"
+  },
+  {
+    "id": "leg-260186",
+    "title": "Resolution supporting the passage of California State Senate Bill No. 944, introduced by Senator Scott Wiener, removing the limitation requiring federal matching funds for acupuncture to be a covered benefit, thereby making acupuncture a covered benefit under Medi-Cal.",
+    "date": "2/24/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933674&GUID=4764C9B2-4444-4CC4-B3BE-641140CF7F67"
+  },
+  {
+    "id": "leg-260150",
+    "title": "Resolution initiating an amendment to the landmark designation of 1556 Revere Street (aka Sylvester House), Assessor's Parcel Block No. 5340, Lot No. 006, under Article 10 of the Planning Code.",
+    "date": "2/11/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880181&GUID=77C291B5-C376-4F31-A385-1E119DFFEAB3"
+  },
+  {
+    "id": "leg-260149",
+    "title": "Resolution declaring February 27, 2026, as Pok\u00e9mon Day in the City and County of San Francisco; celebrating the 30th Anniversary of Pok\u00e9mon; and encouraging the public to participate in Pok\u00e9mon related community activities.",
+    "date": "2/11/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880180&GUID=E2372985-938E-4873-B293-E446690ED3BC"
+  },
+  {
+    "id": "leg-260140",
+    "title": "Resolution adding the commemorative street name \u201cCarmen Johnson Way\u201d to the 1100 block of Pierce Street between Turk Street and Eddy Street in recognition of her lifetime of service to the families of the Fillmore neighborhood.",
+    "date": "2/10/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880171&GUID=87CD59AF-E3D0-48E5-B522-8A38E6763455"
+  },
+  {
+    "id": "leg-260139",
+    "title": "Resolution honoring the commencement of Ramadan on the sunset on Tuesday, February 17, and continue until the evening of Thursday, March 19, 2026, and recognizing the contributions of the Muslim community in the City and County of San Francisco.",
+    "date": "2/10/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880170&GUID=187ABB4D-14D6-4916-A2BB-5E61731C32C8"
+  },
+  {
+    "id": "leg-260135",
+    "title": "Resolution supporting a strong, independent Department of Veterans Affairs and opposing privatization.",
+    "date": "2/10/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880166&GUID=C11ADB2F-130E-49CD-9B17-1E83077D2804"
+  },
+  {
+    "id": "leg-260141",
+    "title": "Resolution supporting California State Assembly Bill No. 1265, introduced by Assembly Member Matt Haney, which will create a new State Housing Tax Credit program to prohibit the maximum credit amount from exceeding $5,000,000 per taxpayer, no longer allow a 5% credit uplift for specified priority projects, and eliminate the credit set aside for smaller projects.",
+    "date": "2/10/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7880172&GUID=A2DED817-C2F7-43F5-ACFC-FD7A45B105FF"
+  },
+  {
+    "id": "leg-251214",
+    "title": "Ordinance amending the Administrative Code by changing the reporting requirement for Capital Expenditure Plans from odd years to even years, with the next report due March 1, 2028.",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781524&GUID=0724FCD7-65AC-4437-BACB-F62D8C655BC5"
+  },
+  {
+    "id": "leg-251232",
+    "title": "Resolution amending the street encroachment permit terms for Maiden Lane regarding the designated permittee and permissible activities; amending and rescinding the Board of Supervisors\u2019 authorization for the street closure of Maiden Lane between Stockton and Kearny Streets and urging the San Francisco Municipal Transportation Agency Board of Directors to modify the street closure hours for such streets; and authorizing the Public Works Director to finalize a modified street encroachment permit for Maiden Lane.",
+    "date": "12/9/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781551&GUID=B155FE5D-485A-4529-93D3-4DAB3A1BE75C"
+  },
+  {
+    "id": "leg-251179",
+    "title": "Ordinance authorizing settlement of the lawsuits filed by Microsoft Corporation and Subsidiaries against the City and County of San Francisco for $6,500,000; the lawsuits were filed on February 26, 2021, April 23, 2021, and June 3, 2025, in San Francisco Superior Court, Case Nos. CGC-21-590032, CGC-21-591004, and CGC-25-625880; entitled Microsoft Corporation and Subsidiaries. v. City and County of San Francisco et al.; the lawsuits involve a refund of gross receipts and homelessness gross receipts taxes; other material terms of the settlement relate to Microsoft Corporation\u2019s filing position with respect to City taxes.",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7767773&GUID=EDA4F8B0-189D-46E5-AF83-3D29B904ACF3"
+  },
+  {
+    "id": "leg-251227",
+    "title": "Resolution retroactively authorizing the Department of Public Health to accept and expend an in-kind gift of COVID-19 test kits in the total amount of $527,664 for Fiscal Year (FY) 2024-2025, from the Administration for Strategic Preparedness and Response through the California Department of Public Health in support of the Department of Public Health clinic patients and staff.",
+    "date": "12/9/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781546&GUID=E2DA4884-3A97-4EAC-996B-2FE70A5DEA73"
+  },
+  {
+    "id": "leg-251223",
+    "title": "Ordinance approving amendments to the Redevelopment Plan for the Mission Bay South Redevelopment Project to increase the maximum building height from 160 feet to 250 feet and to increase the number of dwelling units permitted on the northern one-half of Block 4 East (Assessor\u2019s Parcel Block No. 8711, Lot No. 029B) for the development of an affordable housing project; making findings under the California Environmental Quality Act; directing the Clerk of the Board of Supervisors to transmit a copy of this Ordinance upon its enactment to the Successor Agency; and making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781542&GUID=422F6C81-8C95-46BD-86EE-01E5ACFB01E0"
+  },
+  {
+    "id": "leg-251178",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by R.C. against the City and County of San Francisco for $900,000; the lawsuit was filed on January 5, 2022, in San Francisco Superior Court, Case No. CGC-22-597432; entitled R.C. v. City and County of San Francisco, et al.); the lawsuit involves an alleged sexual assault by a City employee.",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7767693&GUID=2A34AE5C-E190-4344-A851-69655F920B67"
+  },
+  {
+    "id": "leg-251226",
+    "title": "Ordinance authorizing the Mayor\u2019s Office to retroactively accept and expend a grant in the amount of $7,000,000 from Bloomberg Philanthropies to fund the Mayor\u2019s Office of Innovation from January 1, 2026, through December 31, 2028; approving the associated grant agreement under Charter, Section 9.118; and amending Ordinance No. 120-25 (Annual Salary Ordinance, File No. 250590 for Fiscal Years (FYs) 2025-2026 and 2026-2027) to provide for the creation of four grant-funded full-time positions (4.0 FTE) in the Office of the City Administrator, with one position in each of the following classes: Class 0931 (Manager III), Class 1053 (IS Business Analyst - Senior), Class 1054 (IS Business Analyst - Principal), and Class 1043 (IS Engineer - Senior).",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781545&GUID=312F3210-D8DE-44BE-A01A-08C0FC6D79CC"
+  },
+  {
+    "id": "leg-251186",
+    "title": "Resolution authorizing the Department of Public Health to accept and expend a grant in the amount of $6,755,486.26 from the San Francisco General Hospital Foundation for participation in a program, entitled \u201cZPCQI Round 3: Optimizing Epic to Drive True North and Developing our people: The ZSFG Way,\u201d for the period of January 1, 2026, through June 30, 2029; approving the Notice of Award agreement pursuant to Charter, Section 9.118(a); and to authorize the Director of Health to enter into amendments or modifications to the Grant Agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the Grant Agreement or this Resolution.",
+    "date": "12/9/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781536&GUID=1E34B68F-750D-4347-884F-294BC7B3D345"
+  },
+  {
+    "id": "leg-251180",
+    "title": "Ordinance appropriating $9,016,051,176 of proceeds from the sale of revenue bonds or commercial paper for capital improvement projects to the Airport Commission for FY2025-2026; and placing $9,016,051,176 on Controller's Reserve pending receipt of proceeds of indebtedness.",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7767674&GUID=EB05EA0D-228B-499D-982B-071B427A4B9C"
+  },
+  {
+    "id": "leg-251218",
+    "title": "Resolution declaring the intention of the Board of Supervisors to order the vacation of the designation of portions of Christmas Tree Point Road and the eastern alignment of Twin Peaks Boulevard, generally bounded by Assessor\u2019s Parcel Block No. 2719C, Lot No. 021, and Assessor\u2019s Parcel Block No. 2643, Lot Nos. 006, 007, 009, and 021 (together, \u201cEastern Twin Peaks Boulevard\u201d) as public right-of-way for roadway and sidewalk purposes, and to order the re-designation of Eastern Twin Peaks Boulevard as public right-of-way for recreation and park purposes to facilitate the development of the Twin Peaks Promenade Project; and setting a hearing date for the Board of Supervisors to sit as a Committee of the Whole on March 17, 2026, at 3:00 p.m., for all persons interested in the proposed vacation of said street areas.",
+    "date": "12/9/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "failed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781539&GUID=30B003C3-BABA-4705-B4D7-23F6E28FB1D4"
+  },
+  {
+    "id": "leg-251216",
+    "title": "Ordinance calling and providing for a special election to be held in the City and County of San Francisco on Tuesday, June 2, 2026, for the purpose of submitting to San Francisco voters a proposition to incur bonded indebtedness of up to $535,000,000 to finance the construction, acquisition, improvement, rehabilitation, renovation, expansion, and seismic retrofitting of the Emergency Firefighting Water System, Firefighting Facilities and Infrastructure, Police Facilities and Infrastructure, transportation facilities for the Municipal Railway Bus Storage and Maintenance Facility at Potrero Yard",
+    "date": "12/9/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "failed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7933687&GUID=F8E37D3C-198D-4769-89BE-CF3F5B5AEB4B"
+  },
+  {
+    "id": "leg-251184",
+    "title": "Resolution adopting a fixed two-year budgetary cycle for the following City departments: Airport, Port, and Public Utilities Commission for Fiscal Years 2026-2027 and 2027-2028; and defining terms and setting deadlines.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774089&GUID=926C0A8A-C210-42F3-A0F1-F60E03B41D0F"
+  },
+  {
+    "id": "leg-251167",
+    "title": "Resolution accepting the Biannual Surveillance Report under Administrative Code, Section 19B.6, for the Juvenile Probation Department.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7762025&GUID=4BFB783A-C963-4A83-802F-CE3F2377D141"
+  },
+  {
+    "id": "leg-251165",
+    "title": "Ordinance amending the Police Code to revise the procedures for alarm companies and alarm users to claim refunds or credits of overpaid alarm fees under the Police Emergency Alarm Ordinance.",
+    "date": "12/2/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7761998&GUID=5D87FA25-B46F-4316-9DA1-20BCDA05EE31"
+  },
+  {
+    "id": "leg-251188",
+    "title": "Resolution retroactively authorizing the Department of Public Health to accept and expend a grant in the amount of $1,123,180 from the California Department of Health for participation in a program, entitled \u201cDisease Intervention Specialist (DIS) Workforce Development Grant,\u201d for the period of July 1, 2025, through June 30, 2026; approving the Grant Agreement pursuant to Charter, Section 9.118(a); and to authorize the Director of Health to enter into amendments or modifications to the Grant Agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the Grant.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774092&GUID=9F4CABDE-40D9-4962-8242-7898F41B437C"
+  },
+  {
+    "id": "leg-251172",
+    "title": "Resolution authorizing the acceptance and recording of an avigation easement by the City and County of San Francisco from Navdeep Bhakhri for the development at 413 Alida Way in unincorporated San Mateo County, California, at no cost to the City and County of San Francisco; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and to authorize the Director of Property to enter into amendments or modifications to the grant of avigation easement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purpose and intent of this Resolution.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7762251&GUID=4410BB78-31A1-4676-80A4-30AB87800837"
+  },
+  {
+    "id": "leg-251169",
+    "title": "Resolution retroactively authorizing the Department of the Environment (\u201cEnvironment Department\u201d) to accept and expend a prize in the amount of $400,000 which was confirmed as received by the Environment Department on March 17, 2025, from the United States Department of Energy\u2019s Office of Energy Efficiency and Renewable Energy, to implement a pilot program to upgrade 20 San Francisco homes with electric heat pump water heaters and energy efficiency measures.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7762039&GUID=5EB90C89-B81E-4209-86A7-59C01FD19447"
+  },
+  {
+    "id": "leg-251163",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by Stephanie York, James Edward Brown, and Kayla Briers against the City and County of San Francisco for $6,030,000; the lawsuit was filed on August 4, 2023, in San Francisco Superior Court, Case No. CGC-23-608132; entitled Stephanie York, et al. v. City and County of San Francisco, et al.; the lawsuit involves alleged personal injury and wrongful death caused by a City tree.",
+    "date": "12/2/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7761906&GUID=217EFC25-5D15-4F33-A20A-419D16F120C2"
+  },
+  {
+    "id": "leg-251231",
+    "title": "Resolution approving a management agreement with the nonprofit Owners' Association for administration/management of the established property-based Community Benefit District known as the \u201cOcean Avenue Community Benefit District,\u201d pursuant to California Streets and Highways Code, Section 36651, for a period commencing upon Board approval, through December 31, 2040.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7781550&GUID=17FA02BD-0193-4D22-A20D-4482E31CC900"
+  },
+  {
+    "id": "leg-251187",
+    "title": "Resolution authorizing the Recreation and Park Department to accept and expend cash and in-kind grants from Trust for Public Land and the Theodore & Frances Geballe Philanthropic Fund of the Jewish Federation Bay Area, valued at approximately $1,625,000 for the design, installation, repair and construction of improvements to Koshland Park; to approve the associated grant agreement, effective upon approval of this Resolution; and to authorize the General Manager of RPD to enter into modifications to the grant agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the contract or this Resolution.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774091&GUID=0C6C8121-41D5-4ED2-8F96-1E2832851DBC"
+  },
+  {
+    "id": "leg-251168",
+    "title": "Resolution retroactively authorizing the Department of the Environment (\u201cEnvironment Department\u201d) to accept and expend a prize in the amount of $400,000, which was confirmed as received by the Environment Department on December 12, 2023, from the United States Department of Energy\u2019s Office of Energy Efficiency and Renewable Energy, to develop a pilot implementation plan to upgrade up to 200 San Francisco homes with electric heat pump water heaters (HPWH) and energy efficiency measures; and to execute the contracts between the City and the Co-applicants necessary to carry out the purposes of the project for which the prize was awarded.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7762026&GUID=63EB93FF-68F2-44CD-BF34-95C46FE89622"
+  },
+  {
+    "id": "leg-251185",
+    "title": "Resolution retroactively authorizing the Department of Public Health to accept and expend a monetary gift, entitled \u201c2024 Epic for Federally Qualified Health Centers,\u201d in the amount of $77,000 from the Epic Systems Corporation to help support Federally Qualified Health Centers and their underserved patient populations, for the period of July 1, 2024, through June 30, 2025.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774090&GUID=EF4C9F99-7E43-4021-8570-526D66B676ED"
+  },
+  {
+    "id": "leg-251171",
+    "title": "Resolution authorizing the acceptance and recording of an avigation easement by the City and County of San Francisco from US 180 El Camino Owner, LLC, a Delaware limited liability company for the development at 180 El Camino Real in South San Francisco, California, at no cost to the City and County of San Francisco; and affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and to authorize the Director of Property to enter into amendments or modifications to the grant of avigation easement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purpose and intent of this Resolution.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7762108&GUID=1E16F556-F532-4143-A461-61618A2EDFD6"
+  },
+  {
+    "id": "leg-251166",
+    "title": "Resolution approving Amendment No. 1 to the agreement between the City and County of San Francisco, acting by and through, the Department of Public Health (DPH), and A&A Health Services, Inc., to provide rehabilitative board and care residential services, to extend the term by three years from June 30, 2026, for a total term of July 1, 2024, through June 30, 2029, and to increase the amount by $22,722,200 for a total not to exceed amount of $32,654,875; and to authorize DPH to enter into amendments or modifications to the agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the agreement or this Resolution.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7761942&GUID=59577A7F-CEB5-4E21-BD8E-EE06C4EB5612"
+  },
+  {
+    "id": "leg-251189",
+    "title": "Resolution retroactively authorizing the Department of Public Health to submit an application to continue to receive funding for the Ryan White Act HIV/AIDS Emergency Relief Grant Program grant from the Health Resources Services Administration; and requesting $15,552,315 in HIV Emergency Relief Program funding for the San Francisco Eligible Metropolitan Area for the period of March 1, 2026, through February 28, 2027.",
+    "date": "12/2/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774102&GUID=5FB85E5D-9DFA-47D9-A94B-6344D22E8EEA"
+  },
+  {
+    "id": "leg-250719",
+    "title": "Ordinance amending the Planning Code to define a \u201cFamily\u201d as a \u201cHousehold,\u201d eliminate numeric limits on unrelated family members and requirements that family members share meals, classify Residential Care Facilities that serve six or fewer persons as Residential Uses, include certain groups of six or fewer people and associated operators as a \u201cHousehold\u201d; clarify the Zoning Administrator\u2019s enforcement authority to administratively subpoena documents; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making findings of public necessity, convenience, and welfare pursuant to Planning Code, Section 302.",
+    "date": "12/2/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7774088&GUID=00F671B6-6AFC-4A63-91C5-A549B350F19D"
+  },
+  {
+    "id": "leg-251164",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by General Motors Company against the City and County of San Francisco for $71,125,000; the lawsuit was filed on November 21, 2022, in San Francisco Superior Court, Case No. CGC-22-602951; entitled General Motors Company v. City and County of San Francisco; the lawsuit involves a claim for refund of gross receipts taxes, homelessness gross receipts taxes, overpaid executive gross receipts taxes, penalties, and interest; other material terms of the settlement relate to General Motors Company\u2019s filing position with respect to City taxes.",
+    "date": "12/2/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7761941&GUID=2BC8ADDC-0D48-4663-ABED-3A1F8476BE21"
+  },
+  {
+    "id": "leg-251271",
+    "title": "Resolution urging the Recreation and Parks Commission to commemoratively name a street in Golden Gate Park \u201cClaude the Alligator Way.\u201d",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785998&GUID=09B35A69-0FD1-4865-8F21-C3265B25205E"
+  },
+  {
+    "id": "leg-251248",
+    "title": "Ordinance appropriating $18,500,000 of Fund Balance from the Port Harbor Fund to the Port of San Francisco (PRT) for stabilization and disposal of dry docks and other shipyard improvements and safety measures in Fiscal Year (FY) 2025-2026.",
+    "date": "12/16/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7789088&GUID=DE9FBC4A-5B1C-46FE-B56D-0937DE939874"
+  },
+  {
+    "id": "leg-251272",
+    "title": "Resolution supporting California State Assembly Bill No. 762 (AB 762), introduced by Assemblymembers Jacqui Irwin and Lori Wilson, which would prohibit the sale of disposable, battery-embedded vapor inhalation devices and authorizes State departments to enforce this prohibition.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785999&GUID=8BE5DF54-777C-4051-B35D-1190D058BFFD"
+  },
+  {
+    "id": "leg-251266",
+    "title": "Resolution approving and authorizing the Mayor and the Director of the Mayor\u2019s Office of Housing and Community Development (\u201cMOHCD\u201d) to execute a grant agreement with 967 Mission, LP in the amount of $10,548,907 for a term of 15 years to provide operating subsidies for a 95-unit 100% affordable housing project, with 40 units of housing for extremely low-income seniors; approving the form of and authorizing the execution of the grant agreement; granting general authority to City officials to take actions necessary to implement this Resolution, as defined herein.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785993&GUID=2AF7EB20-FBFD-4646-B603-CE6F37DA1065"
+  },
+  {
+    "id": "leg-251258",
+    "title": "Resolution authorizing the Human Services Agency to accept and expend a grant in the total amount of $1,072,000 from the San Francisco Health Plan for participation in the program entitled \u201cHousing and Homelessness Incentive Program Funding - San Francisco\u201d for the period of April 1, 2026, through March 31, 2030.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785985&GUID=BADAB99F-3F5C-4CA5-9314-D367AA6C45BF"
+  },
+  {
+    "id": "leg-251253",
+    "title": "Ordinance amending the Administrative Code to create the Fisherman\u2019s Wharf Entertainment Zone, on Powell Street from The Embarcadero to Beach Street; The Embarcadero from Powell to Taylor Streets; Taylor Street from The Embarcadero to Jefferson Street; Jefferson Street from Taylor to Hyde Streets; Beach Street from Hyde to Polk Streets; Polk Street from Beach to North Point Streets; North Point Street from Polk to Larkin Streets; Larkin Street from North Point to Beach Streets; Beach Street from Larkin to Powell Streets; and Al Scoma Way; and affirming the Planning Department\u2019s determination under the California Environmental Quality Act.",
+    "date": "12/16/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785980&GUID=70F41EC3-8CAF-4543-BFFA-891CED878436"
+  },
+  {
+    "id": "leg-251249",
+    "title": "Ordinance appropriating $4,000,000 from the General City Reserve to the Department of Emergency Management (DEM) for expanded street conditions staffing, and $150,000 from the General City Reserve to the Human Rights Commission (HRC) for community initiatives in Fiscal Year (FY) 2025-2026.",
+    "date": "12/16/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785976&GUID=4BEC497C-DDDF-417D-9597-A76C09EC7062"
+  },
+  {
+    "id": "leg-251206",
+    "title": "Resolution approving the 10th Amendment to the contract between the Municipal Transportation Agency and TEGSCO, LLC, for services related to the towing, storage, and disposal of abandoned and illegally parked vehicles, to increase the contract amount by $22,100,000 for a total contract amount not to exceed $158,800,000; and to extend the contract term by nine months with up to six additional one-month extensions, for a potential new term of April 1, 2016, through June 30, 2027, effective upon approval of this Resolution.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7776657&GUID=0D190DFF-26E9-4666-B128-3109469A4AEC"
+  },
+  {
+    "id": "leg-251265",
+    "title": "Resolution 1) approving and authorizing the Director of Property and the Director of the Mayor\u2019s Office of Housing and Community Development (\u201cMOHCD\u201d) to enter into a Ground Lease for real property owned by the City located at 967 Mission Street (\u201cProperty\u201d) with 967 Mission, LP, for a lease term of 75 years and one 24-year option to extend, and an annual base rent of $15,000 (\u201cGround Lease\u201d) in order to construct a 100% affordable rental housing development consisting of 95-units (including one unrestricted manager\u2019s unit) for senior households, known as 967 Mission, including 40 senior operating subsidy units, 24 local operating subsidy program units reserved for homeless seniors and seniors at risk of homelessness, and five units for referrals from the City\u2019s plus housing list (the \u201cProject\u201d); 2) authorizing the Mayor and the Director of MOHCD to execute loan documents related to a loan to 967 Mission, LP, to provide financing for the development and construction of the Project; 3) approving and authorizing an Amended, Restated and Consolidated Loan Agreement in an amount not to exceed $44,318,000 for a minimum loan term of 57 years with 967 Mission, LP to finance the development and construction of the Project; 4) determining that the less than market rent payable under the Ground Lease will serve a public purpose by providing affordable housing for low-income, senior households in need, in accordance with Section 23.30 of the Administrative Code; 5) adopting findings declaring that the Property is \u201cexempt surplus land\u201d pursuant to the California Surplus Land Act; 6) adopting findings that the Project and proposed transactions are consistent with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and 7) authorizing the Director of MOHCD to make certain modifications to such agreements, as defined herein, and take certain actions in furtherance of this Resolution, as defined herein.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785992&GUID=AD9234EF-31CB-4132-970B-3013809BE85C"
+  },
+  {
+    "id": "leg-251257",
+    "title": "Resolution authorizing the Human Services Agency to accept and expend a grant in the total amount of $268,000 from the Blue Cross of California Partnership Plan, Inc. for participation in the program entitled \u201cHousing and Homelessness Incentive Program Funding - San Francisco\u201d for the period of April 1, 2026, through March 31, 2030.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785984&GUID=42467B83-04E3-40AC-A642-F4973C9AE345"
+  },
+  {
+    "id": "leg-251268",
+    "title": "Resolution establishing the San Francisco Downtown Revitalization and Economic Recovery Financing District, approving the Downtown Revitalization Financing Plan, including the division of taxes set forth therein, and documents and actions related thereto, and authorizing the filing of a judicial validation action.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "nay",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785995&GUID=079802F9-036D-4632-90DC-FE81EB6F766D"
+  },
+  {
+    "id": "leg-251264",
+    "title": "Resolution authorizing the execution and delivery of a multifamily housing revenue note (tax-exempt) in a principal amount not to exceed $21,750,000 and a multifamily housing revenue note (taxable) in an aggregate principal amount not to exceed $20,000,000 for a total not to exceed amount of $41,750,000 for the purpose of providing financing for the construction of a 95-unit multifamily rental housing development known as \u201c967 Mission\u201d; approving the form of and authorizing the execution of a funding loan agreement providing the terms and conditions of the loan from the funding lender identified therein to the City and for the execution and delivery of the notes; approving the form of and authorizing the execution of a borrower loan agreement providing the terms and conditions of the loan from the City to the borrower; approving the form of and authorizing the execution of a regulatory agreement and declaration of restrictive covenants; approving the form of and authorizing the execution of an assignment of deed of trust and loan documents; authorizing the collection of certain fees; approving modifications, changes, and additions to the documents; ratifying and approving any action heretofore taken in connection with the back-to-back loans, the notes, and the project; granting general authority to City officials to take actions necessary to implement this Resolution; and related matters, as defined herein.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785991&GUID=128167AA-A3D3-4CE5-B9F5-3F9AD94E44A5"
+  },
+  {
+    "id": "leg-251260",
+    "title": "Resolution authorizing the Department of Public Health to enter into a Grant Agreement for a term commencing on the execution of the Grant Agreement, through June 30, 2030, between the City and County of San Francisco (\u201cCity\u201d), acting by and through its Department of Public Health (\u201cDPH\u201d), and the California Department of Health Care Services and its third-party administrator Advocates for Human Potential, Inc., having anticipated revenue of $6,337,140; including a provision allowing for the recapture of allowable project expenses incurred retroactively to May 6, 2025; including a Permitted and Restricted Use at 333 7th Street; retroactively authorizing DPH to accept and expend grant funds; authorizing the Grantor to apply for a Receiver in the event of the City\u2019s default; and authorizing DPH to enter into amendments or modifications to the Grant Agreement that do not materially increase the obligations or liabilities of the City and are necessary to effectuate the purpose of the Grant.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785987&GUID=9CA80CBE-9FC2-4215-B4E9-0675FB42A3E2"
+  },
+  {
+    "id": "leg-251256",
+    "title": "Resolution retroactively authorizing the Department of Public Health to accept and expend a grant increase from the National Institutes of Health through The Regents of the University of California, San Francisco for participation in a program, entitled \u201cShort Trainings on Methods for Recruiting, Sampling, and Counting Hard-to-Reach Populations: The H2R Training Program,\u201d in the amount of $23,687.72 for a total amount of $102,464.72 from June 1, 2025, for the total period of October 1, 2022, through May 31, 2026; and to authorize the Director of Health to enter into amendments or modifications to the Grant Agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the Grant Agreement or this Resolution.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785983&GUID=D25684CF-5F34-4A5D-B1D2-258DFDD9F7EF"
+  },
+  {
+    "id": "leg-251267",
+    "title": "Resolution retroactively authorizing the Office of the District Attorney to accept and expend a grant in the amount of $420,000 from the California Office of Traffic Safety, for the grant period of October 1, 2025, through September 30, 2026, to support the Alcohol and Drug Impaired Driver Vertical Prosecution Program activities and services.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785994&GUID=3AC46BFF-C600-4EF9-A82B-CCA2E3592A68"
+  },
+  {
+    "id": "leg-251263",
+    "title": "Resolution retroactively approving and authorizing the Mayor and the Director of the Mayor\u2019s Office of Housing and Community Development (\u201cMOHCD\u201d) to execute a grant agreement with RSU Associates, L.P. in the amount not to exceed $15,369,361 for a 20-year term to provide operating subsidies for a 100% affordable housing project housing for low-income and formerly homeless households, including transition aged youth, located at 78 Haight Street and 120 Octavia Street; approving the form of and authorizing the execution of the grant agreement with a retroactive commencement date of October 1, 2025; authorizing the Director of MOHCD to enter into any additions, amendments, or other modifications to the grant agreement that do not materially increase the obligations or liabilities of the City or materially decrease the benefits to the City; and authorizing the Director of MOHCD to take actions necessary to implement this Resolution, as defined herein.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785990&GUID=C56A8FBE-56CC-4D21-8FE3-3639FEA549A4"
+  },
+  {
+    "id": "leg-251259",
+    "title": "Resolution authorizing the Department of Public Health to enter into a Grant Agreement for a term commencing on the execution of the Grant Agreement, through June 30, 2030, between the City and County of San Francisco (\u201cCity\u201d), acting by and through its Department of Public Health (\u201cDPH\u201d), and the California Department of Health Care Services and its third-party administrator Advocates for Human Potential, Inc., having anticipated revenue to the City of $21,347,760; including a provision allowing for the recapture of allowable project expenses incurred retroactive to May 6, 2025; including a Permitted and Restricted Use at 887 Potrero Avenue; retroactively authorizing DPH to accept and expend grant funds for the period of May 6, 2025, through June 30, 2030; authorizing the Grantor to apply for a Receiver in the event of the City\u2019s default; and authorizing DPH to enter into amendments or modifications to the Grant Agreement that do not materially increase the obligations or liabilities of the City and are necessary to effectuate the purpose of the Grant.",
+    "date": "12/16/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785986&GUID=401F3D35-CD1A-4417-B630-2693C7CFF627"
+  },
+  {
+    "id": "leg-251255",
+    "title": "Ordinance de-appropriating $250,000 from General City Responsibility (GEN) and appropriating $250,000 to Department of Children, Youth and Their Families (CHF) to support the District 10 safety plan, including services at the Hope SF sites, violence prevention events, safe passages, response to schools, and as needed support to the youth and residents most impacted by violence in Fiscal Year (FY) 2025-2026.",
+    "date": "12/16/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785982&GUID=91C06CC6-1265-4C24-9EE4-F5A1A637F232"
+  },
+  {
+    "id": "leg-251245",
+    "title": "Charter Amendment (First Draft) to amend the Charter of the City and County of San Francisco to change the current two-term limits for the office of Mayor and the office of Member of the Board of Supervisors from consecutive term limits to lifetime term limits; at an election to be held on June 2, 2026.",
+    "date": "12/16/2025",
+    "type": "charter amendment",
+    "vote": "nay",
+    "result": "failed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7785972&GUID=46E0A101-C16D-4D7A-877A-C7BA3195AC14"
+  },
+  {
+    "id": "leg-251121",
+    "title": "Resolution determining that the person-to-person, premise-to-premise transfer of a Type-48 on-sale general public premises beer, wine, and distilled spirits liquor license to Big Skye LLC, doing business as Club 895, located at 895 O'Farrell Street (District 5), will serve the public convenience or necessity of the City and County of San Francisco, in accordance with California Business and Professions Code, Section 23958.4; and requesting that the California Department of Alcoholic Beverage Control impose conditions on the issuance of the license.",
+    "date": "11/7/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7729725&GUID=8D18C7DC-E906-4DAB-9DA8-7166BF8CCD9F"
+  },
+  {
+    "id": "leg-251143",
+    "title": "Ordinance amending the Administrative Code to remove the Fire Commission\u2019s authority to appoint the Fire Department physician and to revise the required qualifications for one of the Deputy Fire Chiefs.",
+    "date": "11/18/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7759350&GUID=D2968BBE-E404-416F-B4E9-A04DB473F594"
+  },
+  {
+    "id": "leg-251099",
+    "title": "Ordinance amending the Planning Code to make various clarifying and typographical changes, and prohibit massage establishments and massage sole practitioner uses as accessory uses to residential uses; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and making findings of public necessity, convenience, and welfare pursuant to Planning Code, Section 302.",
+    "date": "11/18/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7742825&GUID=FAAFA20B-21F1-490E-ABA3-19A1B3528902"
+  },
+  {
+    "id": "leg-251100",
+    "title": "Ordinance amending the Planning Code to add a new Appendix P to Article 10, Preservation of Historical, Architectural, and Aesthetic Landmarks, to create the Chula-Abbey Early Residential Historic District; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and making public necessity, convenience, and welfare findings under Planning Code, Section 302, and findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "11/18/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7730979&GUID=A4F54F27-251D-48B3-9600-1CDA1D4747C2"
+  },
+  {
+    "id": "leg-251149",
+    "title": "Resolution retroactively authorizing the San Francisco Recreation and Park Department to accept and expend a grant in the amount of $2,000,000 from the United States Environmental Protection Agency for the Brownfield Cleanup Program to support environmental remediation and park redevelopment at India Basin Shoreline Park (Project) for a term of October 1, 2025, through to estimated end date of October 31, 2029; approving the associated grant agreement; and authorizing the Recreation and Park Department General Manager acting in consultation with the City Attorney to enter into modifications and amendments to the agreement that do not materially increase the obligations or liabilities of the City and are necessary to effectuate the purposes of the Project or this Resolution.",
+    "date": "11/18/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7759355&GUID=022B801A-0E70-42EB-B933-900B14FC8084"
+  },
+  {
+    "id": "leg-251148",
+    "title": "Resolution retroactively authorizing the Recreation and Park Department to accept and expend a grant in the amount of $1,150,000 from the San Francisco Bay Restoration Authority Measure AA Grant for the India Basin Shoreline Park Project; to enter into the associated grant agreement (as required by Charter, Section 9.118(a)) that requires the continued operation of the property for public recreation for a period of 20-years upon project completion; and to enter into modifications and amendments to the grant agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the agreement or this Resolution.",
+    "date": "11/18/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7759354&GUID=72819F8A-4B9D-4592-A48B-BA349CBD6900"
+  },
+  {
+    "id": "leg-251101",
+    "title": "Ordinance amending the Planning Code to add a new Appendix Q to Article 10, Preservation of Historical, Architectural, and Aesthetic Landmarks, to create the Alert Alley Early Residential Historic District; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; and making public necessity, convenience, and welfare findings under Planning Code, Section 302, and findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "11/18/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7730999&GUID=15978003-E2B1-4B15-9B46-3FFACF2255CA"
+  },
+  {
+    "id": "leg-251142",
+    "title": "Resolution determining that the person-to-person, premise-to-premise transfer of a Type-20 off-sale beer and wine liquor license to Caldero LLC, doing business as Caldero, located at 2149 Union Street (District 2), will serve the public convenience or necessity of the City and County of San Francisco, in accordance with California Business and Professions Code, Section 23958.4; and requesting that the California Department of Alcoholic Beverage Control impose conditions on the issuance of the license.",
+    "date": "11/14/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7748306&GUID=6A4D09E9-2889-4F7D-AA96-B9F93A38253C"
+  },
+  {
+    "id": "leg-251004",
+    "title": "Ordinance amending the Administrative Code provisions related to the Shared Spaces Program to remove the Planning Department as a coordinating entity conducting design review, eliminate application requirements of documented community outreach and neighbor notice, and eliminate public accessibility and alternate public seating requirements; amending the Public Works Code to eliminate requirements of public notice of application; and affirming the Planning Department\u2019s determination under the California Environmental Quality Act.",
+    "date": "10/7/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7697871&GUID=2ADEBCCF-54C2-405D-8479-4A271F2A9D33"
+  },
+  {
+    "id": "leg-251002",
+    "title": "Ordinance amending the Business and Tax Regulations Code to revise how the Access Line Tax (\u201cALT\u201d) applies to Voice Over Internet Protocol (\u201cVoIP\u201d) services to require collection and remittance of the ALT on VoIP services using the lower of the number of telephone numbers provided to a subscriber and the number of calls that the subscriber can make and/or receive at the same time using those telephone numbers.",
+    "date": "10/7/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7697869&GUID=4D3DCDD6-3D06-4151-BFBC-52F335218354"
+  },
+  {
+    "id": "leg-250926",
+    "title": "Ordinance amending the Planning Code to 1) require property owners seeking to demolish residential units to replace all units that are being demolished; 2) prohibit demolition permits for five years if a tenant vacated a unit in the building to be demolished due to harassment or under an improper buyout agreement, subject to certain conditions; 3) require relocation assistance to affected occupants of units being demolished and to former occupants of those units who vacated due to certain buyout agreements, owner move-ins, pursuant to the Ellis Act, or due to serious and imminent hazards, with additional assistance and protections for lower-income tenants; 4) modify the Planning Code definition of demolition; 5) modify the conditional use criteria that apply to projects to demolish residential units; amending the Administrative Code to 6) require landlords to provide additional relocation assistance to lower-income tenants who are being required to vacate temporarily due to capital improvements or rehabilitation work; 7) update the standards and procedures for hearings related to tenant harassment; 8) require additional disclosures in buyout agreements; 9) require an additional disclosure in notice of intent to withdraw units under the Ellis Act; 10) making various non-substantive changes and clarifications; affirming the Planning Department\u2019s determination under the California Environmental Quality Act; making public necessity, convenience, and welfare findings under Planning Code, Section 302; and making findings of consistency with the General Plan and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "10/7/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7657295&GUID=21391AF0-540A-430F-9B0C-D58EA802CFD2"
+  },
+  {
+    "id": "leg-251021",
+    "title": "Resolution determining that the person-to-person, premise-to-premise transfer of a Type-21 off-sale general beer, wine, and distilled spirits liquor license to Amal's Market, located at 1416 Haight Street (District 5), will serve the public convenience or necessity of the City and County of San Francisco, in accordance with California Business and Professions Code, Section 23958.4; and requesting that the California Department of Alcoholic Beverage Control impose conditions on the issuance of the license.",
+    "date": "10/3/2025",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7695310&GUID=726CF640-9E4E-41FE-A11E-B2101025443C"
+  },
+  {
+    "id": "leg-251024",
+    "title": "Ordinance amending the Building Code to create a permit and permitting process for Hydrogen-Fueling Station Equipment installation; and affirming the Planning Department\u2019s determination under the California Environmental Quality Act.",
+    "date": "10/21/2025",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7700068&GUID=66D3C5D1-544A-4C7F-9784-E0E3ADCB67E1"
+  },
+  {
+    "id": "leg-260031",
+    "title": "Resolution urging Governor Gavin Newsom and the California Public Utilities Commission (CPUC) to hold Pacific Gas & Electric Company (PG&E) accountable for its actions.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7798859&GUID=2527D4A4-BCF2-4A02-B5D7-7F87A6A4D334"
+  },
+  {
+    "id": "leg-260026",
+    "title": "Resolution retroactively approving a Memorandum of Understanding (MOU) with the Cities of Oakland and San Jose and the Counties of Alameda, Contra Costa, Marin, Monterey, San Mateo, Santa Clara and Sonoma that provides governance structures and procedures for application, allocation and distribution of federal Urban Areas Security Initiative (UASI) grant funds to the Bay Area Urban Area, as well as for other Federal grant funds to the Bay Area Urban Area as permitted under the MOU; and continues San Francisco as the primary grantee and fiscal agent for UASI grant funds to the Bay Area Urban Area, as well as for other Federal grant funds to the Bay Area Urban Area as permitted under the MOU for the period December 1, 2025, through November 30, 2030.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7798854&GUID=0870EAE2-2BD0-48AA-B762-C919C7E50784"
+  },
+  {
+    "id": "leg-260003",
+    "title": "Resolution approving the settlement of the unlitigated claim filed by Robert DyFoon against the City and County of San Francisco for $32,500; the claim was filed on February 25, 2025; the claim involves property damage arising from flooding alleged to be caused by a water service line rupture.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788935&GUID=E4AA5017-25A3-43B0-B531-D36EBA198491"
+  },
+  {
+    "id": "leg-260029",
+    "title": "Resolution retroactively authorizing the Mayor\u2019s Office to accept and expend a grant in the amount of $700,000 from Tipping Point Community for the establishment of a Director of Strategic Partnerships to advance public-private partnership initiatives aligned with Mayoral priorities for the period of January 20, 2026, through July 1, 2028.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7798857&GUID=C7B3DC43-A68A-4E29-BC77-313AB5C40A2E"
+  },
+  {
+    "id": "leg-260001",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by Kisha Henderson against the City and County of San Francisco for $55,000; the lawsuit was filed on March 11, 2024, in San Francisco Superior Court, Case No. CGC-24-612822; entitled Kisha Henderson v. City and County of San Francisco; the lawsuit involves an employment dispute.",
+    "date": "1/6/2026",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788925&GUID=E1345ECC-55A3-4CD3-B574-6F192A1AC3A5"
+  },
+  {
+    "id": "leg-260033",
+    "title": "Resolution commemorating the anniversary of Roe v. Wade and reaffirming the City and County of San Francisco\u2019s commitment to safeguarding reproductive freedom through enforcement, data privacy, non-cooperation policies, and the advancement of reproductive justice.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7798861&GUID=2290FAC0-C0BF-4437-ADF1-1990819B0B20"
+  },
+  {
+    "id": "leg-260005",
+    "title": "Resolution approving Amendment No. 1 to the agreement between the City, acting by and through, the Department of Public Health (DPH), and HealthRight 360, to provide withdrawal management and residential treatment services, to extend the term by two years from June 30, 2026, for a new term of July 1, 2024, through June 30, 2028, and to increase the amount by $28,600,872 for a new total not to exceed amount of $38,566,219; and to authorize DPH to enter into amendments or modifications to the agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the agreement or this Resolution.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788946&GUID=7422569F-84F7-4A30-8E54-5230026AC40E"
+  },
+  {
+    "id": "leg-260004",
+    "title": "Resolution approving the settlement of the unlitigated claim filed by Everen Capital Corporation against the City and County of San Francisco for $2,192,098.28; the claim was filed on May 22, 2025; the claim involves a refund of gross receipts and homelessness gross receipts taxes.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788921&GUID=074DCA8E-C2EF-4082-8436-67D0EC06E17B"
+  },
+  {
+    "id": "leg-260027",
+    "title": "Resolution authorizing the City and County of San Francisco (\u201cCity\u201d), acting by and through the Mayor\u2019s Office of Housing and Community Development (\u201cMOHCD\u201d), to execute a Standard Agreement with the California Department of Housing and Community Development (\u201cHCD\u201d) for a grant awarded in the amount of $1,500,000 under HCD\u2019s Prohousing Incentive Program (\u201cPIP\u201d); accept and expend anticipated revenue of PIP grant funds in the amount of $1,500,000, for the period effective upon the execution date of the Standard Agreement through June 30, 2029; and authorizing MOHCD to enter into any additions, amendments, or other modifications to the Standard Agreement and any PIP documents that do not materially increase the obligations or liabilities of the City or materially decrease the benefits to the City.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7798855&GUID=B5AA00D0-95C4-410D-B559-DCF6469D90D8"
+  },
+  {
+    "id": "leg-260010",
+    "title": "Resolution approving the terms and conditions and authorizing the General Manager of the San Francisco Public Utilities Commission (SFPUC) and/or City\u2019s Director of Property to execute certain agreements with the City of Daly City, consisting of (i) a License Amendment to extend the term of SFPUC License No. P4703 for Habitat Mitigation, Monitoring, and Facilities by an additional five years, for a total of 10 years and four months, for an additional use fee of $23,503 and a total use fee of $51,015; (ii) a 50-year License Agreement to construct, operate, and maintain SFPUC-owned overflow facilities at Lake Merced for a total use fee of $2,278 on a 9,286-square-foot portion of San Francisco Assessor\u2019s Parcel Block No. 7283, Lot No. 004, designated as SFPUC Parcel No. 55 (Lake Merced Tract); and (iii) a Purchase and Sale Agreement, Quitclaim Deed, and Easement Deed for the quitclaim of two existing SFPUC tunnel easements totaling 46,992 square feet on San Francisco Assessor\u2019s Parcel Block No. 7284, Lot Nos. 001 and 003, and Block No. 7282, Lot Nos. 005 and 006, and the sale of five easements for stormwater facilities totaling approximately 180,010-square-feet on SFPUC Parcel No. 55 for a purchase price of $71,000 pursuant to Charter, Section 9.118, effective on the date the agreements are executed by both parties, for a total combined amount of $96,781; and adopting findings that the conveyance is consistent with the General Plan, and the eight priority policies of Planning Code, Section 101.1.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7790580&GUID=AF0E42EE-F072-4EFE-BB5F-3ECAA657892C"
+  },
+  {
+    "id": "leg-260008",
+    "title": "Resolution approving the Award of Professional Services Agreement for program advisory services related to the Waterfront Resilience Program between Jacobs Engineering Group Inc., and the City and County of San Francisco, acting by and through its Port Commission, in an amount not to exceed $40,000,000 for a term of five years, commencing on March 2, 2026, through March 1, 2031, with a single option to extend for five additional years, exercisable at the sole discretion of the Port Commission, pursuant to Charter, Section 9.118(b).",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788936&GUID=AD6D043C-D5A9-49AE-BF25-8DECDA3DCE63"
+  },
+  {
+    "id": "leg-260002",
+    "title": "Resolution approving the settlement of the unlitigated claims filed by WPP Group USA, Inc. against the City and County of San Francisco for $350,000; the claims were filed on February 14, 2025; the claims involve a refund of gross receipts and homelessness gross receipts taxes.",
+    "date": "1/6/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7788908&GUID=E98E7910-BCF8-4706-BA5A-0A39AB41DC3C"
+  },
+  {
+    "id": "leg-260101",
+    "title": "Resolution supporting the statewide \u201cWe Can\u2019t Wait\u201d campaign; supporting the United Educators of San Francisco (UESF) in their right to take collective action; and urging Governor Newsom and the State Legislature to stabilize the funding for public education to ensure full staffing, smaller classroom sizes, fair wages and benefits for educators and staff.",
+    "date": "1/28/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863773&GUID=DEE844D9-0F23-432C-89B0-B3ECA18579CF"
+  },
+  {
+    "id": "leg-260098",
+    "title": "Resolution adding the Commemorative Street Name \u201cJames Richards Way\u201d on Oakdale Avenue between Third Street to Newhall Street.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863770&GUID=B7B1A10C-512D-4C1A-8189-C8E08E85D4D4"
+  },
+  {
+    "id": "leg-260097",
+    "title": "Resolution recognizing and celebrating Black History Month during the month of February 2026 in the City and County of San Francisco.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863769&GUID=1C40E1FF-74D5-417F-BEFA-7A5081C6DC3B"
+  },
+  {
+    "id": "leg-260094",
+    "title": "Resolution urging the City of San Francisco to strengthen fire displacement response systems and prevent newly displaced residents from becoming homeless.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863766&GUID=A22F9BA0-9981-46BB-8B93-51A46BD5FF8C"
+  },
+  {
+    "id": "leg-260092",
+    "title": "Resolution reaffirming San Francisco's commitment to the rights of its transgender, gender-nonconforming, intersex, and two-spirit (TGNCl2S) residents and employees to obtain gender-affirming care without discrimination; and strongly urging healthcare providers and insurance carriers operating within the city to adhere to state and local laws mandating access to medically necessary healthcare, including gender-affirming care.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "failed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863764&GUID=864040D1-8083-4952-ADCD-36C28ADBD460"
+  },
+  {
+    "id": "leg-260086",
+    "title": "Resolution retroactively authorizing the Department of the Environment (\u201cEnvironment Department\u201d) to accept and expend a grant award from TECH Clean California in the amount of $299,091 for the period beginning on or about January 20, 2026, through March 31, 2027, to provide heat pump water heaters as part of renovation and repair projects through Low-Income Investment Fund\u2019s Child Care Facilities Fund and to expand the reach of electrification training to organizations and contractors working in housing rehabilitation programs; and authorizing the Director of the Environment Department to execute the grant agreement and enter into amendments or modifications to the grant agreement that are necessary to effectuate the purpose of the grant agreement and/or this Resolution.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863759&GUID=0181607C-DDAC-4FB8-B3A2-BCFB1F797BAB"
+  },
+  {
+    "id": "leg-260078",
+    "title": "Resolution approving and authorizing the Director of Property, on behalf of the Office of the Public Defender, to execute a First Amendment to Office Lease for the continued use of office space located at 258-A Laguna Honda Boulevard with Choo Laguna LLC, as Landlord, effective upon approval of the Resolution by the Board of Supervisors and the Mayor and upon execution of the Amendment by the Director of Property, with an estimated commencement date of March 1, 2026, and terminating on February 28, 2029, at the monthly base rent of $4,825.50 for a total annual base rent of $57,906 increased by $145.50 and $148.50 per month in the second and third years, respectively, with one three-year option to extend; and authorizing the Director of Property to take other actions with respect to the Amendment that the Director of Property deems to be in the best interest of City, do not materially increase the obligations or liabilities of the City, do not materially decrease the benefits to the City, are necessary or advisable to effectuate the purposes of the Amendment or this Resolution, and are in compliance with all applicable laws, including the City\u2019s Charter.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808353&GUID=7D4B24C9-BD21-4265-8A98-BD4FEB830CAC"
+  },
+  {
+    "id": "leg-260074",
+    "title": "Resolution retroactively approving Amendment No. 50 to the Treasure Island Land and Structures Master Lease between the Treasure Island Development Authority and the United States Navy to extend the term for one year to commence December 1, 2025, for a total term of November 19, 1998, through November 30, 2026; and to authorize the Treasure Island Director to execute and enter into amendments to the Lease that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes and intent of this Resolution.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808090&GUID=DAB739C4-E2F0-4505-8E7C-4C0F97F13805"
+  },
+  {
+    "id": "leg-260096",
+    "title": "Resolution adding the commemorative street name \u201cTien Fuh Wu Way\u201d on Joice Street between Clay Street and Sacramento Street, in recognition of Tien Fuh Wu\u2019s contributions to the women\u2019s rights and anti-trafficking movements in San Francisco\u2019s Chinatown.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863768&GUID=EDF19F72-5585-4D72-AA17-A16A8836DCDB"
+  },
+  {
+    "id": "leg-260091",
+    "title": "Resolution re-authorizing the execution and delivery of Tax-Exempt Lease Revenue Commercial Paper Certificates of Participation, Series 3 and Series 4, and Taxable Lease Revenue Commercial Paper Certificates of Participation, Series 3-T and Series 4-T, in an aggregate principal amount not to exceed $100,000,000 to finance the costs of the acquisition, construction, and rehabilitation of capital improvements and capital equipment approved by the Board of Supervisors and the Mayor; authorizing the maintenance of a liquidity facility in the total stated amount of $109,000,000; and approving and authorizing execution of a second supplement to trust agreement, a third amendment to site lease, a third amendment to sublease, an amended and restated revolving credit agreement, a revolving bank certificate, an amended and restated fee agreement, an offering memorandum, dealer agreements, and certain other related financing documents; and authorizing other related actions, as defined herein.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863763&GUID=8475054D-D09C-4A98-8896-667EC9D73878"
+  },
+  {
+    "id": "leg-260085",
+    "title": "Ordinance appropriating $311,269 from the General Reserve to the Municipal Transportation Agency to support free one-hour parking in the Portsmouth Square Parking Garage from February 8 through March 8, 2026, and transit fares for the Lunar New Year Parade on March 7, 2026, of Fiscal Year (FY) 2025-2026.",
+    "date": "1/27/2026",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863758&GUID=4AF31C68-C631-4204-AB86-76E929B362AB"
+  },
+  {
+    "id": "leg-260077",
+    "title": "Resolution approving the settlement of a citation issued by the Bay Area Air Quality Management District against the City and County of San Francisco through the San Francisco Sheriff\u2019s Office for $30,450; the citation was issued on June 13, 2024; the citation involves an alleged public nuisance stemming from the discharge of chemical agents.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808318&GUID=5CD88773-7831-4B1D-B1E7-AF374A092776"
+  },
+  {
+    "id": "leg-260095",
+    "title": "Resolution supporting California State Assembly Bill No. 1633, introduced by Assembly Member Matt Haney, which seeks to establish the Private Detention Facility Tax Law to impose an annual tax on private detention facility operators and direct revenues to the Due Process for All Fund to support immigration-related services, and reaffirming San Francisco\u2019s commitment to immigrant rights, due process, and community well-being.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863767&GUID=02518A1A-2C25-495A-ACD1-6BC666725681"
+  },
+  {
+    "id": "leg-260090",
+    "title": "Resolution re-authorizing the execution and delivery of Tax-Exempt Lease Revenue Commercial Paper Certificates of Participation, Series 1 and Series 2, and Taxable Lease Revenue Commercial Paper Certificates of Participation, Series 1-T and Series 2-T, in an aggregate principal amount not to exceed $150,000,000 to finance the costs of the acquisition, construction, and rehabilitation of capital improvements and capital equipment approved by the Board of Supervisors and the Mayor; authorizing the delivery of an alternate credit facility in the total stated amount of $163,500,000; and approving and authorizing execution of a third supplement to trust agreement, a third amendment to site lease, a third amendment to sublease, a letter of credit and reimbursement agreement, a fee agreement, an offering memorandum, dealer agreements, and certain other related financing documents, and authorizing other related actions.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863762&GUID=1049E035-78D5-4D27-9D85-834CA6BB189F"
+  },
+  {
+    "id": "leg-260076",
+    "title": "Resolution approving Amendment No. 2 to the agreement between the City and County of San Francisco, acting by and through the Department of Public Health (DPH), and YMCA of San Francisco, to provide mental health services to children and youth, to extend the term by one year from June 30, 2027, for a new term of July 1, 2018, through June 30, 2028, and to increase the amount by $1,590,148 for a new total not to exceed amount of $11,577,751; and to authorize DPH to enter into amendments or modifications to the agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the agreement or this Resolution.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808264&GUID=43759BFF-36ED-4D25-A431-118E622C3CD7"
+  },
+  {
+    "id": "leg-260093",
+    "title": "Resolution condemning the systematic dismantling of the San Francisco immigration court system and urging the Department of Justice to keep the San Francisco Immigration Court open to guarantee due process for all immigrants seeking a path towards citizenship.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863765&GUID=D62BE299-4E0C-4E78-8601-7621C9E1A98F"
+  },
+  {
+    "id": "leg-260089",
+    "title": "Resolution approving the 10th Amendment to Contract No. SFMTA-2016-17, Paratransit Broker and Operating Agreement, between the City and County of San Francisco, acting by and through, the Municipal Transportation Agency (SFMTA) and Transdev Services, Inc., to provide paratransit services, to extend the term by two years from June 30, 2026, for a total term from July 1, 2016, through June 30, 2028, and to increase the amount by $30,831,549 for a total not to exceed amount of $339,102,572; and to authorize the SFMTA to enter into any amendments or modifications to the agreement that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the agreement or this Resolution.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7863761&GUID=F3718554-7F7E-4483-953A-D116F78B0C9D"
+  },
+  {
+    "id": "leg-260079",
+    "title": "Resolution approving and authorizing a grant of a permanent easement on San Francisco Public Utilities Commission\u2019s (SFPUC) property located at 1800 Jerrold Avenue (Assessor\u2019s Parcel Block No. 5262, Lot No. 009), consisting of an easement of approximately 2,944-square-feet of land within SFPUC\u2019s Southeast Water Pollution Control Plant, between the City and Pacific Gas & Electric (PG&E), for the purpose of replacing and relocating SFPUC\u2019s existing solids treatment facilities at its Southeast Water Pollution Control Plant with more reliable, efficient, and modern technologies and facilities, at no cost for a term effective upon approval of this Resolution and recordation of the agreement by the City\u2019s Office of the Assessor Recorder, pursuant to Charter, Section 9.118, and until PG&E surrenders or abandons the easement area or the agreement is terminated; determining that the grant of the easement at no cost will serve a public purpose by delivering an increased natural gas supply to SFPUC\u2019s existing Southeast Water Pollution Control Plant and its new biosolids digesters facilities, in accordance with Administrative Code, Section 23.30; adopting findings of consistency with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and authorizing the Director of Property to execute documents, make certain modifications and take certain actions in furtherance of this Resolution, as defined herein.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808899&GUID=871CBA32-EFBE-48F2-8E91-C3E2ABFCABE4"
+  },
+  {
+    "id": "leg-260075",
+    "title": "Resolution approving Amendment No. 2 between the City, acting by and through the Office of Contract Administration, and Vitalant for blood and blood products for the Department of Public Health, extending the contract by five years for a total term of 10 years from October 1, 2021, through September 30, 2031, and increasing the contract amount by $18,259,000 for a total not to exceed amount of $28,249,000 effective upon approval of this Resolution; and to authorize the Office of Contract Administration to enter into amendments or modifications to the contract that do not materially increase the obligations or liabilities to the City and are necessary to effectuate the purposes of the contract or this Resolution.",
+    "date": "1/27/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7808250&GUID=3266A8DB-B0DD-45DF-B6D4-EC0AD6E84D1B"
+  },
+  {
+    "id": "leg-260071",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Tietz/Beneke house, located at 657 Chenery Street, Assessor\u2019s Parcel Block No. 6742, Lot No. 030.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806786&GUID=C28B990C-5BCE-4A71-9EFF-5B9CEA835FD9"
+  },
+  {
+    "id": "leg-260069",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Shaughnessy House, located at 394 Fair Oaks Street, Assessor\u2019s Parcel Block No. 6511, Lot No. 042.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806784&GUID=031E1EC8-9054-4D3E-BB4F-4C2A7333978B"
+  },
+  {
+    "id": "leg-260068",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for Second Church of Christ Scientist, located at 651 Dolores Street, Assessor\u2019s Parcel Block No. 3598, Lot No. 172.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806783&GUID=A6821F00-CD8D-4999-A4E2-0696D30BBAA8"
+  },
+  {
+    "id": "leg-260067",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Power House, located at 1526 Masonic Avenue, Assessor\u2019s Parcel Block No. 2616, Lot No. 039.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806782&GUID=1DBE5697-482D-4258-8798-E678BC6FC08A"
+  },
+  {
+    "id": "leg-260066",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Poole-Bell House, located at 192 Laidley Street, Assessor\u2019s Parcel Block No. 6665, Lot No. 107.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806781&GUID=55091D23-F58D-4C87-A0E4-862AA60B7219"
+  },
+  {
+    "id": "leg-260064",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for Lebanon Presbyterian Church/Noe Valley Ministry, located at 1021 Sanchez Street, Assessor\u2019s Parcel Block No. 3652, Lot No. 033.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806779&GUID=84BFE3E2-245E-4B92-83A4-9F5291CAA9C5"
+  },
+  {
+    "id": "leg-260063",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Mission Dolores Academy, located at 3371-16th Street, Assessor\u2019s Parcel Block No. 3566, Lot No. 055.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806778&GUID=BF6CCB09-D5E2-4A35-BD4B-A2674D09A42B"
+  },
+  {
+    "id": "leg-260062",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Lange House, located at 199 Carl Street, Assessor\u2019s Parcel Block No. 1273, Lot No. 034.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806777&GUID=65B83788-F8C5-4F2B-B70E-C92C9F105D89"
+  },
+  {
+    "id": "leg-260060",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for John J. Clark House, located at 210 Douglass Street, Assessor\u2019s Parcel Block No. 2691, Lot No. 002.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806775&GUID=58E9C299-557F-4CD9-A725-DDAB5E1C9E9C"
+  },
+  {
+    "id": "leg-260059",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the James C. Hormel Mansion, located at 181 Buena Vista Avenue East, Assessor\u2019s Parcel Block No. 1258, Lot No. 026.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806774&GUID=EDEDBF65-8DCF-4F69-A34A-2FCDABFB3E52"
+  },
+  {
+    "id": "leg-260058",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for Holy Innocents Church, located at 455 Fair Oaks Street, Assessor\u2019s Parcel Block No. 6533, Lot No. 027.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806773&GUID=EC7EF786-7084-47F6-820E-0DE03A9BC386"
+  },
+  {
+    "id": "leg-260057",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Henry Street Rowhouses, located at 191-197 Henry Street, Assessor\u2019s Parcel Block No. 3540, Lot No. 092.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806772&GUID=4A42EF16-ED20-4C3E-885E-702483CC8672"
+  },
+  {
+    "id": "leg-260056",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Guerrero Street Double Stick Eastlake house, located at 1415-1417 Guerrero Street, Assessor\u2019s Parcel Block No. 6568, Lot No. 011B.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806771&GUID=F4F7FB40-4340-421C-8B7B-574926632A91"
+  },
+  {
+    "id": "leg-260055",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for Golden Gate Lutheran Church, located at 3689-19th Street, Assessor\u2019s Parcel Block No. 3598, Lot No. 060.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806770&GUID=A79925A2-9990-4B4C-84BD-787DFAEA485E"
+  },
+  {
+    "id": "leg-260054",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Floyd Spreckels Mansion, located at 737 Buena Vista Avenue West, Assessor\u2019s Parcel Block No. 1256, Lot No. 078.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806769&GUID=C3177DC6-B9C2-4F26-B15A-CE76688B4D63"
+  },
+  {
+    "id": "leg-260053",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Engine Company No. 44 building, located at 3816-22nd Street, Assessor\u2019s Parcel Block No. 3622, Lot No. 018.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806768&GUID=67188D31-7150-4D6E-9B5A-204E88A5559F"
+  },
+  {
+    "id": "leg-260052",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Fernando Nelson House, located at 701 Castro Street, Assessor\u2019s Parcel Block No. 3603, Lot No. 075.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806767&GUID=BB7664D3-4B56-4410-B99B-B86CFC767469"
+  },
+  {
+    "id": "leg-260051",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Elliott M. Wilson Home, located at 1335 Guerrero Street, Assessor\u2019s Parcel Block No. 6532, Lot No. 026.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806766&GUID=8033A89B-B3B3-4D12-B5FE-055997FDAB35"
+  },
+  {
+    "id": "leg-260050",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Duboce Triangle Greek Revival Home, located at 2173 15th Street, Assessor\u2019s Parcel Block No. 3560, Lot No. 022.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806765&GUID=D27F7EC2-B7E0-4E33-815E-297098B3B70A"
+  },
+  {
+    "id": "leg-260049",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Charles Katz Home, located at 1200 Dolores Street, Assessor\u2019s Parcel Block No. 6550, Lot No. 043.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806764&GUID=DAEA7753-289D-449F-87BC-D9030A59E843"
+  },
+  {
+    "id": "leg-260048",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Buena Vista Farmhouse, located at 11 Piedmont Street, Assessor\u2019s Parcel Block No. 2617A, Lot No. 026.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806763&GUID=693F524F-8E5A-4F61-A42D-48111A6F23E0"
+  },
+  {
+    "id": "leg-260047",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Born Home, located at 99 Divisadero Street, Assessor\u2019s Parcel Block No. 2610, Lot No. 001.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806762&GUID=8B5EEA11-3B74-4B82-BCAF-631FB14FD03E"
+  },
+  {
+    "id": "leg-260046",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Hinkel House, located at 740 Castro Street, Assessor\u2019s Parcel Block No. 2752, Lot No. 014.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806761&GUID=6B08545D-C50F-496E-A1A5-7A2E5FFF02E5"
+  },
+  {
+    "id": "leg-260045",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the Alexander Adams Home, located at 1450 Masonic Avenue, Assessor\u2019s Parcel Block No. 2603, Lot No. 009.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806760&GUID=AF326099-87EB-4E4C-BE06-80F1020B404B"
+  },
+  {
+    "id": "leg-260043",
+    "title": "Resolution urging the Controller to report on the ability of all residents to contribute to and benefit from shared economic prosperity in the Controller\u2019s Status of the San Francisco Economy Report.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806758&GUID=EA70BD39-CCED-4072-95CD-C9CCFEB1CCC2"
+  },
+  {
+    "id": "leg-260016",
+    "title": "Resolution authorizing the Tax Collector to sell certain parcels of tax-defaulted real property at Public Auction and Sealed Bid Auction.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793457&GUID=EB54DF39-BE14-4D8A-A8F9-F2433A1C8FD0"
+  },
+  {
+    "id": "leg-260041",
+    "title": "Resolution retroactively authorizing the Police Department to accept and expend a grant in the amount of $1,119,862 from the California Department of Justice (DOJ) for the 2025 Tobacco Grant Program to fund personnel and operating expenses for the SFPD\u2019s Drug Market Agency Coordination Center (DMACC) with the project period beginning on November 21, 2025, through June 30, 2029.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806756&GUID=9F388D43-C9E0-4AA9-A113-245DE641FCBE"
+  },
+  {
+    "id": "leg-260014",
+    "title": "Resolution approving and authorizing the terms and conditions and authorizing the General Manager of the San Francisco Public Utilities Commission and/or the Director of Property to execute a Purchase and Sale Agreement and Easement Deed with Robert Tsui and Thuyen Ly Tsui, as Trustees of the Tsui Family Trust, for the acquisition of a 298.2-square-foot easement for a subsurface sewer tunnel under and across a portion of Assessor's Parcel Block No. 5861, Lot No. 022, known as 495 Gaven Street, San Francisco, for a total amount not to exceed $25,000 and effective on the date the Purchase and Sale Agreement is executed by both parties, pursuant to Charter, Section 9.118; adopting findings that the conveyance is consistent with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and adopting a finding that the Purchase and Sale Agreement furthers a proper public purpose sufficient to meet Administrative Code, Section 23.30, market value requirements.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793440&GUID=B973CC38-0890-4873-953F-F4F9388E0D5D"
+  },
+  {
+    "id": "leg-260061",
+    "title": "Resolution initiating landmark designation under Article 10 of the Planning Code for the buildings located at 560 Noe Street (Kirby House), Assessor\u2019s Parcel Block No. 3583, Lot No. 012, and 552 Noe Street (Phoenix Brewery), Assessor\u2019s Parcel Block No. 3583, Lot No. 011.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806776&GUID=99F7CAE0-ED93-4922-8AB0-A2033634ADBE"
+  },
+  {
+    "id": "leg-260040",
+    "title": "Resolution authorizing the Recreation and Park Department to accept and expend a grant increase in the amount of $3,091,148 for a total grant amount of $8,591,148 from California State Coastal Conservancy for the India Basin Shoreline Park Redevelopment Project; and approving an amendment to the existing grant agreement to require a contract performance period that will remain in effect through December 31, 2048.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7806755&GUID=2B600C48-9B26-4F0D-B5BB-637F16F79B7C"
+  },
+  {
+    "id": "leg-260019",
+    "title": "Resolution approving the third contract amendment with IMCO Parking, LLC, and the City and County of San Francisco, by and through the San Francisco Municipal Transportation Agency, for the management of two off-street parking facilities under the jurisdiction of the Port of San Francisco, located at Pier 30-32 and Pier 70, for an increased amount not to exceed $12,000,000 for a total contract amount not to exceed $219,000,000 effective on March 1, 2026, with no changes to the term of February 1, 2023, through January 31, 2032.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793707&GUID=659C1C7C-D96D-479F-B244-0E660A594C08"
+  },
+  {
+    "id": "leg-260012",
+    "title": "Ordinance authorizing settlement of the lawsuit filed by Renee Owens against the City and County of San Francisco for $800,000; the lawsuit was filed on March 1, 2023, in San Francisco Superior Court, Case No. CGC-23-604879; entitled Renee Owens v. Friendship Village, Inc., et al.; the lawsuit involves alleged wrongful death on a City sidewalk.",
+    "date": "1/13/2026",
+    "type": "ordinance",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793424&GUID=5B69CB70-6FAF-4886-B24C-869AFF5EFBBD"
+  },
+  {
+    "id": "leg-260013",
+    "title": "Resolution approving and authorizing the terms and conditions and authorizing the General Manager of the San Francisco Public Utilities Commission and/or the Director of Property to execute a Purchase and Sale Agreement and Easement Deed with Katy O. Cheng, for the acquisition of a 9.2-square-foot easement for a subsurface sewer tunnel under and across a portion of Assessor's Parcel Block No. 5861, Lot No. 023, known as 491 Gaven Street, San Francisco, for a total amount not to exceed $2,500 and effective on the date the Purchase and Sale Agreement is executed by both parties, pursuant to Charter, Section 9.118; adopting findings that the conveyance is consistent with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and adopting a finding that the Purchase and Sale Agreement furthers a proper public purpose sufficient to meet Administrative Code, Section 23.30, market value requirements.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793406&GUID=EF9085E9-A6F4-4356-A6DC-D70A99AF1B7C"
+  },
+  {
+    "id": "leg-260015",
+    "title": "Resolution approving and authorizing the terms and conditions and authorizing the General Manager of the San Francisco Public Utilities Commission and/or the Director of Property to execute a Purchase and Sale Agreement and Easement Deed with Waylen Ruiwei Hall, et al. for the acquisition of a 693.2-square-foot easement for a subsurface sewer tunnel under and across a portion of Assessor's Parcel Block No. 5861, Lot No. 021, known as 499 Gaven Street, San Francisco, for a total amount not to exceed $32,000 and effective on the date the Purchase and Sale Agreement is executed by both parties, pursuant to Charter, Section 9.118; adopting findings that the conveyance is consistent with the General Plan, and the eight priority policies of Planning Code, Section 101.1; and adopting a finding that the Purchase and Sale Agreement furthers a proper public purpose sufficient to meet Administrative Code, Section 23.30, market value requirements.",
+    "date": "1/13/2026",
+    "type": "resolution",
+    "vote": "yea",
+    "result": "passed",
+    "legistar_url": "https://sfgov.legistar.com/LegislationDetail.aspx?ID=7793502&GUID=28A2C467-3AC2-45E2-9E82-8C7D477E5CA3"
+  }
+]

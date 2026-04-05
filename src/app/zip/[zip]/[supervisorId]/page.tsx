@@ -4,9 +4,8 @@ import SupervisorHeader from "@/components/SupervisorHeader";
 import FundingSection from "@/components/FundingSection";
 import DonorAlignmentSection from "@/components/DonorAlignmentSection";
 import DistrictAlignmentSection from "@/components/DistrictAlignmentSection";
-import ConflictSection from "@/components/ConflictSection";
-import BallotSection from "@/components/BallotSection";
 import VotingSection from "@/components/VotingSection";
+import BallotSection from "@/components/BallotSection";
 import SourceLinks from "@/components/SourceLinks";
 import BackToSearch from "@/components/BackToSearch";
 import DistrictMapInset from "@/components/DistrictMapInset";
@@ -47,23 +46,21 @@ export default async function SupervisorPage({ params }: PageProps) {
           <FundingSection funding={supervisor.funding} supervisorName={supervisor.name} />
         )}
 
-        {/* Donor Alignment */}
-        {supervisor.donor_alignment.total_votes_scored > 0 && (
-          <DonorAlignmentSection alignment={supervisor.donor_alignment} />
-        )}
+        {/* Donor Alignment — computed client-side from votes + funding data */}
+        <DonorAlignmentSection
+          votes={votes}
+          funding={supervisor.funding}
+          supervisorName={supervisor.name}
+        />
 
-        {/* District Alignment */}
-        {supervisor.district_alignment.issues_scored > 0 && (
-          <DistrictAlignmentSection
-            alignment={supervisor.district_alignment}
-            district={supervisor.district}
-          />
-        )}
-
-        {/* Conflict Detection */}
-        {supervisor.district_alignment.against_district_with_donors.length > 0 && (
-          <ConflictSection conflicts={supervisor.district_alignment.against_district_with_donors} />
-        )}
+        {/* District Alignment — computed client-side from votes + ballot results */}
+        <DistrictAlignmentSection
+          votes={votes}
+          ballotResults={district?.ballot_results ?? []}
+          funding={supervisor.funding}
+          district={supervisor.district}
+          supervisorName={supervisor.name}
+        />
 
         {/* Ballot Measure Positions */}
         {district && district.ballot_results.length > 0 && (
