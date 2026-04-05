@@ -83,6 +83,11 @@ export default function DonorAlignmentSection({ votes, funding, supervisorName }
                 {" "}&middot;{" "}
                 {POLICY_CATEGORIES[ex.category]?.label ?? ex.category}
               </p>
+              {ex.reason && (
+                <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-1 italic">
+                  {ex.reason}
+                </p>
+              )}
             </div>
           ))}
         </div>

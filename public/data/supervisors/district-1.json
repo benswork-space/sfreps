@@ -123,6 +123,246 @@
         "amount": 25750.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "THOMAS J. COATES",
+        "amount": 25000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MALCHOW SCHLACKMAN & HOPPEY INC.",
+        "amount": 24609.6,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Black Fire Fighters Association",
+        "amount": 22935.18,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Evan Williams",
+        "amount": 20000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "BIG ROCK LLC",
+        "amount": 20000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANGELA ALIOTO",
+        "amount": 20000.0,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "California YIMBY Victory Fund",
+        "amount": 15000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Douglas Chan",
+        "amount": 14801.26,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "PROVIDIAN BANCORP SERVICES",
+        "amount": 12500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Andrew Jordan",
+        "amount": 10000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Michael John Kerns",
+        "amount": 10000.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "Gaetani Real Estate",
+        "amount": 10000.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Calvin French-Owen",
+        "amount": 9980.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Labor & Working Families Slate",
+        "amount": 9861.77,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Douglas S. Chan",
+        "amount": 8470.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ari Freisinger",
+        "amount": 8000.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "CLEAR CHANNEL RADIO",
+        "amount": 7500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Aaron Peskin for DCCC",
+        "amount": 6000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Labor Council Labor and Neighbor",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Phil Ting for Treasurer 2026",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Paul Graham",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Leah Culver",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Robert J. McCarthy",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "RONALD CONWAY",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DV FIELDS LLC(ROGER FIELDS)",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MENLO LAND & CAPITAL XIX, LLC(ROGER FIELDS)",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "San Francisco Association of Realtors Legal Action Fund",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "ABM INDUSTRIES INCORPORATED",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DUANE MORRIS, LLP",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "LITTLE FOX THEATRE INVESTMENTS",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "BERNARD A. OSHER TRUST",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DOUGLAS GOLDMAN",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Morgan Beller",
+        "amount": 4990.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "John Lyons",
+        "amount": 4990.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Daly 08",
+        "amount": 4520.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Douglas  Chan",
+        "amount": 4500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "David Stiepleman",
+        "amount": 4000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "David Wasserman Attorney at Law",
+        "amount": 4000.0,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "Stephen Hayes",
+        "amount": 3600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Asheesh Birla",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
     "top_committees": [
@@ -149,6 +389,102 @@
         "amount": 39750.0,
         "type": "committee",
         "industry": "Real Estate & Development"
+      },
+      {
+        "name": "PACIFIC TELESIS GROUP AND ITS SUBSIDIARIES, AFFILIATES OF SBC COMMUNICATIONS, INC.",
+        "amount": 25000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "COALITION FOR BETTER HOUSING PAC",
+        "amount": 24000.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Building Owners and Managers Association of SF PAC - IE",
+        "amount": 20000.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Service Employees International Union Local 1021 Candidate PAC",
+        "amount": 15000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "BOMA SAN FRANCISCO BALLOT MEASURE PAC",
+        "amount": 10540.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Allocated portions of members' dues less than $100 per year, SF BFFA PAC is the intermediary for all contributions.",
+        "amount": 10275.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "PACIFIC GAS AND ELECTRIC COMPANY",
+        "amount": 5000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "590 PACIFIC LLC(GLENN GILMORE)",
+        "amount": 2500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Joseph Bleckman for Republican Central Committee",
+        "amount": 1999.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "DRIVE Committee",
+        "amount": 1250.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Freedom and Prosperity Fund (Federal PAC)",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Teamsters Union Local No. 665 PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Affordable Housing Alliance Political Action Committee",
+        "amount": 874.94,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Frances Hsieh for San Francisco Democratic County Central Committee",
+        "amount": 600.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Fire Fighters PAC",
+        "amount": 600.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "WFP National PAC",
+        "amount": 583.95,
+        "type": "committee",
+        "industry": "Other"
       }
     ]
   },

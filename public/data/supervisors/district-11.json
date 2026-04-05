@@ -123,6 +123,246 @@
         "amount": 1100.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "VINCENT WOO",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ellen Matsumura",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Rong Shen",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lewis Laskin",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "Hoa Long Tam",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Sandra Fewer",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "AT&T, Inc",
+        "amount": 801.63,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Aaron Peskin",
+        "amount": 800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Qing Liao",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Ivy Lee",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "NILS WERNERFELT",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Edward Fenster",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mary Jung",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "VOTE MARJAN PHILHOUR FOR SF DCCC MEMBER 2024",
+        "amount": 707.15,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Allan Low",
+        "amount": 700.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Irene Riley",
+        "amount": 700.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mamie Zhu",
+        "amount": 650.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MICHAEL CHIRICO",
+        "amount": 650.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "David Lee",
+        "amount": 650.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ROBIN PAM",
+        "amount": 600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "California Working Families Party",
+        "amount": 583.4,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lisa Seitz",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Jonathan Hilgart",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "David Ewing",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Louis Lam",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Christin Evans",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Chesa Boudin",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Yu Ling Huang",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ray Chen",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dickson Sum",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Hua He",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Tatwina Lee",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Charles Huang",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kaylah May",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Bing Zhang",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Kawal Ulanday",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lawrence K Ngan",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Paul Isao Osaki",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "American Federation of Teachers Local 2121",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Dignity CA SEIU Local 2015",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
       }
     ],
     "top_committees": [
@@ -137,6 +377,96 @@
         "amount": 1416.66,
         "type": "committee",
         "industry": "Labor & Unions"
+      },
+      {
+        "name": "SEIU Local 99 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "IFPTE LOCAL 21 TJ Anthony PAC Fund",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Asian Americans for Progressive Alameda PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "CA Hospital Assn PAC, Sponsored By CAHHS",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Duane Morris LLP Govt Committeee State & Local Fund",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Tenants & Families United PAC",
+        "amount": 380.51,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Frances Hsieh for Democratic County Central Committee 2024",
+        "amount": 350.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Steven Buss for Democratic County Central Committee 2020",
+        "amount": 331.18,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Austin Hunter for Democratic County Central Committee 2020",
+        "amount": 275.35,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Connie Chan for Democratic County Central Committee 2024",
+        "amount": 273.47,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "AACMA PAC",
+        "amount": 200.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Natalie Gee for Democratic County Central Committee 2024",
+        "amount": 200.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Barbara Spack",
+        "amount": 200.0,
+        "type": "committee",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "San Francisco Fire Fighters Political Action Committee",
+        "amount": 100.0,
+        "type": "committee",
+        "industry": "Other"
       }
     ]
   },

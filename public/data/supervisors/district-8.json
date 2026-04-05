@@ -123,6 +123,246 @@
         "amount": 4931.83,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "San Francisco Labor Council",
+        "amount": 4667.47,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Michael O'Donoghue",
+        "amount": 4000.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Carol Teitelman",
+        "amount": 3850.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Charles Sheehan",
+        "amount": 3500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Marc Wilde",
+        "amount": 3450.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Paul Melbostad",
+        "amount": 3350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Spotlight Design & Printing",
+        "amount": 3250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Thomas Raffin",
+        "amount": 3100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Alana Conner",
+        "amount": 3050.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Stearns Consulting, Inc",
+        "amount": 3012.83,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Robert Dockendorff",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Robert Holgate",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Paul Penick",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Kevin Reed",
+        "amount": 2950.0,
+        "type": "individual",
+        "industry": "Environmental"
+      },
+      {
+        "name": "Alvin Baum",
+        "amount": 2750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Joseph Pearson",
+        "amount": 2699.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mietek Mandelman",
+        "amount": 2650.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Esther Marks",
+        "amount": 2640.25,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Andrew Warren",
+        "amount": 2550.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SAN FRANCISCO TENANTS AND FAMILIES FOR AFFORDABLE HOUSING, SPONSORED BY COMMUNITY AND LABOR ORGANIZATIONS",
+        "amount": 2546.58,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Pinnacle Properties, INC.",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Joseph Patt",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "Thomas Ranese",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Lawrence Cushman",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Miranda Kolbe",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Sam Mogannam",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Daniel Bergerac",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Daniel Frattin",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Bernard Burke",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Finance & Insurance"
+      },
+      {
+        "name": "Cristina Arguedas",
+        "amount": 2500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "John Treadwell",
+        "amount": 2400.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Leslie Dicke",
+        "amount": 2350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Gertrude Platt",
+        "amount": 2300.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Susan Lopez",
+        "amount": 2150.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Susan Durfee",
+        "amount": 2100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Louis Cubba",
+        "amount": 2100.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Shay Gilmore",
+        "amount": 2100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Matt Dorsey",
+        "amount": 2025.0,
+        "type": "individual",
+        "industry": "Legal"
+      },
+      {
+        "name": "San Francisco Laborer's Local 261 P.A.C.",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Jennifer Orthwein",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
     "top_committees": [
@@ -137,6 +377,114 @@
         "amount": 22917.24,
         "type": "committee",
         "industry": "Labor & Unions"
+      },
+      {
+        "name": "SEIU Local 1021 Candidate PAC",
+        "amount": 1500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "National Union of Healthcare Workers Candidate Committee",
+        "amount": 1500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "San Francisco Fire Fighters PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "DRIVE Committee (Fec ID#C00032979)",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Equality California PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "United Educators of San Francisco - Candidate PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "California Nurses Association Political Action Committee",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "CA Nurses Association PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Unite HERE Local 2 PAC",
+        "amount": 812.5,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "David Chiu for Democratic County Central Committee",
+        "amount": 601.75,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Operating Engineers Local Union No. 3 Statewide PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "United Food and Commercial Workers Local 5 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Marin Medical Society PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Teamsters Local Union #350 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "UFCW Western States Council Candidates PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "United Food and Commercial Workers (UFCW) Western States Council Candidates Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "IBEW PAC Educational Fund (FEC ID# C00027342)",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Municipal Executives Association of San Francisco Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
       }
     ]
   },

@@ -167,22 +167,22 @@ def _process_transactions(district: int, transactions: list, supervisor: dict):
     sorted_donors = sorted(donors.values(), key=lambda x: x["amount"], reverse=True)
     top_donors = [
         {"name": d["name"], "amount": round(d["amount"], 2), "type": d["type"], "industry": d["industry"]}
-        for d in sorted_donors[:15]
+        for d in sorted_donors
         if d["type"] == "individual"
-    ]
+    ][:50]  # Keep top 50 individual donors
     top_committees = [
         {"name": d["name"], "amount": round(d["amount"], 2), "type": d["type"], "industry": d["industry"]}
-        for d in sorted_donors[:15]
+        for d in sorted_donors
         if d["type"] == "committee"
-    ]
+    ][:20]  # Keep top 20 committees
 
     # Update supervisor data
     supervisor["funding"] = {
         "total_raised": round(total_raised, 2),
         "cycle": "2024",
         "top_industries": top_industries,
-        "top_donors": top_donors[:10],
-        "top_committees": top_committees[:10],
+        "top_donors": top_donors,
+        "top_committees": top_committees,
     }
 
     # Write updated supervisor file

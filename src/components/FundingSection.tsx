@@ -13,8 +13,8 @@ interface Props {
 
 export default function FundingSection({ funding, supervisorName }: Props) {
   const [tab, setTab] = useState<"donors" | "industries" | "committees">("donors");
-  const [showAllDonors, setShowAllDonors] = useState(false);
-  const INITIAL_DONOR_COUNT = 5;
+  const [donorLimit, setDonorLimit] = useState(5);
+  const DONOR_INCREMENT = 10;
 
   const reclassifiedIndustries = useMemo(
     () => reclassifyIndustries(funding.top_industries, funding.top_donors, supervisorName),
@@ -53,7 +53,7 @@ export default function FundingSection({ funding, supervisorName }: Props) {
             <p className="text-sm text-zinc-400">Donor data will be populated by the data pipeline.</p>
           ) : (
             <>
-              {(showAllDonors ? funding.top_donors : funding.top_donors.slice(0, INITIAL_DONOR_COUNT)).map((d, i) => {
+              {funding.top_donors.slice(0, donorLimit).map((d, i) => {
                 const category = reclassifyDonor(d, supervisorName);
                 return (
                   <div key={i} className="flex items-center justify-between text-sm">
@@ -69,12 +69,20 @@ export default function FundingSection({ funding, supervisorName }: Props) {
                   </div>
                 );
               })}
-              {funding.top_donors.length > INITIAL_DONOR_COUNT && (
+              {donorLimit < funding.top_donors.length && (
                 <button
-                  onClick={() => setShowAllDonors(!showAllDonors)}
-                  className="text-sm text-blue-600 dark:text-blue-400 hover:underline mt-1"
+                  onClick={() => setDonorLimit((prev) => Math.min(prev + DONOR_INCREMENT, funding.top_donors.length))}
+                  className="text-sm text-blue-600 dark:text-blue-400 hover:underline mt-2"
                 >
-                  {showAllDonors ? "Show less" : `See all ${funding.top_donors.length} donors`}
+                  See more donors ({funding.top_donors.length - donorLimit} remaining)
+                </button>
+              )}
+              {donorLimit > 5 && (
+                <button
+                  onClick={() => setDonorLimit(5)}
+                  className="text-sm text-zinc-400 dark:text-zinc-500 hover:underline mt-1 ml-3"
+                >
+                  Show less
                 </button>
               )}
               <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-2">

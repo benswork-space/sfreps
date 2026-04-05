@@ -123,12 +123,366 @@
         "amount": 10000.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "STEVEN MERRILL",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "AAMER MAHMOOD",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "GRETCHEN SISSON",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "ZAC MAUFE",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "LEAH CULVER",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ERICA JOHNSON",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "GRANT LEE",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "GARRY TAN",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JOHN JERSIN",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SAMIRA AAMER",
+        "amount": 5500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "BILAL MAHMOOD",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JARED FRIEDMAN",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHRISTINE LUBY",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "NAVAL RAVIKANT",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "HILARY SHIRAZI",
+        "amount": 5000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KARL GUSTAF ALSTROMER",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANTHONY CHONG",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "NICHOLAS JOSEFOWITZ",
+        "amount": 3000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "AMERICAN REALTY AND CONSTRUCTION, INC.",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "BILAL MAHMOOD FOR SUPERVISOR 2024",
+        "amount": 1975.43,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MICHAEL SEIBEL",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "PETER REINHARDT",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DAVID RUSENKO",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JAMES AUSMAN",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "VIKRUM AIYER",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JESSE POLLAK",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DREW HAMLIN",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "JINMIN CHEN",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "RONALD CONWAY",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "AMER HAIDER",
+        "amount": 1499.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KENNETH RUSSELL",
+        "amount": 1499.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JOSH BECKER FOR SENATE 2024",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CALVIN FRENCH-OWEN",
+        "amount": 1249.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CRISTINA CORDOVA",
+        "amount": 1150.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JOHN HOOPER",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JONATHAN CLAYBAUGH",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANITA MODI",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KUNAL MODI",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SAMUEL DAMICO",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANDREW COBLENTZ",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
     "top_committees": [
       {
         "name": "GFC COURAGE COMMITTEE - SAN FRANCISCO CHAPTER",
         "amount": 5500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - SIERRA CHAPTER",
+        "amount": 3500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - BAY AREA CHAPTER",
+        "amount": 2000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - EAST BAY CHAPTER",
+        "amount": 1500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "NORTHERN CALIFORNIA CARPENTERS REGIONAL COUNCIL SMALL CONTRIBUTOR COMMITTEE",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "NORTHERN CALIFORNIA DISTRICT COUNCIL OF LABORERS PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "LABORER'S LOCAL 304 PAC ACCOUNT SMALL CONTRIBUTOR COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "THEATRICAL STAGE EMPLOYEES LOCAL 16 INTERNATIONAL ALLIANCE OF THEATRICAL STAGE EMPLOYEES (IATSE) PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "INTERNATIONAL UNION OF ELEVATOR CONSTRUCTORS LOCAL 8 PAC SPONSORED BY INTERNATIONAL UNION OF ELEVATOR CONSTRUCTORS LOCAL 8",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "TEAMSTERS LOCAL UNION 350 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "SPRINKLER FITTERS & APPRENTICES LOCAL 483 LOCAL POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "NATIONAL UNION OF HEALTHCARE WORKERS CANDIDATE COMMITTEE FOR QUALITY PATIENT CARE AND UNION DEMOCRACY",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "SAN FRANCISCO BUILDING AND CONSTRUCTION TRADES COUNCIL POLITICAL ORGANIZATION OF WORKERS FOR EMPLOYEE RIGHTS (POWER PAC)",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "OPERATING ENGINEERS LOCAL 3 DISTRICT 01 POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - GOLDEN GATE CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - PALO ALTO CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - SANTA CRUZ CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - CALIFORNIA BUSINESS COALITION",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - COMMON SENSE CHAPTER",
+        "amount": 500.0,
         "type": "committee",
         "industry": "Other"
       }

@@ -107,6 +107,120 @@
         "industry": "Other"
       },
       {
+        "name": "NATHANIEL MARSH",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KENNETH RUSSELL",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "SANDRA HESS",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "RAYMOND RYAN",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "VINCENT WOO",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ROBERT SAUTER",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "PHILIP WILLIAMS",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JOHN JERSIN",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "TALTON FIGGINS",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "TALI RAPAPORT",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ERICA JOHNSON",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "MEHRDAD HADJIANFARD",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANGELA MEYER",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "KIM ROTCHY",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "SOLOMON HYKES",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "GREGORY BLAINE",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "ANDREW CHATHAM",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHRIS FANINI",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "HERSHEL BERRY",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
         "name": "EMMETT SHEAR",
         "amount": 1000.0,
         "type": "individual",
@@ -119,13 +233,260 @@
         "industry": "Other"
       },
       {
+        "name": "BARBARA SAUTER",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "DAN FEDERMAN",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
         "name": "BRENDA JEWETT",
         "amount": 1000.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "NICOLE THYE",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ARMAND DOMALEWSKI",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHELSEY FRANK",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "RICHARD MANSO",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHRIS HALLACY",
+        "amount": 990.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "TRUC NGUYEN",
+        "amount": 950.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DENISE LYNCH",
+        "amount": 800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MATTHEW BREZINA",
+        "amount": 800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MICHAEL PORFIDO",
+        "amount": 800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "PAUL GAETANI",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "NICOLAS FIGONE",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "STEPHEN TABER",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "MATTHEW BOSCHETTO",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ANDREW SUTHERLAND",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CAMERON MILLS",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "THEODORE CAMESANO",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "DALE WEIDMER",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "IVY YEE-SAKAMOTO",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "TODD DAVID",
+        "amount": 750.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
       }
     ],
-    "top_committees": []
+    "top_committees": [
+      {
+        "name": "CALIFORNIA PROFESSIONAL FIREFIGHTERS POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "INTERNATIONAL UNION OF ELEVATOR CONSTRUCTORS LOCAL 8 PAC SPONSORED BY INTERNATIONAL UNION OF ELEVATOR CONSTRUCTORS LOCAL 8",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "THEATRICAL STAGE EMPLOYEES LOCAL 16 INTERNATIONAL ALLIANCE OF THEATRICAL STAGE EMPLOYEES (IATSE) PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "TEAMSTERS LOCAL UNION 350 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "TEAMSTERS LOCAL 856 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "NORTHERN CALIFORNIA DISTRICT COUNCIL OF LABORERS PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "CONSTRUCTION & GENERAL LABORERS LOCAL UNION 304 POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "SAN FRANCISCO DEPUTY SHERIFFS' ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "SAN FRANCISCO BUILDING AND CONSTRUCTION TRADES COUNCIL POLITICAL ORGANIZATION OF WORKERS FOR EMPLOYEE RIGHTS (POWER PAC)",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "NORTHERN CALIFORNIA CARPENTERS REGIONAL COUNCIL POWER PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "GOVERN FOR CALIFORNIA COURAGE COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - GOLDEN GATE CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - CALIFORNIA BUSINESS COALITION",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - SANTA CRUZ CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - SIERRA CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - COMMON SENSE CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "GFC COURAGE COMMITTEE - BAY AREA CHAPTER",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "OPERATING ENGINEERS LOCAL UNION 3 DISTRICT 01, 02 & 03 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "MARCIA A PACKLICK",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      }
+    ]
   },
   "donor_alignment": {
     "overall_pct": 0,

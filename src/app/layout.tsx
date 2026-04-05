@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "SFReps — Who Pays for Your Supervisor?",
   description:
     "See how San Francisco supervisors vote, who funds them, and whether they represent your district.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

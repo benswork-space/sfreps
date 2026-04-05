@@ -123,9 +123,334 @@
         "amount": 650.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "Allyn Beltran",
+        "amount": 620.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Robb Goshaw",
+        "amount": 600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Michael Zhao",
+        "amount": 600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Douglas Provencio",
+        "amount": 600.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ian James",
+        "amount": 550.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Sasha Gaona",
+        "amount": 520.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Diane Jones",
+        "amount": 510.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Quintin Mecke",
+        "amount": 510.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lisa Seitz",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Theatrical Stage Employees Local 16 IATSE",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "International Brotherhood of Electrical Workers LU #6",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Jonathan Hilgart",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "UA Local 38 COPE Fund",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Google Inc",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Anne Richards",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Alejandro Salcido",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Benjamin Sklaroff",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ona Keller",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Daikha Dridi",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Sami Kitmitto",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Jason Kruta",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "John Marshall Gest Brown",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Steve Kusmer",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Nathaniel Laney",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Paul Osaki",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "University Professional And Technical Employee Political Action Fund",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Paul Mccarthy",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Jill McInerney",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kevin Li",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Frederic Muhlheim",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Teamsters Local Union No.2785",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Sophie Pepin",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Micaela Davis",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Tes Welborn",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Max Tsui",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Laura Valdez",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Viejas Band of Kumeyaay Indians",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Laura Price",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Theresa Preston-Werner",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Hafedh Mansouri",
+        "amount": 500.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
-    "top_committees": []
+    "top_committees": [
+      {
+        "name": "Operating Engineers 3 Dist#1,2,3 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Teamsters #853 Political Activities Committee Fund",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Teamsters Local 856 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Teamsters Local Union 350 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Teamsters Union Local No. 665 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "CA Professional Firefighters PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "International Union of Elevator Constructors Local #8 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "United Educators of San Francisco - Candidate PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "National Union Of Healthcare Workers Candidate Committee for Quality Patient Care",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "ID# C00519413 LPAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "California Nurses Association PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Transport Workers Union of America Committee (ID# C00008268)",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Service Employees International Union Committee Interns And Resident Physician",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Jane Fonda Climate PAC",
+        "amount": 466.45,
+        "type": "committee",
+        "industry": "Environmental"
+      }
+    ]
   },
   "donor_alignment": {
     "overall_pct": 0,

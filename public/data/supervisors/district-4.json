@@ -9,138 +9,480 @@
   "years_in_office": 1.2,
   "bio_url": "https://sfbos.org/supervisor-alan-wong",
   "funding": {
-    "total_raised": 2221105.62,
+    "total_raised": 864602.83,
     "cycle": "2024",
     "top_industries": [
       {
         "industry": "Other",
-        "amount": 2011595.62,
-        "percentage": 90.6
-      },
-      {
-        "industry": "Labor & Unions",
-        "amount": 69625.0,
-        "percentage": 3.1
-      },
-      {
-        "industry": "Finance & Insurance",
-        "amount": 57650.0,
-        "percentage": 2.6
+        "amount": 766935.92,
+        "percentage": 88.7
       },
       {
         "industry": "Real Estate & Development",
-        "amount": 23600.0,
-        "percentage": 1.1
+        "amount": 23327.91,
+        "percentage": 2.7
       },
       {
-        "industry": "Education",
-        "amount": 17725.0,
-        "percentage": 0.8
+        "industry": "Labor & Unions",
+        "amount": 19174.0,
+        "percentage": 2.2
       },
       {
         "industry": "Tech",
-        "amount": 16250.0,
-        "percentage": 0.7
-      },
-      {
-        "industry": "Healthcare",
-        "amount": 9950.0,
-        "percentage": 0.4
+        "amount": 14375.0,
+        "percentage": 1.7
       },
       {
         "industry": "Hospitality & Tourism",
-        "amount": 9560.0,
-        "percentage": 0.4
+        "amount": 12300.0,
+        "percentage": 1.4
+      },
+      {
+        "industry": "Education",
+        "amount": 12100.0,
+        "percentage": 1.4
+      },
+      {
+        "industry": "Healthcare",
+        "amount": 8640.0,
+        "percentage": 1.0
+      },
+      {
+        "industry": "Finance & Insurance",
+        "amount": 6150.0,
+        "percentage": 0.7
       },
       {
         "industry": "Environmental",
-        "amount": 2750.0,
+        "amount": 1050.0,
         "percentage": 0.1
       },
       {
         "industry": "Legal",
-        "amount": 2400.0,
+        "amount": 550.0,
         "percentage": 0.1
       }
     ],
     "top_donors": [
       {
+        "name": "Michael Moritz",
+        "amount": 250000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lawrence Wong",
+        "amount": 58449.5,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
         "name": "City and County of San Francisco",
-        "amount": 664716.5,
+        "amount": 26864.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "CHRIS LARSEN",
-        "amount": 200000.0,
+        "name": "DAVID WONG",
+        "amount": 24619.73,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "JEREMY STOPPELMAN",
-        "amount": 175000.0,
+        "name": "Maco Stewart",
+        "amount": 10000.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Noah Smith",
+        "amount": 10000.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "JOHN WOLTHUIS",
-        "amount": 100000.0,
+        "name": "Eugene Wong",
+        "amount": 4000.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "Chinese American Democratic Club",
-        "amount": 27500.0,
+        "name": "Frances Lee",
+        "amount": 2275.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "Nicholas Josefowitz",
-        "amount": 26000.0,
+        "name": "Henry Der",
+        "amount": 2150.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "JOSEPH PRITZKER",
-        "amount": 25000.0,
+        "name": "Joanne Low",
+        "amount": 2085.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "U. A. Local 38 COPE Fund",
+        "amount": 1750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kwan Wo Ironworks, Inc.",
+        "amount": 1750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kin Wo Construction, Inc.",
+        "amount": 1750.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "No. Calif. Carpenters Regional Council",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Jessica Ho",
+        "amount": 1350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Hanley Chan",
+        "amount": 1350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lillie Wong",
+        "amount": 1350.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Faruq Ahmad",
+        "amount": 1300.0,
         "type": "individual",
         "industry": "Finance & Insurance"
       },
       {
-        "name": "RON CONWAY",
-        "amount": 25000.0,
+        "name": "Paul Melbostad",
+        "amount": 1250.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "ATUL GARG",
-        "amount": 18000.0,
+        "name": "PAUL MIYAMOTO",
+        "amount": 1250.0,
         "type": "individual",
         "industry": "Other"
       },
       {
-        "name": "GARRY TAN",
-        "amount": 10500.0,
+        "name": "Mark H. Mosher",
+        "amount": 1250.0,
         "type": "individual",
-        "industry": "Finance & Insurance"
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "SOHA Engineers",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "USave Equipment Rental",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Samuel H. Lauter",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Stephanie G. Lauter",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kendall Young Associates",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "ED2 International",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Betty Louie",
+        "amount": 1200.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CALVIN LOUIE",
+        "amount": 1200.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mamie How",
+        "amount": 1150.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Brian Kneuker",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Frank Noto",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Christian Kropff",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "CHINESE AMERICAN DEMOCRATIC CLUB",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Eleanor Najjar",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Samuel Kwong",
+        "amount": 1005.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Jae Shin",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mark Leno",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kenneth Fong",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Zoe Kelman",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Larry Roberts",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Buck Gee",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Michael Jang",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ralph Lane",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Patricia Tamura",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "JIMMY DACASIN",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Marlene Tran",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "WILSON LIM",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Stephen Lau",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "F. W. Associates, Inc.",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
     "top_committees": [
       {
-        "name": "San Francisco Police Officers Association PAC",
-        "amount": 50500.0,
+        "name": "BOMA SF PAC",
+        "amount": 750.0,
         "type": "committee",
         "industry": "Other"
       },
       {
-        "name": "NORTHERN CALIFORNIA CARPENTERS REGIONAL COUNCIL POWER PAC",
-        "amount": 50000.0,
+        "name": "Gay & Lesbian Victory Fund PAC",
+        "amount": 750.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Golden Gate Restaurant Assn. PAC",
+        "amount": 750.0,
+        "type": "committee",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Pacific Target Research",
+        "amount": 700.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Transport Workers Union Political Contributions Committee",
+        "amount": 500.0,
         "type": "committee",
         "industry": "Labor & Unions"
       },
       {
-        "name": "COMMITTEE FOR AN AFFORDABLE CALIFORNIA",
-        "amount": 20000.0,
+        "name": "California IATSE Council PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "California Nurses Association Political Action Committee (CNA-PAC)",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "United Educators of San Francisco Committee on Political Education",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Education"
+      },
+      {
+        "name": "International Union of Elevator Constructors Local 8 PAC Sponsored by International Union of Elevator Constructors Local 8",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Faculty Association of California Community Colleges (FACCC) PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Teamsters Local Union 350 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "United Food and Commercial Workers Western States Council Candidate PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Theatrical Stage Employees Local 16 International Alliance of Theatrical Stage Employees (IATSE) PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Drive Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Sprinkler Fitters & Apprentices Local 483 Local Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "NORTHERN CALIFORNIA CARPENTERS REGIONAL COUNTIL SMAL CONTRIBUTOR COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "SACRAMENTO COUNTY DEPUTY SHERIFFS ASSOCIATION PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "POPA, INC. SMALL CONTRIBUTOR COMMITTEE",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "ASSOCIATION OF ORANGE COUNTY DEPUTY SHERIFFS INDEPENDENT EXPENDITURE COMMITTEE",
+        "amount": 500.0,
         "type": "committee",
         "industry": "Other"
       }

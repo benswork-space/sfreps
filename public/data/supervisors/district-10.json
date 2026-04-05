@@ -123,9 +123,370 @@
         "amount": 2500.0,
         "type": "individual",
         "industry": "Other"
+      },
+      {
+        "name": "Florence Fang",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Nibbi Bros. Associates, Inc.",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Yerba Buena Commons Associates, Inc.",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "John Duggan",
+        "amount": 2000.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dwayne Jones",
+        "amount": 1900.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Eric Potashner",
+        "amount": 1800.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Samuel Adams",
+        "amount": 1750.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Sedrick Spencer",
+        "amount": 1750.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Andrea Baker",
+        "amount": 1743.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Malcolm Johnson",
+        "amount": 1600.0,
+        "type": "individual",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Barry Fadem",
+        "amount": 1600.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Keith White",
+        "amount": 1550.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Professors for Educational Reform AFT 2121 - C.O.P.E.",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Education"
+      },
+      {
+        "name": "Ben Bleiman",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Warren Pulley",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Deputy Sheriff's Association",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Rosa Tewolde",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Lawrence Lui",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Stacy Roy",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dennis Kelly",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dennis Yee",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Yusef Freeman",
+        "amount": 1500.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Miguel Galarza",
+        "amount": 1450.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "James Walker",
+        "amount": 1450.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Norma Faris-Taylor",
+        "amount": 1400.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Gwendolyn Westbrook",
+        "amount": 1300.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Karen Chung",
+        "amount": 1300.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Gregory Redmond",
+        "amount": 1268.2,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Sheet Metal Workers International Association Local No. 104",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Tech"
+      },
+      {
+        "name": "Matthew Schwartz",
+        "amount": 1250.0,
+        "type": "individual",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Keith Barnes",
+        "amount": 1200.0,
+        "type": "individual",
+        "industry": "Hospitality & Tourism"
+      },
+      {
+        "name": "Katie Albright",
+        "amount": 1200.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Kevin Tucker",
+        "amount": 1150.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Harlan Kelly",
+        "amount": 1150.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Matthew Haney",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Bruce Agid",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Dennis Toomer",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Toye Moses",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Mary Ann Jones",
+        "amount": 1100.0,
+        "type": "individual",
+        "industry": "Other"
+      },
+      {
+        "name": "Ricardo Marrun",
+        "amount": 1000.0,
+        "type": "individual",
+        "industry": "Other"
       }
     ],
-    "top_committees": []
+    "top_committees": [
+      {
+        "name": "Teamsters Local Union 350 PAC",
+        "amount": 1500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Northern California District Council of Laborers PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "San Francisco Laborer's Local 261 PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "National Union of Healthcare Workers Candidate Committee for Quality Patient Care and Union Democracy",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "San Francisco Marin Medical Society PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Healthcare"
+      },
+      {
+        "name": "Sprinkler Fitters and Apprentices Local 483 PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "United Educators of San Francisco Candidate PAC",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Laborer's Local 261 PAC #981076",
+        "amount": 1000.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "San Francisco Fire Fighters Local 798 PAC",
+        "amount": 750.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "San Francisco Fire Fighters Political Action Committee",
+        "amount": 750.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "DRIVE Committee",
+        "amount": 600.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Laborers Local 220 Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Construction & General Laborers Local Union 304 Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Real Estate & Development"
+      },
+      {
+        "name": "Laborers Local Union 270 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Bay Rising Action Committee sponsored by Center for Empowered Politics",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      },
+      {
+        "name": "Teamsters Local 856 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Laborers Local 67 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "LABORERS INTERNATIONAL UNION OF NORTH AMERICA LOCAL 89 PAC FUND",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Teamsters Local No. 853 PAC",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Labor & Unions"
+      },
+      {
+        "name": "Local 770, United Food and Commercial Workers Political Action Committee",
+        "amount": 500.0,
+        "type": "committee",
+        "industry": "Other"
+      }
+    ]
   },
   "donor_alignment": {
     "overall_pct": 0,

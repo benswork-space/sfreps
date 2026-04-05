@@ -19,6 +19,13 @@ import type {
   PolicyCategory,
 } from "./types";
 import { classifyVoteTitle } from "./classify";
+import classificationsData from "../../scripts/data/vote_classifications.json";
+
+// AI classifications keyed by file number (from the vote ID format "leg-XXXXXX")
+const AI_CLASSIFICATIONS: Record<string, {
+  category: PolicyCategory | null;
+  affected_industries?: Array<{ industry: string; preferred: string; reason: string }>;
+}> = classificationsData as Record<string, unknown> as typeof AI_CLASSIFICATIONS;
 
 // ---------------------------------------------------------------------------
 // Donor alignment
@@ -85,6 +92,7 @@ export interface DonorAlignmentExample {
   donor_industry: string;
   donor_preferred: "yea" | "nay";
   aligned: boolean;
+  reason?: string;
 }
 
 export function computeDonorAlignment(
@@ -110,11 +118,47 @@ export function computeDonorAlignment(
   for (const vote of votes) {
     if (vote.vote === "absent" || vote.vote === "excused") continue;
 
-    // Classify votes that don't have a category yet
+    // Extract file number from vote ID (format: "leg-XXXXXX")
+    const fileNum = vote.id.replace("leg-", "");
+    const aiClass = AI_CLASSIFICATIONS[fileNum];
+
+    // Use AI classification if available
+    if (aiClass?.affected_industries && aiClass.affected_industries.length > 0) {
+      const category = aiClass.category;
+      if (!category) continue;
+
+      // Check if any AI-identified industry matches the supervisor's top donors
+      for (const aiInd of aiClass.affected_industries) {
+        const matchingDonorIndustry = topIndustries.find(
+          (ti) => ti.industry === aiInd.industry
+        );
+        if (!matchingDonorIndustry) continue;
+
+        const preferred = aiInd.preferred as "yea" | "nay";
+        scored++;
+        const isAligned = vote.vote === preferred;
+        if (isAligned) aligned++;
+
+        examples.push({
+          title: vote.title,
+          date: vote.date,
+          vote: vote.vote,
+          category,
+          donor_industry: aiInd.industry,
+          donor_preferred: preferred,
+          aligned: isAligned,
+          reason: aiInd.reason,
+        });
+
+        break; // Only score once per vote
+      }
+      continue;
+    }
+
+    // Fallback: keyword classification + static industry positions
     const category = vote.category || classifyVoteTitle(vote.title);
     if (!category) continue;
 
-    // Check each top donor industry for a position on this category
     for (const industry of topIndustries) {
       const positions = INDUSTRY_CATEGORY_POSITIONS[industry.industry];
       if (!positions) continue;
@@ -136,7 +180,7 @@ export function computeDonorAlignment(
         aligned: isAligned,
       });
 
-      break; // Only score once per vote (use the first matching industry)
+      break;
     }
   }
 
@@ -218,7 +262,10 @@ export function computeDistrictAlignment(
   const categoryVotes: Record<string, { yeas: number; total: number }> = {};
   for (const v of votes) {
     if (v.vote === "absent" || v.vote === "excused") continue;
-    const cat = v.category || classifyVoteTitle(v.title);
+    // Prefer AI classification, then vote category, then keyword fallback
+    const fileNum = v.id.replace("leg-", "");
+    const aiClass = AI_CLASSIFICATIONS[fileNum];
+    const cat = aiClass?.category || v.category || classifyVoteTitle(v.title);
     if (!cat) continue;
     if (!categoryVotes[cat]) {
       categoryVotes[cat] = { yeas: 0, total: 0 };
