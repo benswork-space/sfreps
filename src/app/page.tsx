@@ -25,12 +25,8 @@ export default function Home() {
   const [zip, setZip] = useState("");
   const [error, setError] = useState("");
   const [zipLookup, setZipLookup] = useState<ZipEntry[] | null>(null);
-  const [isMobile, setIsMobile] = useState(false);
-
-  // Detect mobile
-  useEffect(() => {
-    setIsMobile("ontouchstart" in window || navigator.maxTouchPoints > 0);
-  }, []);
+  const [phase, setPhase] = useState<"idle" | "overlay" | "dissolving">("idle");
+  const [selectedDistrict, setSelectedDistrict] = useState<number | null>(null);
 
   // Load ZIP lookup
   useEffect(() => {
@@ -40,10 +36,11 @@ export default function Home() {
       .catch(() => {});
   }, []);
 
-  // Initialize background map — desktop only
+  // Initialize background map — use lower zoom on mobile to reduce tile load
   useEffect(() => {
-    if (isMobile || !bgMapContainerRef.current) return;
+    if (!bgMapContainerRef.current) return;
     let cancelled = false;
+    const mobile = window.innerWidth < 768;
 
     async function initMap() {
       const mapboxgl = (await import("mapbox-gl")).default;
@@ -51,11 +48,14 @@ export default function Home() {
       mapboxgl.accessToken = MAPBOX_TOKEN;
       const map = new mapboxgl.Map({
         container: bgMapContainerRef.current,
-        style: "mapbox://styles/mapbox/streets-v12",
+        style: mobile
+          ? "mapbox://styles/mapbox/light-v11"    // lighter style = fewer tiles on mobile
+          : "mapbox://styles/mapbox/streets-v12",
         center: SF_CENTER,
-        zoom: 11.5,
+        zoom: mobile ? 10 : 11.5,                 // lower zoom = fewer tiles on mobile
         interactive: false,
         attributionControl: false,
+        maxTileCacheSize: mobile ? 20 : undefined, // limit tile cache on mobile
       });
       bgMapRef.current = map;
       map.on("load", () => { if (!cancelled) setMapReady(true); });
@@ -63,7 +63,7 @@ export default function Home() {
 
     initMap();
     return () => { cancelled = true; bgMapRef.current?.remove(); bgMapRef.current = null; };
-  }, [isMobile]);
+  }, []);
 
   // Handle submit
   const handleSubmit = useCallback((e: React.FormEvent) => {
@@ -73,40 +73,63 @@ export default function Home() {
     const matches = zipLookup.filter((entry) => entry.zip === zip);
     if (!matches.length) { setError("Not a SF ZIP code."); return; }
     const best = matches.reduce((a, b) => (a.ratio > b.ratio ? a : b));
+    setSelectedDistrict(best.district);
 
     const map = bgMapRef.current;
     if (!map) {
-      // Mobile or map not ready — navigate directly
       router.push(`/zip/${zip}/district-${best.district}`);
       return;
     }
 
-    // Desktop — fly animation
+    // Fade out overlay to reveal map
     setOverlayFading(true);
+
     setTimeout(() => {
+      // Add district boundaries
+      if (!map.getSource("districts")) {
+        map.addSource("districts", {
+          type: "geojson",
+          data: "/data/district_boundaries.geojson",
+        });
+        map.addLayer({
+          id: "district-fills", type: "fill", source: "districts",
+          paint: {
+            "fill-color": ["case", ["==", ["get", "district"], best.district], "rgba(59,130,246,0.35)", "rgba(0,0,0,0.05)"],
+            "fill-opacity": 0.7,
+          },
+        });
+        map.addLayer({
+          id: "district-outlines", type: "line", source: "districts",
+          paint: {
+            "line-color": ["case", ["==", ["get", "district"], best.district], "#2563eb", "#94a3b8"],
+            "line-width": ["case", ["==", ["get", "district"], best.district], 3, 1],
+          },
+        });
+      }
+
       const center = DISTRICT_CENTERS[best.district] ?? SF_CENTER;
-      map.flyTo({ center, zoom: 13.5, duration: 2500, essential: true });
+      map.flyTo({ center, zoom: 13, duration: 2500, essential: true });
       map.once("moveend", () => {
-        setTimeout(() => router.push(`/zip/${zip}/district-${best.district}`), 1500);
+        setPhase("overlay");
+        setTimeout(() => {
+          setPhase("dissolving");
+          setTimeout(() => router.push(`/zip/${zip}/district-${best.district}`), 700);
+        }, 2000);
       });
     }, 600);
   }, [zip, zipLookup, router]);
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center px-4 bg-white">
-      {/* Background map — desktop only */}
-      {!isMobile && (
-        <div
-          ref={bgMapContainerRef}
-          className={`fixed inset-0 z-0 transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-          style={{ width: "100vw", height: "100vh" }}
-        />
-      )}
+      {/* Background map */}
+      <div
+        ref={bgMapContainerRef}
+        className={`fixed inset-0 z-0 transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
+        style={{ width: "100vw", height: "100vh" }}
+      />
 
-      {/* Semi-transparent overlay — desktop only */}
-      {!isMobile && (
-        <div className={`fixed inset-0 z-10 transition-opacity duration-600 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"} bg-white/80 backdrop-blur-[2px]`} />
-      )}
+      {/* Semi-transparent overlay */}
+      <div className={`fixed inset-0 z-10 transition-opacity duration-600 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"} bg-white/80 backdrop-blur-[2px]`} />
 
       {/* Content */}
       <div className={`relative z-20 w-full max-w-md text-center transition-opacity duration-500 ${overlayFading ? "opacity-0" : "opacity-100"}`}>
@@ -127,6 +150,19 @@ export default function Home() {
         </form>
         <p className="mt-6 text-sm text-zinc-500">Data from SF Ethics Commission, Legistar, and SF Dept of Elections</p>
       </div>
+
+      {/* Supervisor overlay after fly */}
+      {phase !== "idle" && selectedDistrict && (
+        <div className="fixed inset-0 z-50">
+          <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${phase === "overlay" ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
+            <div className="mx-4 max-w-sm rounded-2xl bg-white/90 px-6 py-8 text-center shadow-xl backdrop-blur-sm">
+              <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider">District {selectedDistrict}</p>
+              <p className="mt-2 text-xl font-bold text-zinc-900">Your Supervisor</p>
+            </div>
+          </div>
+          <div className={`absolute inset-0 bg-white transition-opacity duration-700 ease-in ${phase === "dissolving" ? "opacity-100" : "opacity-0 pointer-events-none"}`} />
+        </div>
+      )}
     </main>
   );
 }
