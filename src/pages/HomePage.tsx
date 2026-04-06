@@ -39,22 +39,17 @@ export default function HomePage() {
     }).catch(() => {});
   }, []);
 
-  // Detect mobile — skip Mapbox entirely on touch devices to prevent Chrome crash
-  const [isMobile, setIsMobile] = useState(false);
+  // Initialize map — same config as SFmovie (which works on mobile)
   useEffect(() => {
-    setIsMobile(window.matchMedia("(pointer: coarse)").matches);
-  }, []);
-
-  // Initialize map — desktop only
-  useEffect(() => {
-    if (isMobile || !mapContainerRef.current) return;
+    if (!mapContainerRef.current) return;
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/streets-v12",
+      style: "mapbox://styles/mapbox/light-v11",  // light style like SFmovie (not streets-v12)
       center: SF_CENTER,
       zoom: 11.5,
+      maxBounds: [[-122.60, 37.65], [-122.28, 37.88]],  // constrain to SF like SFmovie
       interactive: false,
       attributionControl: false,
     });
@@ -62,7 +57,7 @@ export default function HomePage() {
     mapRef.current = map;
     map.on("load", () => setMapReady(true));
     return () => { map.remove(); mapRef.current = null; };
-  }, [isMobile]);
+  }, []);
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault();
@@ -74,7 +69,7 @@ export default function HomePage() {
     setSelectedDistrict(best.district);
 
     const map = mapRef.current;
-    if (!map || isMobile) { navigate(`/zip/${zip}/district-${best.district}`); return; }
+    if (!map) { navigate(`/zip/${zip}/district-${best.district}`); return; }
 
     setOverlayFading(true);
     setTimeout(() => {
@@ -119,19 +114,17 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Map — desktop only, not rendered on mobile at all */}
-      {!isMobile && (
-        <div
-          ref={mapContainerRef}
-          className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-          style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
-        />
-      )}
+      {/* Map */}
+      <div
+        ref={mapContainerRef}
+        className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
+      />
 
-      {/* Overlay — desktop: translucent over map, mobile: light background */}
+      {/* Overlay */}
       <div
         className={`transition-opacity duration-500 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"}`}
-        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: isMobile ? "#f8f8f8" : "rgba(255,255,255,0.82)", backdropFilter: isMobile ? "none" : "blur(2px)", WebkitBackdropFilter: isMobile ? "none" : "blur(2px)" }}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.82)", backdropFilter: "blur(2px)", WebkitBackdropFilter: "blur(2px)" }}
       />
 
       {/* Content — use fixed positioning to avoid min-h-screen issues on mobile */}
