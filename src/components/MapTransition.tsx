@@ -52,7 +52,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
     map.on("load", () => {
       map.addSource("districts", {
         type: "geojson",
-        data: "/data/district_boundaries.geojson",
+        data: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/district_boundaries.geojson`,
       });
 
       map.addLayer({

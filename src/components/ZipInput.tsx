@@ -31,12 +31,12 @@ export default function ZipInput({ onResult }: ZipInputProps) {
 
   // Load ZIP lookup and supervisor index on mount
   useEffect(() => {
-    fetch("/data/zip_lookup.json")
+    fetch(`${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/zip_lookup.json`)
       .then((r) => r.json())
       .then((data) => setZipLookup(data))
       .catch(() => {});
 
-    fetch("/data/supervisors_index.json")
+    fetch(`${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/supervisors_index.json`)
       .then((r) => r.json())
       .then((data: Array<{ district: number; name: string }>) => {
         const map: Record<number, { name: string; photo_url: string }> = {};
