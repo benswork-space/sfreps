@@ -20,15 +20,23 @@ export default function HomeContent() {
   const router = useRouter();
   const [transition, setTransition] = useState<TransitionData | null>(null);
 
+  // When transition starts, the background map unmounts (transition is truthy
+  // so showBgMap becomes false), ensuring only one WebGL context at a time.
+  const showBgMap = !transition;
+
   return (
     <>
       <div className="relative flex flex-col items-center justify-center min-h-[100dvh] overflow-hidden">
-        {/* Background map */}
+        {/* Background map — unmounts when transition starts */}
         <div className="absolute inset-0 z-0">
-          <SFMap />
+          {showBgMap ? (
+            <SFMap />
+          ) : (
+            <div className="w-full h-full bg-zinc-200 dark:bg-zinc-900" />
+          )}
         </div>
 
-        {/* Content overlay — compact on mobile */}
+        {/* Content overlay */}
         <main className="relative z-10 flex flex-col items-center px-4 sm:px-6 py-6 sm:py-12 text-center w-full">
           <div className="bg-black/50 backdrop-blur-md rounded-2xl sm:rounded-3xl px-5 sm:px-8 py-6 sm:py-10 flex flex-col items-center gap-4 sm:gap-6 max-w-md w-full">
             <div className="flex flex-col items-center gap-2 sm:gap-3">
@@ -40,9 +48,7 @@ export default function HomeContent() {
               </p>
             </div>
 
-            <ZipInput
-              onResult={(result) => setTransition(result)}
-            />
+            <ZipInput onResult={(result) => setTransition(result)} />
 
             <p className="text-xs sm:text-sm text-white/60 max-w-sm hidden sm:block">
               Enter your San Francisco ZIP code to see your district supervisor, their campaign donors,
@@ -57,7 +63,7 @@ export default function HomeContent() {
         </footer>
       </div>
 
-      {/* Map transition overlay */}
+      {/* Map transition overlay — background map is already destroyed */}
       {transition && (
         <MapTransition
           district={transition.district}
