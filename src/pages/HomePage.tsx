@@ -39,19 +39,20 @@ export default function HomePage() {
     }).catch(() => {});
   }, []);
 
-  // Initialize map — same config as SFmovie (which works on mobile)
+  // Initialize map — light-v11 keeps it fast, maxBounds limits tile loading
   useEffect(() => {
     if (!mapContainerRef.current) return;
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/light-v11",  // light style like SFmovie (not streets-v12)
+      style: "mapbox://styles/mapbox/streets-v11",  // v11 not v12 — lighter rendering
       center: SF_CENTER,
-      zoom: 11.5,
-      maxBounds: [[-122.60, 37.65], [-122.28, 37.88]],  // constrain to SF like SFmovie
+      zoom: 11,
+      maxBounds: [[-122.60, 37.65], [-122.28, 37.88]],
       interactive: false,
       attributionControl: false,
+      maxZoom: 14,  // cap max zoom to limit tile detail
     });
 
     mapRef.current = map;
@@ -73,29 +74,11 @@ export default function HomePage() {
 
     setOverlayFading(true);
     setTimeout(() => {
-      if (!map.getSource("districts")) {
-        map.addSource("districts", { type: "geojson", data: "/data/district_boundaries.geojson" });
-        map.addLayer({
-          id: "district-fills", type: "fill", source: "districts",
-          paint: {
-            "fill-color": ["case", ["==", ["get", "district"], best.district], "rgba(59,130,246,0.35)", "rgba(0,0,0,0.05)"],
-            "fill-opacity": 0.7,
-          },
-        });
-        map.addLayer({
-          id: "district-outlines", type: "line", source: "districts",
-          paint: {
-            "line-color": ["case", ["==", ["get", "district"], best.district], "#2563eb", "#94a3b8"],
-            "line-width": ["case", ["==", ["get", "district"], best.district], 3, 1],
-          },
-        });
-      }
-
       setPhase("flying");
       const center = DISTRICT_CENTERS[best.district] ?? SF_CENTER;
-      map.flyTo({ center, zoom: 13, duration: 2500, essential: true });
+      map.flyTo({ center, zoom: 13, duration: 1800, essential: true });
       map.once("moveend", () => setPhase("overlay"));
-    }, 600);
+    }, 500);
   }, [zip, zipLookup, navigate]);
 
   useEffect(() => {
@@ -124,7 +107,7 @@ export default function HomePage() {
       {/* Overlay */}
       <div
         className={`transition-opacity duration-500 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"}`}
-        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.82)", backdropFilter: "blur(2px)", WebkitBackdropFilter: "blur(2px)" }}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.65)" }}
       />
 
       {/* Content — use fixed positioning to avoid min-h-screen issues on mobile */}
