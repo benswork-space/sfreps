@@ -113,7 +113,6 @@ export default function ZipInput({ onResult }: ZipInputProps) {
           }}
           placeholder="94102"
           className="flex-1 min-w-0 h-12 sm:h-14 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 px-4 text-center text-xl sm:text-2xl font-mono text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
-          autoFocus
           disabled={loading}
         />
         <button
