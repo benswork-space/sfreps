@@ -39,9 +39,15 @@ export default function HomePage() {
     }).catch(() => {});
   }, []);
 
-  // Initialize map with trackResize: false to prevent keyboard crash
+  // Detect mobile — skip Mapbox entirely on touch devices to prevent Chrome crash
+  const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
-    if (!mapContainerRef.current) return;
+    setIsMobile(window.matchMedia("(pointer: coarse)").matches);
+  }, []);
+
+  // Initialize map — desktop only
+  useEffect(() => {
+    if (isMobile || !mapContainerRef.current) return;
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
@@ -51,13 +57,12 @@ export default function HomePage() {
       zoom: 11.5,
       interactive: false,
       attributionControl: false,
-      trackResize: false,
     });
 
     mapRef.current = map;
     map.on("load", () => setMapReady(true));
     return () => { map.remove(); mapRef.current = null; };
-  }, []);
+  }, [isMobile]);
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault();
@@ -69,7 +74,7 @@ export default function HomePage() {
     setSelectedDistrict(best.district);
 
     const map = mapRef.current;
-    if (!map) { navigate(`/zip/${zip}/district-${best.district}`); return; }
+    if (!map || isMobile) { navigate(`/zip/${zip}/district-${best.district}`); return; }
 
     setOverlayFading(true);
     setTimeout(() => {
@@ -114,17 +119,19 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Map — fixed position with explicit pixel dimensions to prevent resize */}
-      <div
-        ref={mapContainerRef}
-        className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
-      />
+      {/* Map — desktop only, not rendered on mobile at all */}
+      {!isMobile && (
+        <div
+          ref={mapContainerRef}
+          className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
+          style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
+        />
+      )}
 
-      {/* Overlay */}
+      {/* Overlay — desktop: translucent over map, mobile: light background */}
       <div
         className={`transition-opacity duration-500 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"}`}
-        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.82)", backdropFilter: "blur(2px)", WebkitBackdropFilter: "blur(2px)" }}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: isMobile ? "#f8f8f8" : "rgba(255,255,255,0.82)", backdropFilter: isMobile ? "none" : "blur(2px)", WebkitBackdropFilter: isMobile ? "none" : "blur(2px)" }}
       />
 
       {/* Content — use fixed positioning to avoid min-h-screen issues on mobile */}
