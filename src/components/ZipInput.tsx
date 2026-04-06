@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect, type FormEvent } from "react";
 
 interface ZipEntry {
   zip: string;
@@ -18,18 +17,16 @@ interface ZipResult {
 }
 
 interface ZipInputProps {
-  onResult?: (result: ZipResult) => void;
+  onResult: (result: ZipResult) => void;
 }
 
 export default function ZipInput({ onResult }: ZipInputProps) {
   const [zip, setZip] = useState("");
-  const [error, setError] = useState<string | null>(null);
+  const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const [zipLookup, setZipLookup] = useState<ZipEntry[] | null>(null);
   const [supervisorNames, setSupervisorNames] = useState<Record<number, { name: string; photo_url: string }>>({});
-  const router = useRouter();
 
-  // Load ZIP lookup and supervisor index on mount
   useEffect(() => {
     fetch("/data/zip_lookup.json")
       .then((r) => r.json())
@@ -48,84 +45,70 @@ export default function ZipInput({ onResult }: ZipInputProps) {
       .catch(() => {});
   }, []);
 
-  const handleSubmit = useCallback(
-    async (e: React.FormEvent) => {
-      e.preventDefault();
-      setError(null);
+  async function handleSubmit(e: FormEvent) {
+    e.preventDefault();
+    const trimmed = zip.trim();
 
-      if (!/^\d{5}$/.test(zip)) {
-        setError("Please enter a valid 5-digit ZIP code.");
-        return;
-      }
+    if (!/^\d{5}$/.test(trimmed)) {
+      setError("Please enter a 5-digit ZIP code.");
+      return;
+    }
 
-      if (!zipLookup) {
-        setError("Loading data, please try again.");
-        return;
-      }
+    if (!zipLookup) {
+      setError("Loading data, please try again.");
+      return;
+    }
 
-      setLoading(true);
+    setError("");
+    setLoading(true);
 
-      // Client-side ZIP lookup
-      const matches = zipLookup.filter((entry) => entry.zip === zip);
-      if (matches.length === 0) {
-        setError("ZIP code not found. Please enter a San Francisco ZIP code (94xxx).");
-        setLoading(false);
-        return;
-      }
+    const matches = zipLookup.filter((entry) => entry.zip === trimmed);
+    if (matches.length === 0) {
+      setError("Couldn\u2019t find that ZIP code. Please enter a San Francisco ZIP (94xxx).");
+      setLoading(false);
+      return;
+    }
 
-      // Pick the district with the highest ratio
-      const best = matches.reduce((a, b) => (a.ratio > b.ratio ? a : b));
-      const supervisorId = `district-${best.district}`;
-      const sup = supervisorNames[best.district];
+    const best = matches.reduce((a, b) => (a.ratio > b.ratio ? a : b));
+    const supervisorId = `district-${best.district}`;
+    const sup = supervisorNames[best.district];
 
-      if (onResult) {
-        onResult({
-          zip,
-          supervisorId,
-          district: best.district,
-          supervisorName: sup?.name ?? "Your Supervisor",
-          photoUrl: sup?.photo_url ?? null,
-        });
-      } else {
-        router.push(`/zip/${zip}/${supervisorId}`);
-      }
-    },
-    [zip, router, onResult, zipLookup, supervisorNames]
-  );
+    onResult({
+      zip: trimmed,
+      supervisorId,
+      district: best.district,
+      supervisorName: sup?.name ?? "Your Supervisor",
+      photoUrl: sup?.photo_url ?? null,
+    });
+  }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3 w-full max-w-xs">
-      <div className="flex w-full rounded-full border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-800 overflow-hidden shadow-sm">
+    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3">
+      <div className="flex w-full max-w-xs gap-2">
         <input
-          id="zip-input"
           type="text"
           inputMode="numeric"
           pattern="[0-9]*"
           maxLength={5}
+          placeholder="Enter ZIP code"
           value={zip}
           onChange={(e) => {
-            const val = e.target.value.replace(/\D/g, "").slice(0, 5);
-            setZip(val);
-            if (error) setError(null);
+            setZip(e.target.value.replace(/\D/g, "").slice(0, 5));
+            setError("");
           }}
-          placeholder="Enter ZIP code"
-          className="flex-1 min-w-0 h-12 px-5 text-base text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 bg-transparent focus:outline-none"
-          disabled={loading}
+          className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-center text-lg font-medium tracking-widest outline-none transition-colors placeholder:tracking-normal focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200 dark:border-zinc-700 dark:bg-zinc-900 dark:focus:border-zinc-500 dark:focus:ring-zinc-800"
+          aria-label="ZIP code"
         />
         <button
           type="submit"
-          disabled={loading || zip.length !== 5}
-          className="shrink-0 h-12 px-5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-semibold text-sm transition-colors hover:bg-zinc-700 dark:hover:bg-zinc-300 disabled:opacity-40 disabled:cursor-not-allowed"
+          disabled={loading}
+          className="rounded-full bg-zinc-900 px-6 py-3 font-medium text-white transition-colors hover:bg-zinc-800 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-200"
         >
-          {loading ? (
-            <span className="inline-block animate-spin">&#8635;</span>
-          ) : (
-            "Go"
-          )}
+          Go
         </button>
       </div>
       {error && (
-        <p className="text-red-600 dark:text-red-400 text-sm text-center" role="alert">
+        <p className="text-sm text-red-600 dark:text-red-400" role="alert">
           {error}
         </p>
       )}
