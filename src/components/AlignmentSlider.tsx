@@ -1,4 +1,3 @@
-"use client";
 
 interface Props {
   pct: number; // 0-100

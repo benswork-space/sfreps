@@ -1,4 +1,3 @@
-"use client";
 
 import type { DistrictData } from "@/lib/types";
 import { POLICY_CATEGORIES } from "@/lib/types";

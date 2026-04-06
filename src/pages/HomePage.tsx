@@ -1,9 +1,8 @@
-"use client";
-
 import { useState, useEffect, useRef, useCallback } from "react";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
+import mapboxgl from "mapbox-gl";
 
-const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN!;
+const MAPBOX_TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 const SF_CENTER: [number, number] = [-122.4194, 37.7749];
 const DISTRICT_CENTERS: Record<number, [number, number]> = {
   1: [-122.4745, 37.7795], 2: [-122.4370, 37.7945], 3: [-122.4060, 37.7960],
@@ -14,13 +13,11 @@ const DISTRICT_CENTERS: Record<number, [number, number]> = {
 
 interface ZipEntry { zip: string; district: number; ratio: number; }
 
-export default function Home() {
-  const router = useRouter();
+export default function HomePage() {
+  const navigate = useNavigate();
   const mapContainerRef = useRef<HTMLDivElement>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const mapRef = useRef<any>(null);
+  const mapRef = useRef<mapboxgl.Map | null>(null);
   const [mapReady, setMapReady] = useState(false);
-  const [mounted, setMounted] = useState(false);
   const [overlayFading, setOverlayFading] = useState(false);
   const [zip, setZip] = useState("");
   const [error, setError] = useState("");
@@ -28,8 +25,7 @@ export default function Home() {
   const [phase, setPhase] = useState<"idle" | "flying" | "overlay" | "dissolving">("idle");
   const [selectedDistrict, setSelectedDistrict] = useState<number | null>(null);
 
-  // Only render map container after mount (avoids SSR hydration conflict)
-  useEffect(() => { setMounted(true); }, []);
+  useEffect(() => { document.title = "SFReps — Who Pays for Your Supervisor?"; }, []);
 
   // Load ZIP lookup
   useEffect(() => {
@@ -39,41 +35,25 @@ export default function Home() {
       .catch(() => {});
   }, []);
 
-  // Load mapbox CSS via link tag (like SFmovie does) and init map
+  // Initialize map — direct static import, no SSR, no hydration
   useEffect(() => {
-    if (!mounted || !mapContainerRef.current) return;
-    let cancelled = false;
+    if (!mapContainerRef.current) return;
+    mapboxgl.accessToken = MAPBOX_TOKEN;
 
-    // Add mapbox CSS via link tag instead of JS import
-    if (!document.querySelector('link[href*="mapbox-gl"]')) {
-      const link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = "https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css";
-      document.head.appendChild(link);
-    }
+    const map = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: "mapbox://styles/mapbox/streets-v12",
+      center: SF_CENTER,
+      zoom: 11.5,
+      interactive: false,
+      attributionControl: false,
+    });
 
-    async function initMap() {
-      const mapboxgl = (await import("mapbox-gl")).default;
-      if (cancelled || !mapContainerRef.current) return;
-      mapboxgl.accessToken = MAPBOX_TOKEN;
-      const map = new mapboxgl.Map({
-        container: mapContainerRef.current,
-        style: "mapbox://styles/mapbox/light-v11",
-        center: SF_CENTER,
-        zoom: 11.5,
-        interactive: false,
-        attributionControl: false,
-      });
-      mapRef.current = map;
-      map.on("load", () => { if (!cancelled) setMapReady(true); });
-    }
+    mapRef.current = map;
+    map.on("load", () => setMapReady(true));
 
-    initMap();
-    return () => {
-      cancelled = true;
-      if (mapRef.current) { mapRef.current.remove(); mapRef.current = null; }
-    };
-  }, [mounted]);
+    return () => { map.remove(); mapRef.current = null; };
+  }, []);
 
   const handleSubmit = useCallback((e: React.FormEvent) => {
     e.preventDefault();
@@ -85,12 +65,11 @@ export default function Home() {
     setSelectedDistrict(best.district);
 
     const map = mapRef.current;
-    if (!map) { router.push(`/zip/${zip}/district-${best.district}`); return; }
+    if (!map) { navigate(`/zip/${zip}/district-${best.district}`); return; }
 
     // Fade overlay to reveal map
     setOverlayFading(true);
     setTimeout(() => {
-      // Add district boundaries
       if (!map.getSource("districts")) {
         map.addSource("districts", {
           type: "geojson",
@@ -115,9 +94,9 @@ export default function Home() {
       setPhase("flying");
       const center = DISTRICT_CENTERS[best.district] ?? SF_CENTER;
       map.flyTo({ center, zoom: 13, duration: 2500, essential: true });
-      map.once("moveend", () => { setPhase("overlay"); });
+      map.once("moveend", () => setPhase("overlay"));
     }, 600);
-  }, [zip, zipLookup, router]);
+  }, [zip, zipLookup, navigate]);
 
   // Overlay timer
   useEffect(() => {
@@ -126,27 +105,22 @@ export default function Home() {
       setPhase("dissolving");
       setTimeout(() => {
         if (selectedDistrict !== null)
-          router.push(`/zip/${zip}/district-${selectedDistrict}`);
+          navigate(`/zip/${zip}/district-${selectedDistrict}`);
       }, 700);
     }, 2000);
     return () => clearTimeout(t);
-  }, [phase, selectedDistrict, zip, router]);
+  }, [phase, selectedDistrict, zip, navigate]);
 
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center px-4 bg-white">
-      {/* Map container — only rendered after client mount to avoid SSR hydration conflict */}
-      {mounted && (
-        <div
-          ref={mapContainerRef}
-          className={`fixed inset-0 z-0 transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-          style={{ width: "100vw", height: "100vh" }}
-        />
-      )}
+      <div
+        ref={mapContainerRef}
+        className={`fixed inset-0 z-0 transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
+        style={{ width: "100vw", height: "100vh" }}
+      />
 
-      {/* Semi-transparent overlay */}
       <div className={`fixed inset-0 z-10 transition-opacity duration-600 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"} bg-white/80 backdrop-blur-[2px]`} />
 
-      {/* Content */}
       <div className={`relative z-20 w-full max-w-md text-center transition-opacity duration-500 ${overlayFading ? "opacity-0" : "opacity-100"}`}>
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-900">SF Supervisors</h1>
         <p className="mt-3 text-lg text-zinc-600">Get to know your supervisor: who funds them, how they vote, and whether they represent you.</p>
@@ -166,7 +140,6 @@ export default function Home() {
         <p className="mt-6 text-sm text-zinc-500">Data from SF Ethics Commission, Legistar, and SF Dept of Elections</p>
       </div>
 
-      {/* Transition overlay */}
       {phase !== "idle" && selectedDistrict && (
         <div className="fixed inset-0 z-50">
           <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${phase === "overlay" ? "opacity-100" : "opacity-0 pointer-events-none"}`}>

@@ -1,10 +1,9 @@
-"use client";
 
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN ?? "";
 
 interface MapTransitionProps {
   district: number;
@@ -131,7 +130,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
       >
         <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl px-8 py-6 text-center shadow-xl flex flex-col items-center">
           {photoUrl && (
-            // eslint-disable-next-line @next/next/no-img-element
+            
             <img
               src={photoUrl}
               alt={supervisorName}

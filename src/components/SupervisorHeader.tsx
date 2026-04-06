@@ -1,4 +1,3 @@
-"use client";
 
 import { useState } from "react";
 import type { SupervisorData } from "@/lib/types";
@@ -22,7 +21,7 @@ export default function SupervisorHeader({ supervisor, neighborhoods }: Props) {
         {/* Photo */}
         <div className="shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
           {!imgError ? (
-            // eslint-disable-next-line @next/next/no-img-element
+            
             <img
               src={supervisor.photo_url}
               alt={supervisor.name}

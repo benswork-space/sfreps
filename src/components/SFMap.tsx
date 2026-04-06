@@ -1,10 +1,9 @@
-"use client";
 
 import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
+mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN ?? "";
 
 const SF_CENTER: [number, number] = [-122.4194, 37.7749];
 const SF_ZOOM = 11.5;

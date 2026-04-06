@@ -1,4 +1,3 @@
-"use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { useRouter } from "next/navigation";
@@ -230,7 +229,7 @@ export default function HomeContent() {
               </p>
               <div className="mt-3 flex justify-center">
                 {transition.photoUrl && (
-                  // eslint-disable-next-line @next/next/no-img-element
+                  
                   <img
                     src={transition.photoUrl}
                     alt={transition.supervisorName}
