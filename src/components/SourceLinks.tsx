@@ -11,7 +11,7 @@ export default function SourceLinks({ links, district }: Props) {
     { label: "Campaign Finance (Ethics Commission)", href: links.ethics_commission },
     { label: "Voting Record (Legistar)", href: links.legistar },
     { label: "Campaign Finance Dashboard", href: links.campaign_finance },
-    { label: "Methodology & Data Sources", href: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology` },
+    { label: "Methodology & Data Sources", href: "/methodology" },
   ];
 
   return (

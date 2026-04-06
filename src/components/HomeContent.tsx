@@ -89,7 +89,7 @@ export default function HomeContent() {
     if (!map.getSource("districts")) {
       map.addSource("districts", {
         type: "geojson",
-        data: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/district_boundaries.geojson`,
+        data: "/data/district_boundaries.geojson",
       });
       map.addLayer({
         id: "district-fills",
@@ -200,7 +200,7 @@ export default function HomeContent() {
             {transitionData.photoUrl && (
               // eslint-disable-next-line @next/next/no-img-element
               <img
-                src={`${process.env.__NEXT_ROUTER_BASEPATH || ""}${transitionData.photoUrl}`}
+                src={transitionData.photoUrl}
                 alt={transitionData.supervisorName}
                 className="w-20 h-20 rounded-full object-cover mb-3 ring-2 ring-white shadow-md"
               />

@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getSupervisor, getSupervisorVotes, getDistrict, getZipLookup } from "@/lib/data";
+import { getSupervisor, getSupervisorVotes, getDistrict } from "@/lib/data";
 import SupervisorHeader from "@/components/SupervisorHeader";
 import FundingSection from "@/components/FundingSection";
 import DonorAlignmentSection from "@/components/DonorAlignmentSection";
@@ -13,23 +13,6 @@ import ShareButton from "@/components/ShareButton";
 
 interface PageProps {
   params: Promise<{ zip: string; supervisorId: string }>;
-}
-
-export function generateStaticParams() {
-  const zipLookup = getZipLookup();
-  const params: { zip: string; supervisorId: string }[] = [];
-  const seen = new Set<string>();
-
-  for (const entry of zipLookup) {
-    const supervisorId = `district-${entry.district}`;
-    const key = `${entry.zip}/${supervisorId}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      params.push({ zip: entry.zip, supervisorId });
-    }
-  }
-
-  return params;
 }
 
 export default async function SupervisorPage({ params }: PageProps) {
@@ -99,7 +82,7 @@ export default async function SupervisorPage({ params }: PageProps) {
         {/* Data freshness note */}
         <p className="text-xs text-zinc-400 dark:text-zinc-600 text-center pb-4">
           Data sourced from SF Ethics Commission, Legistar, and SF Dept of Elections.{" "}
-          <a href={`${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology`} className="underline hover:text-zinc-600 dark:hover:text-zinc-400">
+          <a href="/methodology" className="underline hover:text-zinc-600 dark:hover:text-zinc-400">
             Methodology
           </a>
         </p>

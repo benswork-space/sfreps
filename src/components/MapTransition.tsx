@@ -54,7 +54,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
     map.on("load", () => {
       map.addSource("districts", {
         type: "geojson",
-        data: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/district_boundaries.geojson`,
+        data: "/data/district_boundaries.geojson",
       });
 
       map.addLayer({
@@ -133,7 +133,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
           {photoUrl && (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={`${process.env.__NEXT_ROUTER_BASEPATH || ""}${photoUrl}`}
+              src={photoUrl}
               alt={supervisorName}
               className="w-20 h-20 rounded-full object-cover mb-3 ring-2 ring-white shadow-md"
             />

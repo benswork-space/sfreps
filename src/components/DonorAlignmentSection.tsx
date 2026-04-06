@@ -41,7 +41,7 @@ export default function DonorAlignmentSection({ votes, funding, supervisorName }
         Based on {alignment.total_scored} scored votes across {alignment.examples.length > 0
           ? [...new Set(alignment.examples.map((e) => POLICY_CATEGORIES[e.category]?.label))].length
           : 0} policy areas.{" "}
-        <a href={`${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology`} className="underline hover:text-zinc-600 dark:hover:text-zinc-300">
+        <a href="/methodology" className="underline hover:text-zinc-600 dark:hover:text-zinc-300">
           Methodology
         </a>
       </p>

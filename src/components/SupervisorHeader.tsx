@@ -24,7 +24,7 @@ export default function SupervisorHeader({ supervisor, neighborhoods }: Props) {
           {!imgError ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={`${process.env.__NEXT_ROUTER_BASEPATH || ""}${supervisor.photo_url}`}
+              src={supervisor.photo_url}
               alt={supervisor.name}
               className="w-full h-full object-cover"
               onError={() => setImgError(true)}

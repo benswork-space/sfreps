@@ -38,7 +38,7 @@ export default function SFMap({ highlightDistrict, onMapReady, interactive = fal
       // Add district boundaries source
       map.addSource("districts", {
         type: "geojson",
-        data: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/data/district_boundaries.geojson`,
+        data: "/data/district_boundaries.geojson",
       });
 
       // District fill layer
