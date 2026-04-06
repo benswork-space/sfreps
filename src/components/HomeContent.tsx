@@ -178,7 +178,7 @@ export default function HomeContent() {
         className={`fixed inset-0 z-0 transition-opacity duration-1000 ${
           mapReady ? "opacity-100" : "opacity-0"
         }`}
-        style={{ width: "100vw", height: "100vh" }}
+        style={{ width: "100vw", height: "100vh", background: "#e5e7eb" }}
       />
 
       {/* Semi-transparent overlay for readability */}
