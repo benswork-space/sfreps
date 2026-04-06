@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getSupervisor, getSupervisorVotes, getDistrict } from "@/lib/data";
+import { getSupervisor, getSupervisorVotes, getDistrict, getZipLookup } from "@/lib/data";
 import SupervisorHeader from "@/components/SupervisorHeader";
 import FundingSection from "@/components/FundingSection";
 import DonorAlignmentSection from "@/components/DonorAlignmentSection";
@@ -9,9 +9,27 @@ import BallotSection from "@/components/BallotSection";
 import SourceLinks from "@/components/SourceLinks";
 import BackToSearch from "@/components/BackToSearch";
 import DistrictMapInset from "@/components/DistrictMapInset";
+import ShareButton from "@/components/ShareButton";
 
 interface PageProps {
   params: Promise<{ zip: string; supervisorId: string }>;
+}
+
+export function generateStaticParams() {
+  const zipLookup = getZipLookup();
+  const params: { zip: string; supervisorId: string }[] = [];
+  const seen = new Set<string>();
+
+  for (const entry of zipLookup) {
+    const supervisorId = `district-${entry.district}`;
+    const key = `${entry.zip}/${supervisorId}`;
+    if (!seen.has(key)) {
+      seen.add(key);
+      params.push({ zip: entry.zip, supervisorId });
+    }
+  }
+
+  return params;
 }
 
 export default async function SupervisorPage({ params }: PageProps) {
@@ -28,9 +46,12 @@ export default async function SupervisorPage({ params }: PageProps) {
       <header className="sticky top-0 z-40 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
         <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between">
           <BackToSearch />
-          <span className="text-sm text-zinc-500 dark:text-zinc-400">
-            ZIP {zip} &middot; District {supervisor.district}
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="text-sm text-zinc-500 dark:text-zinc-400">
+              ZIP {zip} &middot; District {supervisor.district}
+            </span>
+            <ShareButton supervisorName={supervisor.name} district={supervisor.district} />
+          </div>
         </div>
       </header>
 

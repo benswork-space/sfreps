@@ -1,7 +1,13 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useRouter } from "next/navigation";
+
+interface ZipEntry {
+  zip: string;
+  district: number;
+  ratio: number;
+}
 
 interface ZipResult {
   zip: string;
@@ -19,7 +25,28 @@ export default function ZipInput({ onResult }: ZipInputProps) {
   const [zip, setZip] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [zipLookup, setZipLookup] = useState<ZipEntry[] | null>(null);
+  const [supervisorNames, setSupervisorNames] = useState<Record<number, { name: string; photo_url: string }>>({});
   const router = useRouter();
+
+  // Load ZIP lookup and supervisor index on mount
+  useEffect(() => {
+    fetch("/data/zip_lookup.json")
+      .then((r) => r.json())
+      .then((data) => setZipLookup(data))
+      .catch(() => {});
+
+    fetch("/data/supervisors_index.json")
+      .then((r) => r.json())
+      .then((data: Array<{ district: number; name: string }>) => {
+        const map: Record<number, { name: string; photo_url: string }> = {};
+        for (const sup of data) {
+          map[sup.district] = { name: sup.name, photo_url: `/photos/district-${sup.district}.jpg` };
+        }
+        setSupervisorNames(map);
+      })
+      .catch(() => {});
+  }, []);
 
   const handleSubmit = useCallback(
     async (e: React.FormEvent) => {
@@ -31,34 +58,39 @@ export default function ZipInput({ onResult }: ZipInputProps) {
         return;
       }
 
+      if (!zipLookup) {
+        setError("Loading data, please try again.");
+        return;
+      }
+
       setLoading(true);
-      try {
-        const res = await fetch(`/api/zip-lookup/${zip}`);
-        const data = await res.json();
 
-        if (!res.ok) {
-          setError(data.error || "ZIP code not found.");
-          setLoading(false);
-          return;
-        }
-
-        if (onResult) {
-          onResult({
-            zip,
-            supervisorId: data.supervisorId,
-            district: data.district,
-            supervisorName: data.supervisorName,
-            photoUrl: data.photoUrl ?? null,
-          });
-        } else {
-          router.push(`/zip/${zip}/${data.supervisorId}`);
-        }
-      } catch {
-        setError("Something went wrong. Please try again.");
+      // Client-side ZIP lookup
+      const matches = zipLookup.filter((entry) => entry.zip === zip);
+      if (matches.length === 0) {
+        setError("ZIP code not found. Please enter a San Francisco ZIP code (94xxx).");
         setLoading(false);
+        return;
+      }
+
+      // Pick the district with the highest ratio
+      const best = matches.reduce((a, b) => (a.ratio > b.ratio ? a : b));
+      const supervisorId = `district-${best.district}`;
+      const sup = supervisorNames[best.district];
+
+      if (onResult) {
+        onResult({
+          zip,
+          supervisorId,
+          district: best.district,
+          supervisorName: sup?.name ?? "Your Supervisor",
+          photoUrl: sup?.photo_url ?? null,
+        });
+      } else {
+        router.push(`/zip/${zip}/${supervisorId}`);
       }
     },
-    [zip, router, onResult]
+    [zip, router, onResult, zipLookup, supervisorNames]
   );
 
   return (
