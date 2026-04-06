@@ -41,7 +41,7 @@ export default function ZipInput({ onResult }: ZipInputProps) {
       .then((data: Array<{ district: number; name: string }>) => {
         const map: Record<number, { name: string; photo_url: string }> = {};
         for (const sup of data) {
-          map[sup.district] = { name: sup.name, photo_url: `/photos/district-${sup.district}.jpg` };
+          map[sup.district] = { name: sup.name, photo_url: `/photos/district-${sup.district}.png` };
         }
         setSupervisorNames(map);
       })

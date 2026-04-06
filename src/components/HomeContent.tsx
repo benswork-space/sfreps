@@ -12,7 +12,6 @@ interface TransitionData {
   photoUrl: string | null;
 }
 
-// Approximate centroids for each supervisor district
 const DISTRICT_CENTERS: Record<number, [number, number]> = {
   1: [-122.4745, 37.7795],
   2: [-122.4370, 37.7945],
@@ -38,7 +37,7 @@ export default function HomeContent() {
   const [phase, setPhase] = useState<"idle" | "flying" | "overlay" | "fade">("idle");
   const [transitionData, setTransitionData] = useState<TransitionData | null>(null);
 
-  // Initialize ONE map instance via dynamic import (matches reference pattern)
+  // Initialize ONE map instance via dynamic import
   useEffect(() => {
     if (!mapContainerRef.current || mapRef.current) return;
 
@@ -78,12 +77,10 @@ export default function HomeContent() {
     };
   }, []);
 
-  // Handle ZIP result — reuse the same map instance for the fly animation
   const handleResult = useCallback((result: TransitionData) => {
     setTransitionData(result);
     const map = mapRef.current;
     if (!map) {
-      // Map not ready, just navigate directly
       router.push(`/zip/${result.zip}/${result.supervisorId}`);
       return;
     }
@@ -129,6 +126,7 @@ export default function HomeContent() {
       });
     }
 
+    // Hide the content card and overlay, start flying
     setPhase("flying");
 
     const center = DISTRICT_CENTERS[result.district] ?? SF_CENTER;
@@ -143,20 +141,30 @@ export default function HomeContent() {
     });
   }, [router]);
 
+  const isFlying = phase !== "idle";
+
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center">
-      {/* Map container — fixed, explicit dimensions, ONE instance for the entire lifecycle */}
+      {/* Map container — fixed, explicit dimensions */}
       <div
         ref={mapContainerRef}
         className={`fixed inset-0 z-0 transition-opacity duration-700 ${mapReady ? "opacity-100" : "opacity-0"}`}
         style={{ width: "100vw", height: "100vh" }}
       />
 
-      {/* Semi-transparent overlay above the map */}
-      <div className="fixed inset-0 z-10 bg-white/70 dark:bg-zinc-900/70 backdrop-blur-[2px]" />
+      {/* Semi-transparent overlay — hides during fly animation to show the map */}
+      <div
+        className={`fixed inset-0 z-10 transition-opacity duration-500 ${
+          isFlying ? "opacity-0 pointer-events-none" : "opacity-100"
+        } bg-white/50 dark:bg-zinc-900/50 backdrop-blur-[2px]`}
+      />
 
-      {/* Content */}
-      <main className="relative z-20 flex flex-col items-center px-4 sm:px-6 py-6 sm:py-12 text-center w-full">
+      {/* Content card — hides during fly animation */}
+      <main
+        className={`relative z-20 flex flex-col items-center px-4 sm:px-6 py-6 sm:py-12 text-center w-full transition-opacity duration-300 ${
+          isFlying ? "opacity-0 pointer-events-none" : "opacity-100"
+        }`}
+      >
         <div className="bg-zinc-800/80 sm:bg-black/50 sm:backdrop-blur-md rounded-2xl sm:rounded-3xl px-5 sm:px-8 py-6 sm:py-10 flex flex-col items-center gap-4 sm:gap-6 max-w-md w-full">
           <div className="flex flex-col items-center gap-2 sm:gap-3">
             <h1 className="text-3xl sm:text-5xl font-bold text-white tracking-tight">
@@ -176,18 +184,18 @@ export default function HomeContent() {
         </div>
       </main>
 
-      {/* Footer */}
-      <footer className="relative z-20 pb-4 sm:pb-6 text-[10px] sm:text-xs text-zinc-500 dark:text-zinc-400">
+      {/* Footer — hides during animation */}
+      <footer
+        className={`relative z-20 pb-4 sm:pb-6 text-[10px] sm:text-xs text-zinc-500 dark:text-zinc-400 transition-opacity duration-300 ${
+          isFlying ? "opacity-0" : "opacity-100"
+        }`}
+      >
         Data from SF Ethics Commission, Legistar, and SF Dept of Elections
       </footer>
 
       {/* Transition overlay — shows supervisor info then fades to white */}
       {(phase === "overlay" || phase === "fade") && transitionData && (
-        <div
-          className={`fixed inset-0 z-50 flex items-center justify-center transition-opacity duration-500 ${
-            phase === "overlay" ? "opacity-100" : "opacity-100"
-          }`}
-        >
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl px-8 py-6 text-center shadow-xl flex flex-col items-center">
             {transitionData.photoUrl && (
               // eslint-disable-next-line @next/next/no-img-element
@@ -210,7 +218,7 @@ export default function HomeContent() {
 
       {/* White fade-out */}
       {phase === "fade" && (
-        <div className="fixed inset-0 z-[60] bg-zinc-50 dark:bg-zinc-950 transition-opacity duration-700 opacity-100" />
+        <div className="fixed inset-0 z-[60] bg-zinc-50 dark:bg-zinc-950 animate-fade-in" />
       )}
     </div>
   );
