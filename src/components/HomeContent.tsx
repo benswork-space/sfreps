@@ -159,11 +159,11 @@ export default function HomeContent() {
         style={{ width: "100vw", height: "100vh" }}
       />
 
-      {/* Semi-transparent overlay for readability */}
+      {/* Semi-transparent overlay for readability — light in both modes so map shows through */}
       <div
         className={`fixed inset-0 z-10 transition-opacity duration-600 ease-out ${
           overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"
-        } bg-white/80 dark:bg-zinc-950/80 backdrop-blur-[2px]`}
+        } bg-white/80 backdrop-blur-[2px]`}
       />
 
       {/* Content — floats above overlay, no card background */}
