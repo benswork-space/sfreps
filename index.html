@@ -9,6 +9,8 @@
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css" rel="stylesheet" />
 </head>
 <body>
+  <!-- Map container in HTML like SFcinema — exists before JS loads -->
+  <div id="map" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;"></div>
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>

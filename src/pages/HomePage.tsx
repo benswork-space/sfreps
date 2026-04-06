@@ -16,7 +16,6 @@ interface SupervisorInfo { district: number; name: string; }
 
 export default function HomePage() {
   const navigate = useNavigate();
-  const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const [mapReady, setMapReady] = useState(false);
   const [overlayFading, setOverlayFading] = useState(false);
@@ -27,36 +26,40 @@ export default function HomePage() {
   const [phase, setPhase] = useState<"idle" | "flying" | "overlay" | "dissolving">("idle");
   const [selectedDistrict, setSelectedDistrict] = useState<number | null>(null);
 
-  useEffect(() => { document.title = "SFReps — Who Pays for Your Supervisor?"; }, []);
-
-  // Load ZIP lookup and supervisor names
   useEffect(() => {
-    fetch("/data/zip_lookup.json").then((r) => r.json()).then(setZipLookup).catch(() => {});
-    fetch("/data/supervisors_index.json").then((r) => r.json()).then((data: SupervisorInfo[]) => {
-      const map: Record<number, SupervisorInfo> = {};
-      for (const s of data) map[s.district] = s;
-      setSupervisors(map);
+    fetch("/data/zip_lookup.json").then(r => r.json()).then(setZipLookup).catch(() => {});
+    fetch("/data/supervisors_index.json").then(r => r.json()).then((data: SupervisorInfo[]) => {
+      const m: Record<number, SupervisorInfo> = {};
+      for (const s of data) m[s.district] = s;
+      setSupervisors(m);
     }).catch(() => {});
   }, []);
 
-  // Initialize map — light-v11 keeps it fast, maxBounds limits tile loading
+  // Initialize map using the pre-existing #map div from HTML (like SFcinema)
   useEffect(() => {
-    if (!mapContainerRef.current) return;
+    const container = document.getElementById("map");
+    if (!container) return;
+
     mapboxgl.accessToken = MAPBOX_TOKEN;
 
     const map = new mapboxgl.Map({
-      container: mapContainerRef.current,
-      style: "mapbox://styles/mapbox/streets-v11",  // v11 not v12 — lighter rendering
+      container,
+      style: "mapbox://styles/mapbox/streets-v11",
       center: SF_CENTER,
-      zoom: 11,
+      zoom: 11.5,
       maxBounds: [[-122.60, 37.65], [-122.28, 37.88]],
       interactive: false,
       attributionControl: false,
-      maxZoom: 14,  // cap max zoom to limit tile detail
     });
 
     mapRef.current = map;
     map.on("load", () => setMapReady(true));
+
+    // Show the map container
+    container.style.opacity = "0";
+    container.style.transition = "opacity 1s";
+    map.on("load", () => { container.style.opacity = "1"; });
+
     return () => { map.remove(); mapRef.current = null; };
   }, []);
 
@@ -64,9 +67,9 @@ export default function HomePage() {
     e.preventDefault();
     if (!/^\d{5}$/.test(zip)) { setError("Please enter a 5-digit ZIP code."); return; }
     if (!zipLookup) { setError("Loading data..."); return; }
-    const matches = zipLookup.filter((entry) => entry.zip === zip);
+    const matches = zipLookup.filter(entry => entry.zip === zip);
     if (!matches.length) { setError("Not an SF ZIP. Try a 94xxx code."); return; }
-    const best = matches.reduce((a, b) => (a.ratio > b.ratio ? a : b));
+    const best = matches.reduce((a, b) => a.ratio > b.ratio ? a : b);
     setSelectedDistrict(best.district);
 
     const map = mapRef.current;
@@ -86,8 +89,12 @@ export default function HomePage() {
     const t = setTimeout(() => {
       setPhase("dissolving");
       setTimeout(() => {
-        if (selectedDistrict !== null)
+        if (selectedDistrict !== null) {
+          // Hide the map before navigating so it doesn't persist
+          const container = document.getElementById("map");
+          if (container) container.style.display = "none";
           navigate(`/zip/${zip}/district-${selectedDistrict}`);
+        }
       }, 700);
     }, 2000);
     return () => clearTimeout(t);
@@ -97,20 +104,13 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Map */}
-      <div
-        ref={mapContainerRef}
-        className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
-      />
-
       {/* Overlay */}
       <div
         className={`transition-opacity duration-500 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"}`}
         style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.65)" }}
       />
 
-      {/* Content — use fixed positioning to avoid min-h-screen issues on mobile */}
+      {/* Content */}
       <div
         className={`transition-opacity duration-500 ${overlayFading ? "opacity-0" : "opacity-100"}`}
         style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 20, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "1rem" }}
@@ -123,7 +123,7 @@ export default function HomePage() {
               <input
                 type="text" inputMode="numeric" pattern="[0-9]*" maxLength={5}
                 placeholder="Enter ZIP code" value={zip}
-                onChange={(e) => { setZip(e.target.value.replace(/\D/g, "").slice(0, 5)); setError(""); }}
+                onChange={e => { setZip(e.target.value.replace(/\D/g, "").slice(0, 5)); setError(""); }}
                 className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-center text-lg font-medium tracking-widest outline-none placeholder:tracking-normal focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200"
                 aria-label="ZIP code"
               />
