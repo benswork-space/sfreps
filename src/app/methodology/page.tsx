@@ -65,18 +65,21 @@ export default function MethodologyPage() {
                 San Francisco&apos;s Legistar system
               </a>
               , the official legislative information management system used by the Board of Supervisors.
-              Each vote is recorded as yea, nay, absent, or excused.
+              We currently include 161 roll call votes from 2024-2026, each with individual yea/nay/absent
+              records for all 11 supervisors. Votes are extracted from the Action Details modal on each
+              legislation detail page, which contains the full roll call breakdown.
             </p>
 
             <h3>Election Results</h3>
             <p>
-              Ballot measure results by precinct come from the{" "}
+              Ballot measure results come from the{" "}
               <a href="https://sfelections.sfgov.org" target="_blank" rel="noopener noreferrer">
                 San Francisco Department of Elections
-              </a>
-              . Precinct-level data is aggregated to supervisor districts using official precinct-to-district
-              mappings. This gives us actual vote totals showing how each district voted on every
-              proposition and ballot measure — not estimates or surveys, but real election results.
+              </a>{" "}
+              District-level Statement of Vote (dpsov) files. We currently include 31 local ballot
+              measures across three elections: November 2024 (15 measures), March 2024 (7 measures),
+              and November 2022 (9 measures). Each measure has YES/NO vote totals for all 11 supervisor
+              districts — not estimates or surveys, but real election results.
             </p>
 
             <h3>District Boundaries</h3>
@@ -207,28 +210,43 @@ export default function MethodologyPage() {
           <section>
             <h2>AI-Assisted Classification</h2>
             <p>
-              We use AI (Claude by Anthropic) to classify legislation and determine likely industry
-              preferences. This is necessary because:
+              We use AI (Claude by Anthropic) to classify each piece of legislation and determine its
+              likely impact on donor industries. Of 161 roll call votes:
             </p>
             <ul>
               <li>
-                Legislation titles can be misleading — the actual policy impact may differ from what
-                the title suggests.
+                <strong>130 votes</strong> were assigned a policy category (e.g., housing, public safety,
+                transportation).
               </li>
               <li>
-                The volume of votes requires automated analysis, though all classifications are
-                cached and available for human review.
+                <strong>105 votes</strong> include specific industry impact analysis — which donor
+                industries are affected and what vote outcome they would prefer, with a written
+                rationale for each.
               </li>
               <li>
-                Each classification includes a confidence score. Low-confidence classifications are
-                excluded from scoring.
+                <strong>31 votes</strong> were identified as ceremonial or procedural (birthday
+                recognitions, heritage months, commemorative namings) and are excluded from alignment
+                scoring.
               </li>
             </ul>
             <p>
-              All AI classifications are cached as JSON files for auditability. Each classification
-              includes the full reasoning and a confidence score, allowing reviewers to verify the
-              analysis.
+              All classifications are stored as a JSON file for auditability and include the reasoning
+              for each determination. A keyword-based fallback classifier supplements the AI
+              classifications for any votes not covered.
             </p>
+          </section>
+
+          {/* Current Data Coverage */}
+          <section>
+            <h2>Current Data Coverage</h2>
+            <ul>
+              <li><strong>Supervisors:</strong> All 11 current Board of Supervisors members (as of January 2025)</li>
+              <li><strong>Campaign finance:</strong> Top 50 individual donors and top 20 committees per supervisor from SF Ethics Commission filings</li>
+              <li><strong>Legislative votes:</strong> 161 roll call votes from 2024-2026 (ordinances, resolutions, and charter amendments that received Board of Supervisors roll call votes)</li>
+              <li><strong>Ballot measures:</strong> 31 local measures across 3 elections (November 2024, March 2024, November 2022) with district-level YES/NO vote totals from the SF Department of Elections</li>
+              <li><strong>Supervisor ballot positions:</strong> Curated endorsement positions on contested ballot measures, sourced from voter guides, news coverage, and official co-sponsorship records</li>
+              <li><strong>District boundaries:</strong> 2022 redistricting boundaries with ZIP code crosswalk covering 27 SF ZIP codes</li>
+            </ul>
           </section>
 
           {/* Limitations */}

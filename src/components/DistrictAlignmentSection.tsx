@@ -24,8 +24,8 @@ export default function DistrictAlignmentSection({
   supervisorName,
 }: Props) {
   const alignment = useMemo(
-    () => computeDistrictAlignment(votes, ballotResults, funding),
-    [votes, ballotResults, funding]
+    () => computeDistrictAlignment(votes, ballotResults, funding, district),
+    [votes, ballotResults, funding, district]
   );
 
   if (alignment.issues_scored < 2) return null;

@@ -20,12 +20,23 @@ import type {
 } from "./types";
 import { classifyVoteTitle } from "./classify";
 import classificationsData from "../../scripts/data/vote_classifications.json";
+import ballotPositionsData from "../../scripts/data/ballot_positions/all_positions.json";
 
 // AI classifications keyed by file number (from the vote ID format "leg-XXXXXX")
 const AI_CLASSIFICATIONS: Record<string, {
   category: PolicyCategory | null;
   affected_industries?: Array<{ industry: string; preferred: string; reason: string }>;
 }> = classificationsData as Record<string, unknown> as typeof AI_CLASSIFICATIONS;
+
+// Ballot positions keyed by (measure_id, district) for direct alignment comparison
+interface BallotPosition {
+  measure_id: string;
+  supervisor_district: number;
+  position: "support" | "oppose" | "unknown";
+  source: string;
+  confidence: string;
+}
+const BALLOT_POSITIONS: BallotPosition[] = (ballotPositionsData as { positions: BallotPosition[] }).positions;
 
 // ---------------------------------------------------------------------------
 // Donor alignment
@@ -241,15 +252,84 @@ export interface DistrictConflict {
 export function computeDistrictAlignment(
   votes: VoteRecord[],
   ballotResults: BallotMeasureResult[],
-  funding: FundingData
+  funding: FundingData,
+  district?: number
 ): DistrictAlignmentResult {
   if (ballotResults.length === 0) {
     return { overall_pct: 0, issues_scored: 0, highlights: [], conflicts: [] };
   }
 
-  // Group ballot results by category → average district support
+  let alignedCount = 0;
+  let scoredCount = 0;
+  const highlights: DistrictAlignmentHighlight[] = [];
+  const conflicts: DistrictConflict[] = [];
+
+  const skipIndustries = new Set([
+    "Other", "Individual Donors", "Self-Funding", "Government / Public", "PACs & Political Orgs",
+  ]);
+
+  // -----------------------------------------------------------------------
+  // DIRECT comparison: supervisor's known ballot positions vs district vote
+  // This is the most accurate method — same measure, same election
+  // -----------------------------------------------------------------------
+  if (district) {
+    const districtPositions = BALLOT_POSITIONS.filter(
+      (p) => p.supervisor_district === district && p.position !== "unknown" && p.confidence !== "low"
+    );
+
+    for (const pos of districtPositions) {
+      // Find the matching ballot result for this district
+      const br = ballotResults.find((b) => b.measure_id === pos.measure_id);
+      if (!br) continue;
+
+      const districtSupports = br.support_pct >= 50;
+      const supSupports = pos.position === "support";
+      const isAligned = districtSupports === supSupports;
+
+      scoredCount++;
+      if (isAligned) alignedCount++;
+
+      highlights.push({
+        topic: br.title,
+        description: br.description ?? "",
+        category: br.category as PolicyCategory,
+        ballot_measure: br.name,
+        district_support_pct: br.support_pct,
+        supervisor_position: pos.position as "support" | "oppose",
+        aligned: isAligned,
+      });
+
+      // Check for donor conflict on misaligned ballot positions
+      if (!isAligned) {
+        const topIndustries = funding.top_industries.filter((i) => !skipIndustries.has(i.industry));
+        for (const ind of topIndustries.slice(0, 3)) {
+          const positions = INDUSTRY_CATEGORY_POSITIONS[ind.industry];
+          if (positions && positions[br.category as PolicyCategory]) {
+            conflicts.push({
+              topic: br.title,
+              category: br.category as PolicyCategory,
+              ballot_measure: br.name,
+              district_support_pct: br.support_pct,
+              supervisor_position: pos.position as "support" | "oppose",
+              donor_industry: ind.industry,
+            });
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  // -----------------------------------------------------------------------
+  // INDIRECT comparison: supervisor's legislative voting pattern by category
+  // vs district ballot results by category (for categories not covered above)
+  // -----------------------------------------------------------------------
+  const scoredCategories = new Set(highlights.map((h) => h.category));
+
+  // Group remaining ballot results by category
   const categoryBallot: Record<string, { support: number; count: number; measures: BallotMeasureResult[] }> = {};
   for (const br of ballotResults) {
+    if (scoredCategories.has(br.category as PolicyCategory)) continue;
     if (!categoryBallot[br.category]) {
       categoryBallot[br.category] = { support: 0, count: 0, measures: [] };
     }
@@ -258,15 +338,14 @@ export function computeDistrictAlignment(
     categoryBallot[br.category].measures.push(br);
   }
 
-  // Group supervisor votes by category → yea rate
+  // Group supervisor votes by category
   const categoryVotes: Record<string, { yeas: number; total: number }> = {};
   for (const v of votes) {
     if (v.vote === "absent" || v.vote === "excused") continue;
-    // Prefer AI classification, then vote category, then keyword fallback
     const fileNum = v.id.replace("leg-", "");
     const aiClass = AI_CLASSIFICATIONS[fileNum];
     const cat = aiClass?.category || v.category || classifyVoteTitle(v.title);
-    if (!cat) continue;
+    if (!cat || scoredCategories.has(cat)) continue;
     if (!categoryVotes[cat]) {
       categoryVotes[cat] = { yeas: 0, total: 0 };
     }
@@ -274,27 +353,19 @@ export function computeDistrictAlignment(
     if (v.vote === "yea") categoryVotes[cat].yeas++;
   }
 
-  let alignedCount = 0;
-  let scoredCount = 0;
-  const highlights: DistrictAlignmentHighlight[] = [];
-  const conflicts: DistrictConflict[] = [];
-
-  // Compare category by category
   for (const [cat, ballot] of Object.entries(categoryBallot)) {
     const supVotes = categoryVotes[cat];
     if (!supVotes || supVotes.total === 0) continue;
 
     const avgDistrictSupport = ballot.support / ballot.count;
     const districtSupports = avgDistrictSupport >= 50;
-
     const supYeaRate = supVotes.yeas / supVotes.total;
     const supSupports = supYeaRate >= 0.5;
-
     const isAligned = districtSupports === supSupports;
+
     scoredCount++;
     if (isAligned) alignedCount++;
 
-    // Create a highlight for the most representative ballot measure
     const representativeMeasure = ballot.measures[0];
     highlights.push({
       topic: representativeMeasure.title,
@@ -306,12 +377,8 @@ export function computeDistrictAlignment(
       aligned: isAligned,
     });
 
-    // Check for donor conflict on misaligned issues
     if (!isAligned) {
-      const topIndustries = funding.top_industries.filter(
-        (i) => !["Other", "Individual Donors", "Self-Funding", "Government / Public", "PACs & Political Orgs"].includes(i.industry)
-      );
-
+      const topIndustries = funding.top_industries.filter((i) => !skipIndustries.has(i.industry));
       for (const ind of topIndustries.slice(0, 3)) {
         const positions = INDUSTRY_CATEGORY_POSITIONS[ind.industry];
         if (positions && positions[cat as PolicyCategory]) {
@@ -329,7 +396,7 @@ export function computeDistrictAlignment(
     }
   }
 
-  // Sort highlights: misaligned first
+  // Sort highlights: misaligned first, then by how close the district vote was
   highlights.sort((a, b) => {
     if (a.aligned !== b.aligned) return a.aligned ? 1 : -1;
     return Math.abs(b.district_support_pct - 50) - Math.abs(a.district_support_pct - 50);
