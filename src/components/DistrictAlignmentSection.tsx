@@ -50,7 +50,7 @@ export default function DistrictAlignmentSection({
       <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-3">
         Compared across {alignment.issues_scored} policy categories using actual precinct-level
         election results.{" "}
-        <a href="/methodology" className="underline hover:text-zinc-600 dark:hover:text-zinc-300">
+        <a href={`${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology`} className="underline hover:text-zinc-600 dark:hover:text-zinc-300">
           Methodology
         </a>
       </p>

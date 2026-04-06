@@ -99,7 +99,7 @@ export default async function SupervisorPage({ params }: PageProps) {
         {/* Data freshness note */}
         <p className="text-xs text-zinc-400 dark:text-zinc-600 text-center pb-4">
           Data sourced from SF Ethics Commission, Legistar, and SF Dept of Elections.{" "}
-          <a href="/methodology" className="underline hover:text-zinc-600 dark:hover:text-zinc-400">
+          <a href={`${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology`} className="underline hover:text-zinc-600 dark:hover:text-zinc-400">
             Methodology
           </a>
         </p>
