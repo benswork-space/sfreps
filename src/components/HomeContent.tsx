@@ -198,7 +198,7 @@ export default function HomeContent() {
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
           SF Supervisors
         </h1>
-        <p className="mt-3 text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="mt-3 text-lg text-zinc-600">
           Get to know your supervisor: who funds them, how they vote, and
           whether they represent you.
         </p>
@@ -223,7 +223,7 @@ export default function HomeContent() {
                 : "opacity-0 pointer-events-none"
             }`}
           >
-            <div className="mx-4 max-w-sm rounded-2xl bg-white/90 px-6 py-8 text-center shadow-xl backdrop-blur-sm dark:bg-zinc-900/90">
+            <div className="mx-4 max-w-sm rounded-2xl bg-white/90 px-6 py-8 text-center shadow-xl backdrop-blur-sm">
               <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider">
                 District {transition.district}
               </p>
@@ -237,7 +237,7 @@ export default function HomeContent() {
                   />
                 )}
               </div>
-              <p className="mt-3 text-xl font-bold text-zinc-900 dark:text-zinc-100">
+              <p className="mt-3 text-xl font-bold text-zinc-900">
                 {transition.supervisorName}
               </p>
               <p className="mt-1 text-sm text-zinc-500">Your Supervisor</p>
@@ -246,7 +246,7 @@ export default function HomeContent() {
 
           {/* Dissolve-to-white overlay */}
           <div
-            className={`absolute inset-0 bg-white dark:bg-zinc-950 transition-opacity duration-700 ease-in ${
+            className={`absolute inset-0 bg-white transition-opacity duration-700 ease-in ${
               phase === "dissolving" ? "opacity-100" : "opacity-0 pointer-events-none"
             }`}
           />

@@ -21,10 +21,10 @@ export default function AlignmentSlider({ pct, leftLabel = "Less aligned", right
           className="absolute flex flex-col items-center -translate-x-1/2"
           style={{ left: `${clampedPct}%` }}
         >
-          <span className="text-lg font-bold text-zinc-900 dark:text-zinc-100">
+          <span className="text-lg font-bold text-zinc-900">
             {Math.round(clampedPct)}%
           </span>
-          <span className="text-[10px] leading-none text-zinc-500 dark:text-zinc-400 -mt-0.5">
+          <span className="text-[10px] leading-none text-zinc-500 -mt-0.5">
             &#9660;
           </span>
         </div>
@@ -40,8 +40,8 @@ export default function AlignmentSlider({ pct, leftLabel = "Less aligned", right
 
       {/* Labels */}
       <div className="flex justify-between mt-1.5">
-        <span className="text-xs text-zinc-400 dark:text-zinc-500">{leftLabel}</span>
-        <span className="text-xs text-zinc-400 dark:text-zinc-500">{rightLabel}</span>
+        <span className="text-xs text-zinc-400">{leftLabel}</span>
+        <span className="text-xs text-zinc-400">{rightLabel}</span>
       </div>
     </div>
   );

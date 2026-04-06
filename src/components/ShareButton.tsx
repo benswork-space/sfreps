@@ -35,7 +35,7 @@ export default function ShareButton({ supervisorName, district }: Props) {
   return (
     <button
       onClick={handleShare}
-      className="text-xs px-2.5 py-1 rounded-md bg-zinc-100 dark:bg-zinc-800 text-zinc-500 dark:text-zinc-400 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition-colors"
+      className="text-xs px-2.5 py-1 rounded-md bg-zinc-100 text-zinc-500 hover:bg-zinc-200 transition-colors"
       title="Share this page"
     >
       {copied ? "Copied!" : "Share"}

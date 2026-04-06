@@ -140,8 +140,13 @@ export default function HomePage() {
         <div style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 50 }}>
           <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${phase === "overlay" ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
             <div className="mx-4 max-w-sm rounded-2xl bg-white px-6 py-8 text-center shadow-xl flex flex-col items-center">
-              <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider">District {selectedDistrict}</p>
-              <p className="mt-2 text-xl font-bold text-zinc-900">{supName || "Your Supervisor"}</p>
+              <img
+                src={`/photos/thumbs/district-${selectedDistrict}.jpg`}
+                alt={supName || ""}
+                className="w-16 h-16 rounded-full object-cover ring-2 ring-white shadow-md"
+              />
+              <p className="mt-3 text-sm font-medium text-zinc-500 uppercase tracking-wider">District {selectedDistrict}</p>
+              <p className="mt-1 text-xl font-bold text-zinc-900">{supName || "Your Supervisor"}</p>
               <p className="mt-1 text-sm text-zinc-500">Your Supervisor</p>
             </div>
           </div>

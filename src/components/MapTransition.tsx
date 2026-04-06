@@ -119,7 +119,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
   }, []);
 
   return (
-    <div className="fixed inset-0 z-50 bg-zinc-100 dark:bg-zinc-950">
+    <div className="fixed inset-0 z-50 bg-zinc-100">
       <div ref={mapContainer} style={{ width: "100%", height: "100%" }} />
 
       {/* Overlay with supervisor info */}
@@ -128,7 +128,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
           phase === "overlay" || phase === "fade" ? "opacity-100" : "opacity-0"
         }`}
       >
-        <div className="bg-white/90 dark:bg-zinc-900/90 backdrop-blur-sm rounded-2xl px-8 py-6 text-center shadow-xl flex flex-col items-center">
+        <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-8 py-6 text-center shadow-xl flex flex-col items-center">
           {photoUrl && (
             
             <img
@@ -137,19 +137,19 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
               className="w-20 h-20 rounded-full object-cover mb-3 ring-2 ring-white shadow-md"
             />
           )}
-          <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400 uppercase tracking-wider">
+          <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider">
             District {district}
           </p>
-          <p className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mt-1">
+          <p className="text-2xl font-bold text-zinc-900 mt-1">
             {supervisorName}
           </p>
-          <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">Your Supervisor</p>
+          <p className="text-sm text-zinc-500 mt-1">Your Supervisor</p>
         </div>
       </div>
 
       {/* White fade-out */}
       <div
-        className={`absolute inset-0 bg-zinc-50 dark:bg-zinc-950 transition-opacity duration-700 ${
+        className={`absolute inset-0 bg-zinc-50 transition-opacity duration-700 ${
           phase === "fade" ? "opacity-100" : "opacity-0"
         }`}
       />

@@ -28,25 +28,25 @@ export function districtLabel(district: number): string {
 export function voteColor(vote: string): string {
   switch (vote) {
     case "yea":
-      return "text-green-600 dark:text-green-400";
+      return "text-green-600";
     case "nay":
-      return "text-red-600 dark:text-red-400";
+      return "text-red-600";
     case "absent":
     case "excused":
-      return "text-zinc-400 dark:text-zinc-500";
+      return "text-zinc-400";
     default:
       return "text-zinc-600";
   }
 }
 
 export function alignmentColor(pct: number): string {
-  if (pct >= 70) return "text-green-600 dark:text-green-400";
-  if (pct >= 40) return "text-amber-600 dark:text-amber-400";
-  return "text-red-600 dark:text-red-400";
+  if (pct >= 70) return "text-green-600";
+  if (pct >= 40) return "text-amber-600";
+  return "text-red-600";
 }
 
 export function alignmentBgColor(pct: number): string {
-  if (pct >= 70) return "bg-green-100 dark:bg-green-900/30";
-  if (pct >= 40) return "bg-amber-100 dark:bg-amber-900/30";
-  return "bg-red-100 dark:bg-red-900/30";
+  if (pct >= 70) return "bg-green-100";
+  if (pct >= 40) return "bg-amber-100";
+  return "bg-red-100";
 }

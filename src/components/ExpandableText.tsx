@@ -37,7 +37,7 @@ export default function ExpandableText({ text, maxLength = 150, className = "" }
       {text.slice(0, breakAt).trimEnd()}&hellip;{" "}
       <button
         onClick={() => setExpanded(true)}
-        className="text-blue-600 dark:text-blue-400 hover:underline text-xs font-medium"
+        className="text-blue-600 hover:underline text-xs font-medium"
       >
         see more
       </button>

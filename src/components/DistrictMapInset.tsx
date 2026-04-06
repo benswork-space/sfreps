@@ -20,11 +20,11 @@ export default function DistrictMapInset({ district }: Props) {
   if (!show) return null;
 
   return (
-    <div className="bg-white dark:bg-zinc-900 rounded-2xl overflow-hidden shadow-sm border border-zinc-200 dark:border-zinc-800 h-full min-h-[200px] relative">
-      <Suspense fallback={<div className="w-full h-full bg-zinc-100 dark:bg-zinc-900" />}>
+    <div className="bg-white rounded-2xl overflow-hidden shadow-sm border border-zinc-200 h-full min-h-[200px] relative">
+      <Suspense fallback={<div className="w-full h-full bg-zinc-100" />}>
         <SFMap highlightDistrict={district} />
       </Suspense>
-      <div className="absolute bottom-2 left-2 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-sm rounded-md px-2 py-0.5 text-xs font-medium text-zinc-600 dark:text-zinc-400">
+      <div className="absolute bottom-2 left-2 bg-white/80 backdrop-blur-sm rounded-md px-2 py-0.5 text-xs font-medium text-zinc-600">
         District {district}
       </div>
     </div>

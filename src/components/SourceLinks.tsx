@@ -15,8 +15,8 @@ export default function SourceLinks({ links, district }: Props) {
   ];
 
   return (
-    <section className="bg-white dark:bg-zinc-900 rounded-2xl p-6 shadow-sm border border-zinc-200 dark:border-zinc-800">
-      <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-100 mb-3">Sources & Links</h2>
+    <section className="bg-white rounded-2xl p-6 shadow-sm border border-zinc-200">
+      <h2 className="text-lg font-bold text-zinc-900 mb-3">Sources & Links</h2>
       <ul className="space-y-2">
         {items.map((item) => (
           <li key={item.href}>
@@ -24,7 +24,7 @@ export default function SourceLinks({ links, district }: Props) {
               href={item.href}
               target={item.href.startsWith("/") ? undefined : "_blank"}
               rel={item.href.startsWith("/") ? undefined : "noopener noreferrer"}
-              className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline"
+              className="text-sm text-blue-600 hover:text-blue-700 hover:underline"
             >
               {item.label}
               {!item.href.startsWith("/") && (
