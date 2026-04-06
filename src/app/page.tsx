@@ -6,5 +6,9 @@ export const metadata = {
 };
 
 export default function Home() {
-  return <HomeContent />;
+  return (
+    <div className="bg-white" style={{ minHeight: "100vh" }}>
+      <HomeContent />
+    </div>
+  );
 }
