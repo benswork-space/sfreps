@@ -22,20 +22,20 @@ export default function HomeContent() {
 
   return (
     <>
-      <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
-        {/* Background map — no dark overlay */}
+      <div className="relative flex flex-col items-center justify-center min-h-[100dvh] overflow-hidden">
+        {/* Background map */}
         <div className="absolute inset-0 z-0">
           <SFMap />
         </div>
 
-        {/* Content overlay */}
-        <main className="relative z-10 flex flex-col items-center gap-8 px-6 py-12 text-center">
-          <div className="bg-black/50 backdrop-blur-md rounded-3xl px-8 py-10 flex flex-col items-center gap-6 max-w-md w-full">
-            <div className="flex flex-col items-center gap-3">
-              <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
+        {/* Content overlay — compact on mobile */}
+        <main className="relative z-10 flex flex-col items-center px-4 sm:px-6 py-6 sm:py-12 text-center w-full">
+          <div className="bg-black/50 backdrop-blur-md rounded-2xl sm:rounded-3xl px-5 sm:px-8 py-6 sm:py-10 flex flex-col items-center gap-4 sm:gap-6 max-w-md w-full">
+            <div className="flex flex-col items-center gap-2 sm:gap-3">
+              <h1 className="text-3xl sm:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
                 SF Supervisors
               </h1>
-              <p className="text-lg sm:text-xl text-white/90 max-w-md leading-relaxed drop-shadow-md">
+              <p className="text-base sm:text-xl text-white/90 max-w-sm leading-relaxed drop-shadow-md">
                 Get to know your supervisor: who funds them, how they vote, and whether they represent you.
               </p>
             </div>
@@ -44,7 +44,7 @@ export default function HomeContent() {
               onResult={(result) => setTransition(result)}
             />
 
-            <p className="text-sm text-white/60 max-w-sm">
+            <p className="text-xs sm:text-sm text-white/60 max-w-sm hidden sm:block">
               Enter your San Francisco ZIP code to see your district supervisor, their campaign donors,
               voting record, and how well they align with your neighborhood.
             </p>
@@ -52,12 +52,12 @@ export default function HomeContent() {
         </main>
 
         {/* Footer */}
-        <footer className="relative z-10 pb-6 text-xs text-white/60 drop-shadow-md">
+        <footer className="relative z-10 pb-4 sm:pb-6 text-[10px] sm:text-xs text-white/60 drop-shadow-md">
           Data from SF Ethics Commission, Legistar, and SF Dept of Elections
         </footer>
       </div>
 
-      {/* Map transition overlay — outside overflow-hidden container */}
+      {/* Map transition overlay */}
       {transition && (
         <MapTransition
           district={transition.district}

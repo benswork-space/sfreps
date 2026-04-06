@@ -55,9 +55,9 @@ export default async function SupervisorPage({ params }: PageProps) {
         </div>
       </header>
 
-      <main className="max-w-4xl mx-auto px-4 py-8 space-y-8">
+      <main className="max-w-4xl mx-auto px-3 sm:px-4 py-4 sm:py-8 space-y-4 sm:space-y-8">
         {/* Supervisor header with map inset */}
-        <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] gap-4 sm:gap-6">
           <SupervisorHeader supervisor={supervisor} neighborhoods={district?.neighborhoods ?? []} />
           <DistrictMapInset district={supervisor.district} />
         </div>

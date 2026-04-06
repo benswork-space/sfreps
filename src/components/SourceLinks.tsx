@@ -11,7 +11,7 @@ export default function SourceLinks({ links, district }: Props) {
     { label: "Campaign Finance (Ethics Commission)", href: links.ethics_commission },
     { label: "Voting Record (Legistar)", href: links.legistar },
     { label: "Campaign Finance Dashboard", href: links.campaign_finance },
-    { label: "Methodology & Data Sources", href: "/methodology" },
+    { label: "Methodology & Data Sources", href: `${process.env.__NEXT_ROUTER_BASEPATH || ""}/methodology` },
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function SourceLinks({ links, district }: Props) {
             >
               {item.label}
               {!item.href.startsWith("/") && (
-                <span className="ml-1 text-zinc-400">&nearr;</span>
+                <span className="ml-1 text-zinc-400">{"\u2197"}</span>
               )}
             </a>
           </li>

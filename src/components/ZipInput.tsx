@@ -94,8 +94,8 @@ export default function ZipInput({ onResult }: ZipInputProps) {
   );
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-4 w-full max-w-sm">
-      <label htmlFor="zip-input" className="text-lg font-medium text-white">
+    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3 w-full max-w-sm">
+      <label htmlFor="zip-input" className="text-sm sm:text-lg font-medium text-white">
         Enter your San Francisco ZIP code
       </label>
       <div className="flex w-full gap-2">
@@ -112,14 +112,14 @@ export default function ZipInput({ onResult }: ZipInputProps) {
             if (error) setError(null);
           }}
           placeholder="94102"
-          className="flex-1 h-14 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 px-4 text-center text-2xl font-mono text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
+          className="flex-1 min-w-0 h-12 sm:h-14 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 px-4 text-center text-xl sm:text-2xl font-mono text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
           autoFocus
           disabled={loading}
         />
         <button
           type="submit"
           disabled={loading || zip.length !== 5}
-          className="h-14 px-6 rounded-xl bg-white text-zinc-900 font-semibold text-lg transition-all hover:bg-white/90 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="shrink-0 h-12 sm:h-14 px-5 sm:px-6 rounded-xl bg-white text-zinc-900 font-semibold text-base sm:text-lg transition-all hover:bg-white/90 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {loading ? (
             <span className="inline-block animate-spin">&#8635;</span>
