@@ -4,7 +4,6 @@ import { useState, useEffect, lazy, Suspense } from "react";
 import { useRouter } from "next/navigation";
 import ZipInput from "./ZipInput";
 
-// Lazy load map components — they won't be fetched until rendered
 const SFMap = lazy(() => import("./SFMap"));
 const MapTransition = lazy(() => import("./MapTransition"));
 
@@ -19,28 +18,23 @@ interface TransitionData {
 export default function HomeContent() {
   const router = useRouter();
   const [transition, setTransition] = useState<TransitionData | null>(null);
-  const [isMobile, setIsMobile] = useState(true); // default true; no map flash
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
-    setIsMobile(window.innerWidth < 768);
   }, []);
-
-  // Only load the map on desktop, and only after mount
-  const showMap = mounted && !isMobile;
 
   return (
     <>
       <div className="relative flex flex-col items-center justify-center min-h-[100dvh] overflow-hidden">
-        {/* Background */}
+        {/* Background map — destroyed when transition starts */}
         <div className="absolute inset-0 z-0">
-          {showMap && !transition ? (
+          {mounted && !transition ? (
             <Suspense fallback={<div className="w-full h-full bg-zinc-100 dark:bg-zinc-900" />}>
               <SFMap />
             </Suspense>
           ) : (
-            <div className="w-full h-full bg-gradient-to-br from-sky-100 via-blue-50 to-emerald-50 dark:from-zinc-900 dark:via-zinc-800 dark:to-zinc-900" />
+            <div className="w-full h-full bg-zinc-100 dark:bg-zinc-900" />
           )}
         </div>
 
@@ -56,13 +50,7 @@ export default function HomeContent() {
               </p>
             </div>
 
-            <ZipInput onResult={(result) => {
-              if (isMobile) {
-                router.push(`/zip/${result.zip}/${result.supervisorId}`);
-              } else {
-                setTransition(result);
-              }
-            }} />
+            <ZipInput onResult={(result) => setTransition(result)} />
 
             <p className="text-xs sm:text-sm text-white/60 max-w-sm hidden sm:block">
               Enter your San Francisco ZIP code to see your district supervisor, their campaign donors,
@@ -77,7 +65,7 @@ export default function HomeContent() {
         </footer>
       </div>
 
-      {/* Map transition — desktop only */}
+      {/* Map transition — background map is already destroyed */}
       {transition && (
         <Suspense fallback={null}>
           <MapTransition
