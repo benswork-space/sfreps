@@ -94,16 +94,13 @@ export default function ZipInput({ onResult }: ZipInputProps) {
   );
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3 w-full max-w-sm">
-      <label htmlFor="zip-input" className="text-sm sm:text-lg font-medium text-white">
-        Enter your San Francisco ZIP code
-      </label>
-      <div className="flex w-full gap-2">
+    <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3 w-full max-w-xs">
+      <div className="flex w-full rounded-full border border-zinc-300 dark:border-zinc-600 bg-white dark:bg-zinc-800 overflow-hidden shadow-sm">
         <input
           id="zip-input"
           type="text"
           inputMode="numeric"
-          pattern="\d{5}"
+          pattern="[0-9]*"
           maxLength={5}
           value={zip}
           onChange={(e) => {
@@ -111,14 +108,14 @@ export default function ZipInput({ onResult }: ZipInputProps) {
             setZip(val);
             if (error) setError(null);
           }}
-          placeholder="94102"
-          className="flex-1 min-w-0 h-12 sm:h-14 rounded-xl bg-white/10 backdrop-blur-sm border border-white/20 px-4 text-center text-xl sm:text-2xl font-mono text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/50 transition-all"
+          placeholder="Enter ZIP code"
+          className="flex-1 min-w-0 h-12 px-5 text-base text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 bg-transparent focus:outline-none"
           disabled={loading}
         />
         <button
           type="submit"
           disabled={loading || zip.length !== 5}
-          className="shrink-0 h-12 sm:h-14 px-5 sm:px-6 rounded-xl bg-white text-zinc-900 font-semibold text-base sm:text-lg transition-all hover:bg-white/90 disabled:opacity-40 disabled:cursor-not-allowed"
+          className="shrink-0 h-12 px-5 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-semibold text-sm transition-colors hover:bg-zinc-700 dark:hover:bg-zinc-300 disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {loading ? (
             <span className="inline-block animate-spin">&#8635;</span>
@@ -128,7 +125,7 @@ export default function ZipInput({ onResult }: ZipInputProps) {
         </button>
       </div>
       {error && (
-        <p className="text-red-300 text-sm text-center" role="alert">
+        <p className="text-red-600 dark:text-red-400 text-sm text-center" role="alert">
           {error}
         </p>
       )}
