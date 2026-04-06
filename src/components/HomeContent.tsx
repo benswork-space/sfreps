@@ -33,10 +33,10 @@ export default function HomeContent() {
           <div className="bg-black/50 backdrop-blur-md rounded-3xl px-8 py-10 flex flex-col items-center gap-6 max-w-md w-full">
             <div className="flex flex-col items-center gap-3">
               <h1 className="text-4xl sm:text-5xl font-bold text-white tracking-tight drop-shadow-lg">
-                SFReps
+                SF Supervisors
               </h1>
               <p className="text-lg sm:text-xl text-white/90 max-w-md leading-relaxed drop-shadow-md">
-                See how your supervisor votes, who funds them, and whether they represent <em>you</em>.
+                Get to know your supervisor: who funds them, how they vote, and whether they represent you.
               </p>
             </div>
 
