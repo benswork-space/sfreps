@@ -47,6 +47,8 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
       zoom: 11.5,
       interactive: false,
       attributionControl: false,
+      trackResize: false,
+      fadeDuration: 0,
     });
 
     map.on("load", () => {
@@ -131,7 +133,7 @@ export default function MapTransition({ district, supervisorName, photoUrl, onCo
           {photoUrl && (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src={photoUrl}
+              src={`${process.env.__NEXT_ROUTER_BASEPATH || ""}${photoUrl}`}
               alt={supervisorName}
               className="w-20 h-20 rounded-full object-cover mb-3 ring-2 ring-white shadow-md"
             />

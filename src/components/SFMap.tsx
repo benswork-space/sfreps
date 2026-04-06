@@ -30,6 +30,8 @@ export default function SFMap({ highlightDistrict, onMapReady, interactive = fal
       zoom: SF_ZOOM,
       interactive,
       attributionControl: false,
+      trackResize: false, // Prevent resize on keyboard open (mobile crash fix)
+      fadeDuration: 0, // Reduce GPU work
     });
 
     map.on("load", () => {

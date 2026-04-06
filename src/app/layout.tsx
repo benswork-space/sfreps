@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    interactiveWidget: "resizes-content",
+  },
 };
 
 export default function RootLayout({
