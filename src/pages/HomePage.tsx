@@ -12,6 +12,7 @@ const DISTRICT_CENTERS: Record<number, [number, number]> = {
 };
 
 interface ZipEntry { zip: string; district: number; ratio: number; }
+interface SupervisorInfo { district: number; name: string; }
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -22,20 +23,23 @@ export default function HomePage() {
   const [zip, setZip] = useState("");
   const [error, setError] = useState("");
   const [zipLookup, setZipLookup] = useState<ZipEntry[] | null>(null);
+  const [supervisors, setSupervisors] = useState<Record<number, SupervisorInfo>>({});
   const [phase, setPhase] = useState<"idle" | "flying" | "overlay" | "dissolving">("idle");
   const [selectedDistrict, setSelectedDistrict] = useState<number | null>(null);
 
   useEffect(() => { document.title = "SFReps — Who Pays for Your Supervisor?"; }, []);
 
-  // Load ZIP lookup
+  // Load ZIP lookup and supervisor names
   useEffect(() => {
-    fetch("/data/zip_lookup.json")
-      .then((r) => r.json())
-      .then(setZipLookup)
-      .catch(() => {});
+    fetch("/data/zip_lookup.json").then((r) => r.json()).then(setZipLookup).catch(() => {});
+    fetch("/data/supervisors_index.json").then((r) => r.json()).then((data: SupervisorInfo[]) => {
+      const map: Record<number, SupervisorInfo> = {};
+      for (const s of data) map[s.district] = s;
+      setSupervisors(map);
+    }).catch(() => {});
   }, []);
 
-  // Initialize map — direct static import, no SSR, no hydration
+  // Initialize map with trackResize: false to prevent keyboard crash
   useEffect(() => {
     if (!mapContainerRef.current) return;
     mapboxgl.accessToken = MAPBOX_TOKEN;
@@ -47,11 +51,11 @@ export default function HomePage() {
       zoom: 11.5,
       interactive: false,
       attributionControl: false,
+      trackResize: false,
     });
 
     mapRef.current = map;
     map.on("load", () => setMapReady(true));
-
     return () => { map.remove(); mapRef.current = null; };
   }, []);
 
@@ -67,14 +71,10 @@ export default function HomePage() {
     const map = mapRef.current;
     if (!map) { navigate(`/zip/${zip}/district-${best.district}`); return; }
 
-    // Fade overlay to reveal map
     setOverlayFading(true);
     setTimeout(() => {
       if (!map.getSource("districts")) {
-        map.addSource("districts", {
-          type: "geojson",
-          data: "/data/district_boundaries.geojson",
-        });
+        map.addSource("districts", { type: "geojson", data: "/data/district_boundaries.geojson" });
         map.addLayer({
           id: "district-fills", type: "fill", source: "districts",
           paint: {
@@ -98,7 +98,6 @@ export default function HomePage() {
     }, 600);
   }, [zip, zipLookup, navigate]);
 
-  // Overlay timer
   useEffect(() => {
     if (phase !== "overlay") return;
     const t = setTimeout(() => {
@@ -111,46 +110,60 @@ export default function HomePage() {
     return () => clearTimeout(t);
   }, [phase, selectedDistrict, zip, navigate]);
 
+  const supName = selectedDistrict ? supervisors[selectedDistrict]?.name : null;
+
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center px-4 bg-white">
+    <>
+      {/* Map — fixed position with explicit pixel dimensions to prevent resize */}
       <div
         ref={mapContainerRef}
-        className={`fixed inset-0 z-0 transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
-        style={{ width: "100vw", height: "100vh" }}
+        className={`transition-opacity duration-1000 ${mapReady ? "opacity-100" : "opacity-0"}`}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}
       />
 
-      <div className={`fixed inset-0 z-10 transition-opacity duration-600 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"} bg-white/80 backdrop-blur-[2px]`} />
+      {/* Overlay */}
+      <div
+        className={`transition-opacity duration-500 ease-out ${overlayFading ? "opacity-0 pointer-events-none" : "opacity-100"}`}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 10, background: "rgba(255,255,255,0.82)", backdropFilter: "blur(2px)", WebkitBackdropFilter: "blur(2px)" }}
+      />
 
-      <div className={`relative z-20 w-full max-w-md text-center transition-opacity duration-500 ${overlayFading ? "opacity-0" : "opacity-100"}`}>
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-900">SF Supervisors</h1>
-        <p className="mt-3 text-lg text-zinc-600">Get to know your supervisor: who funds them, how they vote, and whether they represent you.</p>
-        <form onSubmit={handleSubmit} className="mt-8 flex flex-col items-center gap-3">
-          <div className="flex w-full max-w-xs gap-2">
-            <input
-              type="text" inputMode="numeric" pattern="[0-9]*" maxLength={5}
-              placeholder="Enter ZIP code" value={zip}
-              onChange={(e) => { setZip(e.target.value.replace(/\D/g, "").slice(0, 5)); setError(""); }}
-              className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-center text-lg font-medium tracking-widest outline-none placeholder:tracking-normal focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200"
-              aria-label="ZIP code"
-            />
-            <button type="submit" className="rounded-full bg-zinc-900 px-6 py-3 font-medium text-white hover:bg-zinc-800">Go</button>
-          </div>
-          {error && <p className="text-sm text-red-600">{error}</p>}
-        </form>
-        <p className="mt-6 text-sm text-zinc-500">Data from SF Ethics Commission, Legistar, and SF Dept of Elections</p>
+      {/* Content — use fixed positioning to avoid min-h-screen issues on mobile */}
+      <div
+        className={`transition-opacity duration-500 ${overlayFading ? "opacity-0" : "opacity-100"}`}
+        style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 20, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "1rem" }}
+      >
+        <div className="w-full max-w-md text-center">
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-zinc-900">SF Supervisors</h1>
+          <p className="mt-3 text-lg text-zinc-600">Get to know your supervisor: who funds them, how they vote, and whether they represent you.</p>
+          <form onSubmit={handleSubmit} className="mt-8 flex flex-col items-center gap-3">
+            <div className="flex w-full max-w-xs gap-2">
+              <input
+                type="text" inputMode="numeric" pattern="[0-9]*" maxLength={5}
+                placeholder="Enter ZIP code" value={zip}
+                onChange={(e) => { setZip(e.target.value.replace(/\D/g, "").slice(0, 5)); setError(""); }}
+                className="flex-1 rounded-full border border-zinc-300 bg-white px-5 py-3 text-center text-lg font-medium tracking-widest outline-none placeholder:tracking-normal focus:border-zinc-500 focus:ring-2 focus:ring-zinc-200"
+                aria-label="ZIP code"
+              />
+              <button type="submit" className="rounded-full bg-zinc-900 px-6 py-3 font-medium text-white hover:bg-zinc-800">Go</button>
+            </div>
+            {error && <p className="text-sm text-red-600">{error}</p>}
+          </form>
+          <p className="mt-6 text-sm text-zinc-500">Data from SF Ethics Commission, Legistar, and SF Dept of Elections</p>
+        </div>
       </div>
 
+      {/* Transition overlay */}
       {phase !== "idle" && selectedDistrict && (
-        <div className="fixed inset-0 z-50">
+        <div style={{ position: "fixed", top: 0, left: 0, right: 0, bottom: 0, zIndex: 50 }}>
           <div className={`absolute inset-0 flex items-center justify-center transition-opacity duration-500 ${phase === "overlay" ? "opacity-100" : "opacity-0 pointer-events-none"}`}>
             <div className="mx-4 max-w-sm rounded-2xl bg-white/90 px-6 py-8 text-center shadow-xl backdrop-blur-sm">
               <p className="text-sm font-medium text-zinc-500 uppercase tracking-wider">District {selectedDistrict}</p>
-              <p className="mt-2 text-xl font-bold text-zinc-900">Your Supervisor</p>
+              <p className="mt-2 text-xl font-bold text-zinc-900">{supName || "Your Supervisor"}</p>
             </div>
           </div>
           <div className={`absolute inset-0 bg-white transition-opacity duration-700 ease-in ${phase === "dissolving" ? "opacity-100" : "opacity-0 pointer-events-none"}`} />
         </div>
       )}
-    </main>
+    </>
   );
 }
